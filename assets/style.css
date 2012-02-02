@@ -67,14 +67,16 @@ a:hover {
 
 #logo {
   width: 190px;
-  height: 64px;
-  margin: 15px 0 0 15px;
-  background: url("logo.png");
-  text-indent: -99999px;
+  height: 40px;
+  background: #222 url("logo_white_tree-35.png") bottom center no-repeat;
+  color: #FFFFFF;
+  border-radius: 3px;
+  line-height: 40px;
+  text-indent: -999999px;
 }
 
-#logo h1 {
-  margin: 0;
+h1 strong {
+  color: #666;
 }
 
 div.header {
