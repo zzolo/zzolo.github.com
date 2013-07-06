@@ -103,8 +103,12 @@ table {
 /*****************************************************************************/
 .site .header {
   border-bottom: 10px solid #000000;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   position: relative;
+}
+
+.home .site. header {
+  margin-bottom: 3em;
 }
 
 .site .header h1 a {
