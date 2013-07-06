@@ -1,0 +1,244 @@
+/* Colors: http://www.colorcombos.com/color-schemes/90/ColorCombo90.html
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Georgia, Arial, sans-serif;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-family: "Franklin ITC Pro Bold", sans-serif;
+  line-height: 1.25em;
+  margin-bottom: .5em;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+h4 { font-weight: bold; }
+
+p { margin: 1em 0; }
+
+a         { color: #0099CC; text-decoration: none; }
+a:hover   { color: #0099CC; text-decoration: none; }
+a:visited { color: #0099CC; text-decoration: none; }
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/**
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+.site {
+  font-size: 115%;
+  width: 52em;
+  margin: .5em auto 2em;
+  line-height: 1.15em;
+}
+
+.site .footer {
+  font-size: 80%;
+  color: #454545;
+  border-top: 2px solid #ABABAB;
+  margin-top: 2em;
+  padding-top: 1em;
+  text-align: right;
+}
+
+.site img {
+  max-width: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+.site .header {
+  border-bottom: 10px solid #000000;
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.site .header h1 a {
+  font-size: .85em;
+  color: #676767;
+  line-height: 1em;
+}
+.site .header h1 {
+  margin-bottom: 0;
+
+}
+.home .site .header h1 a {
+  font-size: 3.5em;
+  line-height: 1.5em;
+}
+
+.site .header h1 a:hover {
+  color: #212121;
+}
+
+.site .header .header-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 7em;
+  height: 7em;
+}
+
+.home .site .header .header-image {
+  width: 300px;
+  height: 300px;
+}
+
+.site .header .header-image img {
+  max-width: 100%;
+}
+
+.site .menu {
+  margin-bottom: 1em;
+}
+.site .menu li {
+  list-style: none;
+  display: inline;
+  margin-right: 1em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+.posts li {
+  list-style: none;
+  line-height: 1.5em;
+  padding: .25em .5em;
+  margin-bottom: .25em;
+}
+.posts li:hover {
+  background-color: #EBEBEB;
+}
+.posts li span {
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+.meta {
+  color: #565656;
+}
+
+
+/*****************************************************************************/
+/*
+/* Web links
+/*
+/*****************************************************************************/
+.web-links {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.web-links .item {
+  width: 15%;
+  display: inline-block;
+}
+.web-links .item .icon {
+  height: 4em;
+  width: 100%;
+}
+.web-links .item .text {
+  margin-top: .5em;
+  height: 1em;
+  width: 100%;
+}
+
+.footer .web-links {
+  text-align: right;
+  margin-bottom: 1em;
+}
+.footer .web-links .item {
+  width: 5%;
+}
+.footer .web-links .item .icon {
+  height: 2em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Syntax
+/*
+/*****************************************************************************/
+pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+pre code {
+  border: none;
+}
+
+pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+pre.terminal code {
+  background-color: #333;
+}

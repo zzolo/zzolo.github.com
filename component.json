@@ -1,0 +1,15 @@
+{
+  "name": "zzolo.github.com",
+  "version": "0.0.1",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "raphael": "~2.1.0",
+    "underscore": "~1.5.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
