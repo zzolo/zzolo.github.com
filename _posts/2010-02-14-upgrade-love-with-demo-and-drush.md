@@ -3,6 +3,7 @@ layout: default
 title: Upgrade Love with Demo and Drush
 created: 1266192061
 ---
+
 My Valentines Day consisted of coding the beginnings of the upgrade path from 1.x to 2.x of the [OpenLayers](http://drupal.org/project/openlayers) module; that's some true love for the OpenLayers 1.x users.  
 
 The OpenLayers has a fairly unique situation where we have 3 major versions for Drupal 6, but they are not sequential, and going form OpenLayers 1.x to 2.x is a fairly large change.  We have just released [1.0-RC1](http://drupal.org/node/709818) and [2.0-alpha1](http://drupal.org/node/708270), so it was about time to [create an upgrade path](http://drupal.org/node/710610) for those folks on 1.x.  Though it still needs some serious work, it's getting there.  But, the point is, I ran into this problem: testing a Drupal update function with major schema changes without help can be tedious.

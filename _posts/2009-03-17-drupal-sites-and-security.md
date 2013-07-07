@@ -3,6 +3,7 @@ layout: default
 title: Drupal Sites and Security
 created: 1237324610
 ---
+
 I write this article in the spirit of open source, and with the goal of being critical of myself and the Drupal community and improving security on this great internet.  I also have the highest respect for the companies and people that have worked on these sites.
 
 So, along the way of my many Drupal related readings, I often find myself going to the [CHANGELOG.txt](http://cvs.drupal.org/viewvc.py/drupal/drupal/CHANGELOG.txt?view=co "Recent version of CHANGELOG.txt") of sites to see if they are made with Drupal and which version they are at.  CHANGELOG.txt is the standard way of Drupal communicating what has changed in each release, and is a pretty good indicator of whether a site is running Drupal and what version it is on.  There are a few ways to determine [if a site is Drupal](http://www.lullabot.com/articles/is-site-running-drupal).

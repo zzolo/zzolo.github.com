@@ -3,6 +3,7 @@ layout: default
 title: Drupal and Code for America
 created: 1290388368
 ---
+
 I recently received a [Code for America fellowship](http://codeforamerica.org/) which starts in January of next year (2011).  Code for America is a new organization and program aimed at bringing together innovators in technology (specifically web-based) with local governments around the US.  It's that whole [Gov 2.0 thing](http://en.wikipedia.org/wiki/E-Government).  You can [watch Tim O'Reilly and others describe it](http://www.youtube.com/watch?v=qkceyKlYrJo).
 
 ### Open Source and Government ###

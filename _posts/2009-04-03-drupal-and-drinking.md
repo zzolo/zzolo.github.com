@@ -3,6 +3,7 @@ layout: default
 title: Drupal and Drinking
 created: 1238763385
 ---
+
 Last night the [Twin Cities Drupal User Group](http://groups.drupal.org/twin-cities) had its first, of hopefully many, [Drupal Happy Hours](http://groups.drupal.org/node/20600).  I think it was a big success, and I personally had lots of fun.  We thought about what kind of projects we could do as a Drupal group, [Advantage Labs](http://www.advantagelabs.com/) raffled off training, drank lots of good [Surly](http://www.surlybrewing.com/) beer, had heated discussions about the feasibility of contributing back to Drupal within the non-profit sector, and for some of us, went into the late hours of the night drinking and talking of Drupal.  It was like [DCDC](http://dc2009.drupalcon.org/) all over again!
 
 ### So, Why a Happy Hour?

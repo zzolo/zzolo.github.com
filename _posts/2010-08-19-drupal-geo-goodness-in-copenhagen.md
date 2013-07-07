@@ -3,6 +3,7 @@ layout: default
 title: Drupal Geo-Goodness in Copenhagen
 created: 1282257579
 ---
+
 In just a few short days, [DrupalCon Copenhagen 2010](http://cph2010.drupal.org/) will begin.  I am super excited, especially since I was really fortunate enough to get a [scholarship](http://cph2010.drupal.org/news/scholarships) from the [Drupal Association](http://association.drupal.org/).  I am still a bit weary of the possibility of being [stranded because of a volcano](http://twitter.com/zzolo/statuses/12245442220) again.
 
 There is a lot happening in the Drupal world around geospatial-related technologies and putting a sense of place to data (I never know the right term to encompass all that).  And fortunately, there are a couple of geospatial related events going on at Copenhagen, and hopefully lots of ad hoc discussions in the hallway.  No matter your expertise, if you are interested, please come on out, and feel free to stop and ask questions (though I can't promise I have all the answers).

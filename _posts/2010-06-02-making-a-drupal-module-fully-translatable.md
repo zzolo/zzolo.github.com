@@ -3,6 +3,7 @@ layout: default
 title: Making a Drupal Module Fully Translatable
 created: 1275512451
 ---
+
 _Drupal 6.  Please note that most of this is sound advice but that some of it is still being debated as far as what is best practice, specifically how to ensure that exportable structures are translatable.  I encourage you to leave and read the comments._
 
 ### The Tools ###

@@ -3,6 +3,7 @@ layout: default
 title: Drupal and OpenLayers
 created: 1250822008
 ---
+
 We have just released the first beta of the [Drupal OpenLayers module](http://drupal.org/project/openlayers).  It's been a pretty crazy adventure as to how we got here, and there are still high hopes for the future.  This post is going to be a long one, and should give you the complete introduction to this new mapping module for Drupal, and will also build on and borrow from [my previous post on building this module](http://zzolo.org/thoughts/building-module).
 
 * [Jump to Project Page](http://drupal.org/project/openlayers)

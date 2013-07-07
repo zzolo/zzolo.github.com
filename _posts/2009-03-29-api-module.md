@@ -3,6 +3,7 @@ layout: default
 title: API Module
 created: 1238383508
 ---
+
 This past week, [drupal.org](http://drupal.org) experienced some down time; which is normal.  The infrastructure team does an amazing job keeping things going as smoothly as possible, given the immensely growing community of Drupal.
 
 ### API Module

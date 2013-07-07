@@ -3,6 +3,7 @@ layout: default
 title: Cyclopath
 created: 1238473866
 ---
+
 Last week, I ended up at the [Twin Cities (Minneapolis and Saint Paul, Minnesota, USA twin cities) MapServer User Group and Twin Cities Open Source Geo Chapter](http://wiki.osgeo.org/wiki/Twin_Cities).  After Googling for a little bit, I did not find any good examples, but from what I understand GIS and Minnesota have a rich history.  Anyway, the meeting was great.  [Reid Priedhorsky](http://reidster.net/), a computer science graduate student at the University of Minnesota, came by to give a presentation on [Cyclopath](http://cyclopath.org/), for which he is a project manager.
 
 ### What is a Geo-Wiki?

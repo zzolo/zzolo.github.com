@@ -3,6 +3,7 @@ layout: default
 title: Typekit, Drupal, and Web Typography
 created: 1254464036
 ---
+
 After reading [Morten.dk's article on Typekit](http://morten.dk/blog/typekit-awes%C3%B6me) and looking a little further into [Typekit](http://typekit.com/), I got pretty excited.  I put my email in for an invite, and either by some act of randomness or someone seeing my tweet, I got accepted today.
 
 ### Typekit Drupal Module ###

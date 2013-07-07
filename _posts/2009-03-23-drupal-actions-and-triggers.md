@@ -3,6 +3,7 @@ layout: default
 title: Drupal Actions and Triggers
 created: 1237785425
 ---
+
 [Actions and Triggers](http://drupal.org/node/199254) are awesome, and they made it into core with Drupal 6. The combination of the modules creates an event and responder system for Drupal.  On a basic level, Triggers are like events in (for instance, creating a comment).  Actions are then the responding procedure that Drupal takes based on that Trigger.
 
 ### Actions

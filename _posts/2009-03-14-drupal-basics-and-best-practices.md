@@ -3,6 +3,7 @@ layout: default
 title: Drupal Basics and Best Practices
 created: 1237080221
 ---
+
 I recently compiled a simple document for a client that outlines best practices for Drupal that are not obvious at first.  This is aimed at someone who has already installed Drupal, installed modules, added content, and has a basic understanding of where things are.
 
 I'd also like to point out that finding pages on the internet to describe some basic things in Drupal seem to be lacking.  There plenty of bits and pieces, but I had some trouble finding explanations that I thought would be really easy to find.  I guess I need to write more.

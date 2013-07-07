@@ -3,6 +3,7 @@ layout: default
 title: ! 'Drupal Highlights: Tom MacWright'
 created: 1294820496
 ---
+
 _This is the first in, hopefully, a many part series of short posts where I want to help highlight people in the [Drupal community](http://drupal.org/community) who I think are awesome, but might not get much spotlight.  See below for more explanation._
 
 The first person I want to highlight and say thank you to is Tom MacWright ([tmcw](http://drupal.org/user/12664)).  I have worked with him on the [OpenLayers module](http://drupal.org/project/openlayers) for over a year now and he has been crucial in making the project what it is today and teaching me lots of things along the way.  He also is very active in the overall [web mapping](http://en.wikipedia.org/wiki/Web_mapping) space in Drupal and outside with such technologies as [Mapnik](http://mapnik.org/) and [Mapbox](http://mapbox.com/).

@@ -3,6 +3,7 @@ layout: default
 title: Moving to Mecury
 created: 1271864443
 ---
+
 I have always dreamed of going into space.  I often ask people if they would go out into space if given the chance; I think it gives a small bit of insight into someone's personality.  I doubt I will be able to make it into space in my lifetime, though I think it'll be close.  But, if I can't go, this site can still move to Mercury.
 
 Pretty cheesy intro, I know.  What this actually means is that I just moved this site from being hosted at [DreamHost](http://dreamhost.com/) to [Amazon Cloud AWS](http://aws.amazon.com/) with [Chapter Three](http://www.chapterthree.com/)'s [Pantheon Mercury](http://getpantheon.com/).  The main reason to do this was performance, but I will discuss the pros and cons of this switch below.

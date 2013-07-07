@@ -4,6 +4,7 @@ require 'rubygems'
 require 'sequel'
 require 'fileutils'
 require 'yaml'
+require 'nokogiri'
 
 # Borrow from
 # https://github.com/jekyll/jekyll-import/blob/master/lib/jekyll/jekyll-import/drupal7.rb
@@ -75,6 +76,15 @@ def process(dbname, user, pass, host = 'localhost', local_query)
     # This ensures that markdown won't be processed with code highlighting
     content = content.gsub('{% highlight ', "\r\n<div>\r\n{% highlight ")
     content = content.gsub('{% endhighlight %}', "{% endhighlight %}\r\n</div>\r\n")
+    
+    # Handle images
+    html = Nokogiri::HTML(content)
+    html.search('img').each do |img|
+      place = img['src'].index('/sites/default/files')
+      if !place.nil? && place > 0
+        content = content.gsub(img['src'], '/images/' + img['src'].split('/').last)
+      end
+    end
 
     # Determine extension
     extension = '.html'
@@ -102,7 +112,7 @@ def process(dbname, user, pass, host = 'localhost', local_query)
     # Write out the data and content to file
     File.open("#{dir}/#{name}", "w") do |f|
       f.puts data
-      f.puts "---\r\n"
+      f.puts "---\r\n\r\n"
       f.puts content
     end
 

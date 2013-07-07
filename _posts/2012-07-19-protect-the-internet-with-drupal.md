@@ -3,6 +3,7 @@ layout: default
 title: Protect the Internet with Drupal
 created: 1342732209
 ---
+
 Some of you may remember when [Wikipedia and others went dark in protest of the SOPA and PIPA](http://en.wikipedia.org/wiki/Protests_against_SOPA_and_PIPA).  This was a huge movement that was (probably) the main reason why those bills did not get passed.  It was also the first time that such a number of large websites protested in unison in such a significant way; a very monumental occasion for the Internet.  Unfortunately, there are still many freedoms to protect and legislation to speak up against.
 
 <h3>Be a Superhero!</h3>

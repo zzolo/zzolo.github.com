@@ -3,6 +3,7 @@ layout: default
 title: Mapping, GIS, Cartography at DrupalCon
 created: 1299293079
 ---
+
 I can't believe it's been just about 6 months since [Drupal Copenhagen](http://www.flickr.com/photos/nidhug/4923618478/).  But it's that time again to come to together in [Chicago](http://chicago2011.drupal.org/) to talk on [geospatial](http://en.wikipedia.org/wiki/Geospatial) topics in Drupal.  There are a number of things going on in this area.  Birds of Feathers (BoF) discussions time and place should be determined on Monday.
 
 [Thomas Turnbull](http://www.thomasturnbull.com/) and I are giving a presentation about [how to make your maps beautiful in Drupal](http://chicago2011.drupal.org/sessions/making-beautiful-maps) on March 9th Wednesday at 1PM.  This will be focusing on what are the many different levels of customizations you can do to get a look for your maps that best fits in with the design of your site.  The audience of this presentation spans across site builders, themers, and developers.  We will talk about many different modules like [OpenLayers](http://drupal.org/project/openlayers) and [GMap](http://drupal.org/project/gmap) and tools like [Cloudmade](http://cloudmade.com/) and [TileMill](http://tilemill.com/).

@@ -3,6 +3,7 @@ layout: default
 title: Portland Code Review
 created: 1303945020
 ---
+
 On **May 11th, 2011**, the [Portland Drupal User Group](http://groups.drupal.org/portland) will be holding the first ever [Drupal User Group Code Sprint](http://groups.drupal.org/node/144359)!  The second ever anywhere, actually, as the first was at [DrupalCon Chicago](http://chicago2011.drupal.org/forum/code-review-sprint-friday).  I happen to be in town that day, and am excited to help the great Drupalers review some code.
 
 ### What is a Code Review Sprint? ###

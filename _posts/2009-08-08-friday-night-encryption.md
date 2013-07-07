@@ -3,6 +3,7 @@ layout: default
 title: Friday Night Encryption
 created: 1249719567
 ---
+
 Every once in awhile I will have a task that involves storing a password in the Drupal database, maybe so that a module can connect to a server or service.  Unfortunately it is not secure to store sensitive information in the database unless it is encrypted.  So tonight I wrote and released the [Encrypt module](http://drupal.org/project/encrypt)
 
 ### One-Way Encryption ###

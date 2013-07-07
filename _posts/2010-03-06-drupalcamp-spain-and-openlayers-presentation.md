@@ -3,6 +3,7 @@ layout: default
 title: DrupalCamp Spain and OpenLayers Presentation
 created: 1267906287
 ---
+
 Last weekend (26-28 Feb 2010) [DrupalCamp Spain](http://drupalcamp.es/) happened in Barcelona at the great [CitiLab](http://www.citilab.eu/visita/index.html) ([pic](http://picasaweb.google.com/lh/view?q=drupalcampspain&amp;psc=G&amp;filter=0#5442550697083810082)), which is where [DrupalCon Barcelona](http://barcelona2007.drupalcon.org/) happened a few years ago.  I don't have the exact numbers in front of me, but there was just about the same number of attendees for the DrupalCon a few years ago as there were for the DrupalCamp just a week ago ([before](http://buytaert.net/album/drupalcon-barcelona-2007/group-picture) and [after](http://picasaweb.google.com/lh/view?q=drupalcampspain&amp;psc=G&amp;filter=0#5443003473127829554))!  Drupal is getting huge!
 
 The camp was wonderful.  The organizers did a great, professional job.  Though my Spanish is not very good at all, all the presenters did a great job and had a nice variety of topics.  I met lots of wonderful people, both seasoned Drupal professionals and Drupal first-timers.  Unfortunately my trip was short, but I did get to experience some of the beauty of Barcelona.  And, of course, there was the [poll-dancing Drupal gorilla](http://www.flickr.com/photos/pcambra/4395995582/) (pretty standard).  Thanks for having me and for all the hard work!

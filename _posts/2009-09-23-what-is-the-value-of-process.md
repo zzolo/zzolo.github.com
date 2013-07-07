@@ -3,6 +3,7 @@ layout: default
 title: What is the Value of Process?
 created: 1253764855
 ---
+
 I am currently working on a project and we are having a bit of a dilemma about how to move the project forward.  So, I thought I would write an article about it, post it out to this wonderful community, and maybe get some unbiased insight from some outsiders.  I feel like myself and the others involved are all a little too invested to necessarily make the best decision; maybe I am being petty, irrational, or even short-sighted (hopefully you can let me know).  You can [read the original thread here](http://drupal.org/node/569178), and I suggest you do so to get an accurate vision of this issue. 
 
 To me, the question is about the value of process over code and here is my story.  And in reality it should not be a decision of one or the other.

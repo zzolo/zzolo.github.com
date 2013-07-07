@@ -3,6 +3,7 @@ layout: default
 title: Building a Module
 created: 1240282876
 ---
+
 I was asked to do a [presentation on coding in Drupal](http://groups.drupal.org/node/20563) for our [local Drupal user group](http://groups.drupal.org/twin-cities).  "Coding" is a pretty general topic, and the audience at our user group is pretty varied.  So, I was not sure what specifically I should present that would encompass "coding".  As the time came along and I had to make a decision, I looked to the module that I currently spend most of my free time developing: [OpenLayers](http://drupal.org/project/openlayers).
 
 ### What is OpenLayers?

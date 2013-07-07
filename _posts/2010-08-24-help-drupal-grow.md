@@ -3,6 +3,7 @@ layout: default
 title: Help Drupal Grow
 created: 1282651708
 ---
+
 **[BoF](http://cph2010.drupal.org/sessions/help-drupal-grow-reviewing-cvsgit-applications) to learn how to review code contributions on Thursday 26 August 2010 at 16:00 at DrupalCon Copenhagen.**
 
 At the [Core Developers Summit](http://cph2010.drupal.org/news/core-developer-summit) on Sunday (22 August 2010), [webchick](http://drupal.org/user/24967) gave a presentation about the CVS application process and what was wrong with it and what was valuable and needs to remain (there's a video somewhere of it).  One of the impetuses for this talk is the [git migration](http://groups.drupal.org/drupal-org-git-migration-team) that is happening for the [drupal.org](http://drupal.org) infrastructure, because it offers us an opportunity to rethink our code contribution application process (aka CVS application process).  

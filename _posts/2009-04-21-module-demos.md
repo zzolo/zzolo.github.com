@@ -3,6 +3,7 @@ layout: default
 title: Module Demos
 created: 1240353400
 ---
+
 In the [Drupal project](http://drupal.org/project) page form there is a **Project Resources** section which includes the ability to add links to, you guessed it, project resources, things like *Homepage*, *Documentation*, *Screenshots*, and a **Demo Site**.
 
 I only have a few modules that I have contributed to Drupal, and even the ones that I have contributed do not get much foot traffic.  Still, I strive to be a good module contributor and maintainer, by doing things like writing good documenting in and outside the code.  I also like to have links for all the **Project Resources**.  This is not always possible.  Often people (myself included) just link the *Documentation* to the current README.txt file in the <acronym title="Concurrent Versions System">CVS</acronym> repository.  I have started just linking the *Changelog* category to the <acronym title="Concurrent Versions System">CVS</acronym> messages for the module.

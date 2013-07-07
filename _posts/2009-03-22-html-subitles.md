@@ -3,6 +3,7 @@ layout: default
 title: HTML Subitles
 created: 1237779726
 ---
+
 So, I realized recently that I should have subtitles in my content types.  It adds better context to content, especially when viewing only titles.  Then, I started to think about how I would implement this.  The Drupal side is easy, but the really questions is: **What markup is appropriate for subtitles?**
 
 ### The Options

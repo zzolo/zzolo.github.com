@@ -3,6 +3,7 @@ layout: default
 title: What Hackathons Really Are
 created: 1361506893
 ---
+
 Hackathons, Code-a-thons, Code sprints, Hack days, Hackfests, Codefests, call them what you will; they have been going on for quite some time.  In recent years, this has moved past the idea of a specific programming language or software to such things as civic hacking, fashion, icons, and more.
 
 As [Code Across America](http://brigade.codeforamerica.org/pages/codeacross) and [International Open Data Day](http://opendataday.org/) approach and people across the world come together to help release and utilize public data and make technology that helps their communities, I have been thinking critically about what is the real value and purpose of what I will generally call _Hackathons_ (we so need a better word).

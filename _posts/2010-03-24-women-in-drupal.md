@@ -3,6 +3,7 @@ layout: default
 title: Women in Drupal
 created: 1269472641
 ---
+
 Today is [Ada Lovelace day](http://findingada.com/); the goal of today is to blog about great women in technology.  Ada Lovelace is often considered the [first computer programmer](http://en.wikipedia.org/wiki/Ada_Lovelace), and as someone who loves to code, that's a pretty big deal.
 
 I would never consider myself an activist, but I have always been concerned with gender issues in our societies and specifically with technology.  I think it's very important to ensure that everyone is treated equal and with respect no matter gender or other qualities.  I think by encouraging and supporting tech minorities, such as women, our community can only be stronger and more valuable to ourselves and others.  So, I am happy to write on this subject, even if my body says go to sleep.

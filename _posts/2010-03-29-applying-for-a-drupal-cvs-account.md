@@ -3,6 +3,7 @@ layout: default
 title: Applying for a Drupal CVS Account?
 created: 1269858129
 ---
+
 I have recently discovered the great joy of [reviewing CVS applications for Drupal](http://drupal.org/project/issues/cvsapplications?categories=All).  I am serious, I love looking at code and directing Drupal developers early on into using Drupal Coding standards and best practices for Drupal development.  I have also noticed a number of similar things, so I would like to write a quick post about some basics as to creating a Drupal module that can get a CVS account.
 
 Please note that, these are not necessarily a part of the [CVS Application Requirements](http://drupal.org/cvs-application/requirements), and I do NOT speak for the Drupal Infrastructure team or other reviewers of applications.  This is just things that I notice and suggest when I do my review, and I feel are important when creating and contributing a Drupal module or theme, a lot of which can already be found on the often-overlooked [things to expect](http://drupal.org/node/539608) (and I should add to as well).  Also, I am quite aware that my code is not perfect, but that does not mean I am not capable of directing people in the right direction.

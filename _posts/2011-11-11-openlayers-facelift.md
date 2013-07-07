@@ -3,6 +3,7 @@ layout: default
 title: OpenLayers Facelift
 created: 1321015925
 ---
+
 In the current D7 development branch of the Drupal <a href="http://drupal.org/project/openlayers">OpenLayers module</a> there are some really great interface and styling updates that will make maps a lot more exciting and more intuitive to use.
 
 ### Before

@@ -3,6 +3,7 @@ layout: default
 title: Drush, a King Among Men
 created: 1237244750
 ---
+
 [Drush](http://drupal.org/project/drush "The Drupal Shell") is wonderful.  I discovered it about six to nine months ago and can't even fathom the amount of time it has saved me.  Thank you, Drush, more specifically [the wonderful developers](http://drupal.org/project/developers/97249) on the project.
 
 ### Drush Basics

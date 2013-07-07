@@ -3,6 +3,7 @@ layout: default
 title: Drupal Mapping Office Hours
 created: 1336147052
 ---
+
 The first ever Drupal Mapping office hours will be held **Thursday, May 10th, 2012 at 1PM EST** in the [#drupal-geo](irc://irc.freenode.net/drupal-geo) IRC channel (if you don't know about IRC, check out the [Drupal IRC docs](https://drupal.org/irc)).  [Brandonian](https://drupal.org/user/77766) has spearheaded this effort, and will be joined by [myself](https://drupal.org/user/147331), [phayes](https://drupal.org/user/47098), and other great community members working in the Drupal geospatial sector.  Besides offering general help with mapping, handling geospatial data, and related topics in Drupal, we will be discussing the following:
 
  * Organizing a documentation sprint around an upcoming Drupal event TBD.

@@ -3,6 +3,7 @@ layout: default
 title: Government and DrupalCon
 created: 1299220788
 ---
+
 In just some very short days, [DrupalCon Chicago 2011](http://chicago2011.drupal.org/) will start and it will be huge!  I have to say I am a bit nervous by 1000's of Drupalers in one hotel; but I am totally excited as well and can't wait to see what gets done in a week.
 
 I just wanted to take a moment to highlight some of the activities going on around Drupal and Government at DrupalCon this year.
