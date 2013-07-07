@@ -1,0 +1,204 @@
+---
+layout: default
+title: Drupal 5 Custom GMap Node
+created: 1206502893
+---
+I really enjoy <a href="http://maps.google.com/" title="Google Maps">Google Maps</a>.  And though they keep a little for themselves, the <a href="http://code.google.com/apis/maps/" title="Google Maps API">Google Maps API</a> offers a really easy way to embed these maps into your own personal site.  Fortunately for us <a href="http://drupal.org/" title="Drupal">Drupal</a> users, the swell folks at the <a href="http://chicagotech.org/" title="Chicago Technology Cooperative">Chicago Technology Cooperative</a> and the other <a href="http://drupal.org/project/developers/33591" title="Drupal GMap Module Developers">wonderful open-source developers</a> have put together an amazing module called <a href="http://drupal.org/project/gmap" title="Drupal GMap Module">GMap</a> that integrates well with <a href="http://drupal.org/project/location" title="Drupal Location Module">Location</a>, <a href="http://drupal.org/project/views" title="Drupal Views Module">Views</a>, and even <a href="http://drupal.org/project/cck" title="Drupal CCK Module">CCK</a> (sort of).
+
+I have recently set up this <a href="/map" title="Places Alan Palazzolo has been">site to use the GMAP module</a>.  And since this module is still not had a stable release yet, I figured I would explain what I have done with this site to get some custom maps on each node.  I will go through setting up CCK fields, custom theming, and some extras.
+
+<h3>In Action</h3>
+
+First, have a gander at what this will look like once we are done.  
+<ul><li><a href="/map" title="Places Alan Palazzolo has been">This is the overall View of each node.</a></li>
+<li><a href="/map/bell-museum-natural-history" title="Alan Palazzolo Place: Bell Museum of Natural History">This is an example of the specific of a node.</a></li>
+</ul>
+
+<h3>Goals</h3>
+
+Given that I already have a bunch of nodes to create a Map View with, I want to also display a map on each of the nodes for that location or place.  I also want the node maps to be customize for each node.
+
+The main reason I would like this functionality is because I think in the context of a node that is a location, it should have a map with the node itself.  Also, I think its a really nice feature to have control how that map looks.  There are certain locations that I would like to be zoomed in real close, or that I want a map view, or a satellite view.  This will give us that control.
+
+<h3>Assumptions</h3>
+
+The following is a list of assumptions in this process.  If the following are not true, then this tutorial may not work for you.
+<ul><li>Drupal Version: <a href="http://drupal.org/drupal-5.7" title="Drupal 5.7">5.7</a></li>
+<li>GMap Version: <a href="http://drupal.org/node/204538" title="Drupal GMap Module 5.x-1.0-alpha1">5.x-1.0-alpha1</a></li>
+<li>CCK Version: <a href="http://drupal.org/node/167947" title="Drupal CCK Module 5.x-1.6-1">5.x-1.6-1</a></li>
+<li>Views Version: <a href="http://drupal.org/node/159390" title="Drupal CCK Views 5.x-1.6">5.x-1.6</a></li>
+<li>Location Version: <a href="http://drupal.org/node/118314" title="Drupal GMap Location 5.x-1.x-dev">5.x-1.x-dev (2007-10-31)</a>.  Please note that this module could be circumvented with Latitude and Longitude CCK fields.</li>
+<li>You know some <a href="http://drupal.org/node/11774" title="Drupal Theming">basic theming methods</a>.</li>
+</ul>
+
+<h3>GMap Bugs</h3>
+
+There a couple things to note about this version of the GMap Module:
+<ul><li>You will need to hack the GMap Module so that it uses the most recent stable version of the Google Maps API.  See <a href="http://drupal.org/node/231473" title="GMap Google Maps API">http://drupal.org/node/231473</a>.</li>
+<li>There are some inconsistencies between the API.txt file and the actual way to use the GMap API.  See <a href="http://drupal.org/node/236352" title="GMap API bug">http://drupal.org/node/236352</a> for more information.  For our purposes, the following needs to be noted for the associateive array that will be used to create each map:
+<ul><li>Use <strong>controltype</strong> instead of <em>control</em>.</li>
+<li>Use <strong>maptype</strong> instead of <em>type</em>.</li>
+</ul></li>
+</ul>
+
+<h3>Map Content Type</h3>
+
+The first thing we need to do is set up a custom Content Type.  This is where CCK and Location are going to come in.
+
+<h4>Locative Information</h4>
+
+First ensure, that Locative Information is added.  When creating the Content Type, it will be at the top of the form.  It's kind of hard to notice.  Make sure that <strong>Maximum number of locations allowed for this type.</strong> is at least <strong>1</strong> and <strong>Default number of location forms</strong> is also at least <strong>1</strong>.  <em>Plaese note that this tutorial is assuming one location per node.  This could easily be changed so that it handled more that one location.</em>  Enabling this Location information, will ensure that Latitude and Longitude are collected.  Again this could be changed to CCK fields instead.
+
+[img_assist|nid=16|title=Screen: Locative Information on Content Type Creation|desc=Screenshot to point out where the Locative Information section is when creating a new Content Type.|link=none|align=left|width=570|height=379]
+
+<h4>CCK Map Parameters</h4>
+
+Now you will want to create a set of fields to represent your map parameters.  You can add or remove the ones you want.  You will want to look at the <strong>GMap Macro Creator</strong> page that comes with GMap.  Here is a brief description of my fields:
+<table summary="CCK Map Macro Parameters">
+<caption>CCK Map Macro Parameters</caption>
+<thead>
+<tr><th>Name</th><th>Machine Name</th><th>Type</th><th>Widget Type</th></tr>
+</thead>
+<tbody>
+<tr><td>Map Width</td><td>field_cck_txt_map_width</td><td>Text</td><td>Text Field</td></tr>
+<tr><td>Map Height</td><td>field_cck_txt_map_height</td><td>Text</td><td>Text Field</td></tr>
+<tr><td>Marker</td><td>field_cck_select_marker</td><td>Text</td><td>Select List</td></tr>
+<tr><td>Magnification</td><td>field_cck_select_magnification</td><td>Text</td><td>Select List</td></tr>
+<tr><td>Control Type</td><td>field_cck_select_map_control</td><td>Text</td><td>Select List</td></tr>
+<tr><td>Map Type</td><td>field_cck_select_map_type</td><td>Text</td><td>Select List</td></tr>
+</tbody>
+</table>
+
+[img_assist|nid=15|title=Screen: Macro Parameters as GMap Node Fields|desc=Screenshot of the CCK fields that are used to create a custom GMap per node.|link=none|align=left|width=570|height=395]
+
+The Select Lists should be filled appropriately from the <strong>GMap Macro Creator</strong> page.  <em>Hint: changes some values and note the macro at the bottom.</em>  Please note that these values are <strong>Case Sensitive</strong>.
+
+<h3>Theming</h3>
+
+Now that we have our content type set up, now we just have to determine how it is going to render all this information.  Feel free to make a couple nodes with this new content type, as it will help you see what is happening.
+
+<h4>Display Function</h4>
+
+We will create a function in our <strong>template.php</strong> file, in our theme directory, so that calling the map in the theme will be simple.
+
+
+<div>
+{% highlight php %}
+#function to make Gmap macro data into a map
+function your_theme_node_map_maker($id, $mark, $lat, $long, $zoom, $width, $height, $control, $map_type) {
+    #intialize output
+    $output = '';
+    
+    #put together array
+    $arr_map = array(
+        'id' => $id
+        ,'zoom' => $zoom
+        ,'width' => $width
+        ,'height' => $height
+        ,'latitude' => $lat
+        ,'longitude'=> $long
+        ,'maptype' => $map_type
+        ,'controltype' => $control
+        ,'markers' => array(
+            array(
+                'markername' => $mark
+                ,'latitude' => $lat
+                ,'longitude' => $long
+            )
+        )
+    );
+
+    #display map through GMap theme function
+    $output = theme('gmap', array('#settings' => $arr_map));
+    
+    #return output
+    return $output;
+} #end function
+{% endhighlight %}
+</div>
+
+
+This should be pretty straightforward.  It would not be too difficult to actually put this in the theme itself, but this way we could do some processing if necessary.
+
+<h4>Calling the Function in the Theme</h4>
+
+There is a couple ways to do this depending on how you like to make or edit themes.  You can use the <a href="http://drupal.org/project/contemplate" title="Drupal Content Template Module">Content Template Module</a>.  But I like to stick with the traditional file method.
+
+Here is my sample <strong>node-ct-map.tpl.php</strong> file:
+
+
+<div>
+{% highlight php %}
+<?php if ($page == 0) { ?><h2 class="title"><a href="<?php print $node_url?>"><?php print $title?></a></h2><?php }; ?>
+
+<div class="entry<?php if ($sticky) { print " sticky"; } ?>">
+    <?php if ($picture) { print $picture; }?>
+
+    <div class="ct-map-content"><?php print $node->content['body']['#value'] ?></div>
+    
+    <fieldset class="fieldgroup group-visits">
+        <legend>Visits</legend>
+        <?php print alanpalazzolo_custom_visits($node->field_cck_date_location_start, $node->field_cck_txt_visited_descripti) ?>
+    </fieldset>
+
+    <?php if ($node->content['field_cck_img_map_images']['#value']) { ?>
+    <fieldset class="fieldgroup group-map-pictures">
+        <legend>Pictures</legend>
+        <?php print $node->content['field_cck_img_map_images']['#value'] ?>
+    </fieldset>
+    <?php } ?>
+    
+    <?php 
+        # Call Map Function
+        # I have separated the parameters so that it easier to see
+        print alanpalazzolo_custom_node_map_maker(
+            $node->nid, $node->field_cck_select_marker[0]['view']
+            ,$node->locations[0]['latitude']
+            ,$node->locations[0]['longitude']
+            ,$node->field_cck_select_magnification[0]['view']
+            ,$node->field_cck_txt_map_width[0]['view']
+            ,$node->field_cck_txt_map_height[0]['view']
+            ,$node->field_cck_select_map_control[0]['view']
+            ,$node->field_cck_select_map_type[0]['view']
+        ) ?>
+    
+    <?php print alanpalazzolo_custom_location($node->location) ?>
+
+</div>
+
+<div class="meta">
+    <p class="byline"><?php print $submitted?></p>
+    <?php if ($terms) { ?><p><span class="taxonomy"><?php print $terms?></span></p><?php }; ?>
+    <?php if ($links) { ?><p class="links"><?php print $links?></p><?php }; ?>
+</div>
+{% endhighlight %}
+</div>
+
+
+<h3>Check Our Work</h3>
+
+Now, when going to the nodes that we have created, there should be a map with the parameteres we have set on them.  For instance:
+
+
+<h3>Views</h3>
+
+This should be a fairly easy process.  Create a new view.
+<ul><li>Page Section
+<ul><li> click <strong>Provide Page View</strong></li>
+<li>choose a <em>URL</em></li>
+<li>this is where the magic happens; under <em>View Type</em> choose <strong>GMap View</strong></li>
+</ul></li>
+<li>Fields Section
+<ul><li><strong>Location: Latitude</strong></li>
+<li><strong>Location: Longitude</strong> (<em>This is where the CCK fields could be substituted.</em>)</li>
+<li>I would also suggest choosing the <strong>Node: Title</strong> field so that there is link in each info bubble</li>
+</ul></li>
+<li>Filter Section
+<ul><li><strong>Node: Published</strong> is <strong>Yes</strong></li>
+<li><strong>Node: Type</strong> is One Of <strong>Map Type</strong> (<em>This is the type that we defined above</em>)</li>
+</ul></li>
+</ul>
+
+<h3>Questions</h3>
+
+Please feel free to <a href="/story/comment/reply/13" title="Add a Comment">add a comment</a> or <a href="/contact" title="Contact Me">contact me</a> about this post.  This is just a brief look into what can be done with these powerful technologies.
