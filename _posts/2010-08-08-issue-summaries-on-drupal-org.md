@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Issue Summaries on Drupal.org
 created: 1281279395
 ---

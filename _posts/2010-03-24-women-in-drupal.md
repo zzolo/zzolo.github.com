@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Women in Drupal
 created: 1269472641
 ---

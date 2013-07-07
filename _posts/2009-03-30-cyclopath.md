@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Cyclopath
 created: 1238473866
 ---

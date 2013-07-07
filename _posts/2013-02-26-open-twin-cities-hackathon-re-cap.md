@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Open Twin Cities Hackathon Re-Cap
 created: 1361923754
 ---

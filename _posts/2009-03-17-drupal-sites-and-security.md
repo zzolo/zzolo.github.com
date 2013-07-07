@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Sites and Security
 created: 1237324610
 ---

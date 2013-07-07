@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Applying for a Drupal CVS Account?
 created: 1269858129
 ---

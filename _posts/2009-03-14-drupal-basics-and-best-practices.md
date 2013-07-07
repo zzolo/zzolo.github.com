@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Basics and Best Practices
 created: 1237080221
 ---

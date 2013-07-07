@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: First Ever Drupal Non-Profit Summit
 created: 1317793468
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Drupal Union
 created: 1257399117
 ---

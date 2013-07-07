@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal and Code for America
 created: 1290388368
 ---

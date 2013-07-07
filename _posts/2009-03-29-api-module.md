@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: API Module
 created: 1238383508
 ---

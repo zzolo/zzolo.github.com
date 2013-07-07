@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal and OpenLayers
 created: 1250822008
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: ! 'Software: More Than Code?'
 created: 1253833518
 ---

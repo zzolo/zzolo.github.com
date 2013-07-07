@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Actions and Triggers
 created: 1237785425
 ---

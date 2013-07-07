@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Module Demos
 created: 1240353400
 ---

@@ -104,7 +104,7 @@ def process(dbname, user, pass, host = 'localhost', local_query)
     # Get the relevant fields as a hash, delete empty fields and convert
     # to YAML for the header
     data = {
-       'layout' => 'default',
+       'layout' => 'post',
        'title' => '' + title.to_s,
        'created' => created,
      }.delete_if { |k,v| v.nil? || v == ''}.to_yaml

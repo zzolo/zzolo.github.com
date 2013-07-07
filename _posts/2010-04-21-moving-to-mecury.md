@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Moving to Mecury
 created: 1271864443
 ---

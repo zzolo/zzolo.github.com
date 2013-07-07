@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Upgrade Love with Demo and Drush
 created: 1266192061
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Block Instances
 created: 1271279723
 ---

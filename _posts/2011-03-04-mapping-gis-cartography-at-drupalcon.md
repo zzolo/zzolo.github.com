@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mapping, GIS, Cartography at DrupalCon
 created: 1299293079
 ---

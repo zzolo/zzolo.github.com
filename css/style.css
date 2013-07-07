@@ -15,9 +15,10 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Georgia, Arial, sans-serif;
+  background-color: #FFFFFF;
+  font: 20.34px Helvetica, Georgia, Arial, sans-serif;
   text-align: left;
+  color: #232324;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,10 +33,10 @@ h2 { font-size: 2em; }
 h3 { font-size: 1.5em; }
 h4 { font-weight: bold; }
 
-p { margin: 1em 0; }
+p { margin-bottom: 1em; }
 
 a         { color: #0099CC; text-decoration: none; }
-a:hover   { color: #0099CC; text-decoration: none; }
+a:hover   { color: #0099CC; text-decoration: none; text-decoration: underline; }
 a:visited { color: #0099CC; text-decoration: none; }
 
 table {
@@ -73,14 +74,24 @@ table {
 
 /*****************************************************************************/
 /*
+/* General
+/*
+/*****************************************************************************/
+ul {
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+/*****************************************************************************/
+/*
 /* Site
 /*
 /*****************************************************************************/
 .site {
   font-size: 115%;
-  width: 52em;
+  width: 42em;
   margin: .5em auto 2em;
-  line-height: 1.15em;
+  line-height: 1.25em;
 }
 
 .site .footer {
@@ -88,7 +99,7 @@ table {
   color: #454545;
   border-top: 2px solid #ABABAB;
   margin-top: 2em;
-  padding-top: 1em;
+  padding: 1em 0;
   text-align: right;
 }
 
@@ -121,7 +132,7 @@ table {
 
 }
 .home .site .header h1 a {
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 1.5em;
 }
 
@@ -147,7 +158,8 @@ table {
 }
 
 .site .menu {
-  margin-bottom: 1em;
+  margin-bottom: .5em;
+  margin-left: 0;
 }
 .site .menu li {
   list-style: none;
@@ -161,6 +173,9 @@ table {
 /* Posts
 /*
 /*****************************************************************************/
+.posts {
+  margin-left: 0;
+}
 .posts li {
   list-style: none;
   line-height: 1.5em;
@@ -178,6 +193,10 @@ table {
 
 .meta {
   color: #565656;
+}
+
+.post .post-title {
+  margin-bottom: 0em;
 }
 
 

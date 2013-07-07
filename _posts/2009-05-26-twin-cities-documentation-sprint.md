@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Twin Cities Documentation Sprint
 created: 1243391612
 ---

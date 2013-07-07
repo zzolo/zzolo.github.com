@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: What Hackathons Really Are
 created: 1361506893
 ---

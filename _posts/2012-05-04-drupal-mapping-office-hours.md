@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Mapping Office Hours
 created: 1336147052
 ---

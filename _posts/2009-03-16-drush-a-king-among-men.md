@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drush, a King Among Men
 created: 1237244750
 ---

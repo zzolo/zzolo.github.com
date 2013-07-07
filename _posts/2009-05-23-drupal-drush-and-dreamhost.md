@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal, Drush, and Dreamhost
 created: 1243098863
 ---

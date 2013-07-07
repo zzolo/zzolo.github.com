@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Friday Night Encryption
 created: 1249719567
 ---

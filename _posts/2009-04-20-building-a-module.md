@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Building a Module
 created: 1240282876
 ---

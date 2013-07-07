@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Living Arrangements
 created: 1237571901
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: OpenLayers Facelift
 created: 1321015925
 ---

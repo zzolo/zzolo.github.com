@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: ! 'Drupal Highlights: Amanda Luker'
 created: 1295246905
 ---

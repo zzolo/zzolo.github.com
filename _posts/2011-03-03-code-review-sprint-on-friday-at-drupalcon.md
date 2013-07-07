@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Code Review Sprint on Friday at DrupalCon
 created: 1299136619
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Help Drupal Grow
 created: 1282651708
 ---

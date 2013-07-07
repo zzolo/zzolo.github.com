@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Community Structure
 created: 1342633578
 ---

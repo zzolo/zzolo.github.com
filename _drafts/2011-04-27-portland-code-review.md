@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Portland Code Review
 created: 1303945020
 ---

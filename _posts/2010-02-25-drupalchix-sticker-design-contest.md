@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: DrupalChix Sticker Design Contest!
 created: 1267138321
 ---

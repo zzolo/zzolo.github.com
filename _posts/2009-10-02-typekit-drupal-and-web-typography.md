@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Typekit, Drupal, and Web Typography
 created: 1254464036
 ---

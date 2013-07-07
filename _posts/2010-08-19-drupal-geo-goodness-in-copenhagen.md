@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Geo-Goodness in Copenhagen
 created: 1282257579
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: ! 'Drupal Highlights: Tom MacWright'
 created: 1294820496
 ---

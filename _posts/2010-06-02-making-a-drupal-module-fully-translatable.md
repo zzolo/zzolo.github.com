@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Making a Drupal Module Fully Translatable
 created: 1275512451
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: HTML Subitles
 created: 1237779726
 ---

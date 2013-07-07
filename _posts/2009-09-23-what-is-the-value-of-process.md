@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: What is the Value of Process?
 created: 1253764855
 ---

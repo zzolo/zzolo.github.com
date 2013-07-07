@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: DrupalCamp Spain and OpenLayers Presentation
 created: 1267906287
 ---

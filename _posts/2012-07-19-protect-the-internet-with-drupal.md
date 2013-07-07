@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Protect the Internet with Drupal
 created: 1342732209
 ---
