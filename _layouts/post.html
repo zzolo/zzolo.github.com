@@ -9,3 +9,17 @@ class: post
 <div class="post">
   {{ content }}
 </div>
+
+<div class="post-nav cf">
+  {{ if page.previous.url }}
+    <div class="post-nav-prev">
+      &larr; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    </div>
+  {{ endif }}
+  
+  {{ if page.next.url }}
+    <div class="post-nav-next">
+      <a href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr; 
+    </div>
+  {{ endif }}
+</div>

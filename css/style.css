@@ -89,18 +89,16 @@ ul {
 /*****************************************************************************/
 .site {
   font-size: 115%;
-  width: 42em;
+  width: 960px;
   margin: .5em auto 2em;
   line-height: 1.25em;
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #454545;
-  border-top: 2px solid #ABABAB;
-  margin-top: 2em;
-  padding: 1em 0;
-  text-align: right;
+@media only screen and (max-width: 960px) {
+  .site {
+    width: auto;
+    padding: 0 5px;
+  }
 }
 
 .site img {
@@ -129,6 +127,7 @@ ul {
 }
 .site .header h1 {
   margin-bottom: 0;
+  z-index: 10;
 
 }
 .home .site .header h1 a {
@@ -146,6 +145,7 @@ ul {
   bottom: 0;
   width: 7em;
   height: 7em;
+  z-index: -10;
 }
 
 .home .site .header .header-image {
@@ -160,12 +160,33 @@ ul {
 .site .menu {
   margin-bottom: .5em;
   margin-left: 0;
+  z-index: 10;
 }
+
 .site .menu li {
   list-style: none;
   display: inline;
   margin-right: 1em;
 }
+
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+.site .footer {
+  font-size: 80%;
+  color: #454545;
+  border-top: 2px solid #ABABAB;
+  margin-top: 2em;
+  padding: 1em 0;
+  text-align: right;
+}
+
+.post .site .footer {
+  margin-top: .5em;
+}
+
 
 
 /*****************************************************************************/
@@ -192,11 +213,30 @@ ul {
 }
 
 .meta {
-  color: #565656;
+  font-size: .75em;
+  color: #676767;
 }
 
 .post .post-title {
   margin-bottom: 0em;
+}
+
+.post-nav {
+  font-size: .75em;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.post-nav .post-nav-next,
+.post-nav .post-nav-prev {
+  display: block;
+  width: 50%;
+}
+.post-nav .post-nav-next {
+  float: right;
+  text-align: right;
+}
+.post-nav .post-nav-prev {
+  float: left;
 }
 
 
