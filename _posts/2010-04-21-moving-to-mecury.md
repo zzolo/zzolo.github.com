@@ -17,23 +17,23 @@ I have done some very basic benchmarking with [AB](http://httpd.apache.org/docs/
 <tr><th>Test and Metric</th><th>DreamHost</th><th>Mercury</th><th>Increase</th></tr>
 </thead>
 <tbody>
-<tr><td>**ab -n 100 -c 10**</td><td colspan="3"></td></tr>
-<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>29</td><td>0</td><td>**~2,900%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>0.98</td><td>19.81</td><td>**2,021%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Time per request_</td><td>1024.6ms</td><td>50.490ms</td><td>**2,029%**</td></tr>
-<tr><td>**ab -n 1000 -c 10**</td><td colspan="3"></td></tr>
-<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>321</td><td>0</td><td>**~32,100%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>0.87</td><td>41.09</td><td>**4,723%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Time per request_</td><td>1150.489ms</td><td>24.335ms</td><td>**4,728%**</td></tr>
-<tr><td>**ab -n 1000 -c 50**</td><td colspan="3"></td></tr>
-<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>7</td><td>0</td><td>**~700%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>44.86</td><td>112.15</td><td>**250%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Time per request_</td><td>22.292ms</td><td>8.916ms</td><td>**250%**</td></tr>
-<tr><td>**Average**</td><td colspan="3"></td></tr>
-<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>119</td><td>0</td><td>**~11,900%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>15.57</td><td>57.68</td><td>**370%**</td></tr>
-<tr><td>&nbsp;&nbsp;_Time per request_</td><td>732.46ms</td><td>21.91ms</td><td>**3,343%**</td></tr>
-<tr><td>**Increase average**</td><td></td><td></td><td>**5,204%**</td></tr>
+<tr><td><strong>ab -n 100 -c 10</strong></td><td colspan="3"></td></tr>
+<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>29</td><td>0</td><td><strong>~2,900%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>0.98</td><td>19.81</td><td><strong>2,021%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Time per request_</td><td>1024.6ms</td><td>50.490ms</td><td><strong>2,029%</strong></td></tr>
+<tr><td><strong>ab -n 1000 -c 10</strong></td><td colspan="3"></td></tr>
+<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>321</td><td>0</td><td><strong>~32,100%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>0.87</td><td>41.09</td><td><strong>4,723%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Time per request_</td><td>1150.489ms</td><td>24.335ms</td><td><strong>4,728%</strong></td></tr>
+<tr><td><strong>ab -n 1000 -c 50</strong></td><td colspan="3"></td></tr>
+<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>7</td><td>0</td><td><strong>~700%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>44.86</td><td>112.15</td><td><strong>250%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Time per request_</td><td>22.292ms</td><td>8.916ms</td><td><strong>250%</strong></td></tr>
+<tr><td><strong>Average</strong></td><td colspan="3"></td></tr>
+<tr><td>&nbsp;&nbsp;_Failed requests_</td><td>119</td><td>0</td><td><strong>~11,900%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Requests per second_</td><td>15.57</td><td>57.68</td><td><strong>370%</strong></td></tr>
+<tr><td>&nbsp;&nbsp;_Time per request_</td><td>732.46ms</td><td>21.91ms</td><td><strong>3,343%</strong></td></tr>
+<tr><td><strong>Increase average</strong></td><td></td><td></td><td><strong>5,204%</strong></td></tr>
 </tbody>
 </table>
 

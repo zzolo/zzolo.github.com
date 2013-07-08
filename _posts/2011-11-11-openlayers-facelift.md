@@ -12,7 +12,7 @@ In the current D7 development branch of the Drupal <a href="http://drupal.org/pr
 
 ### After
 
-<div><a class="colorbox" href="https://img.skitch.com/20111111-ry6wb4mjeqnj5bincc1faxty2c.jpg"><img style="max-width:615px" src="https://img.skitch.com/20111111-ry6wb4mjeqnj5bincc1faxty2c.jpg" alt="Clone map geojson | openlayers7" /></a></div>
+<div><a class="colorbox" href="https://skitch-img.s3.amazonaws.com/20111111-ry6wb4mjeqnj5bincc1faxty2c.jpg"><img style="max-width:615px" src="https://skitch-img.s3.amazonaws.com/20111111-ry6wb4mjeqnj5bincc1faxty2c.jpg" alt="Clone map geojson | openlayers7" /></a></div>
 
 The images above are screenshots (click to expand) of the default maps that currently come with the stable version of the [OpenLayers module](http://drupal.org/project/openlayers) and library (before) and then new styling for default maps in the [development branch](http://drupal.org/node/985658) (after).  Let's go through the changes:
 

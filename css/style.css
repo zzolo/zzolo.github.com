@@ -77,9 +77,56 @@ table {
 /* General
 /*
 /*****************************************************************************/
-ul {
+ul, ol {
   margin-bottom: 1em;
   margin-left: 2em;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #EBEBEB;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Tables
+/*
+/*****************************************************************************/
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table thead th {
+  vertical-align: bottom;
+}
+
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+  background-color: #F9F9F9;
 }
 
 /*****************************************************************************/
@@ -304,4 +351,12 @@ pre.terminal {
 
 pre.terminal code {
   background-color: #333;
+}
+
+.highlight {
+  margin-bottom: 1em;
+}
+
+.highlight pre {
+  overflow-x: auto;
 }

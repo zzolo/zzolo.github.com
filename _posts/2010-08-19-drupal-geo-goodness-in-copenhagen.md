@@ -20,10 +20,10 @@ The presentation will be **25 August 2010 at 13:30 in the VPS.NET room** (right 
 
 I have also reserved a BoF space to discuss the [state of Drupal and geospatial things](http://cph2010.drupal.org/sessions/drupal-and-geographic-technologies).  It'll be a very open discussion, but ideally we will focus on the following:
 
-  * The state of the Drupal GeoCMS.
-  * What is missing?
-  * What the future holds?
-  * How do we get there?
+* The state of the Drupal GeoCMS.
+* What is missing?
+* What the future holds?
+* How do we get there?
 
 The BoF will be **25 August 2010 at 16:00 in the BoF Space 4**.
 
