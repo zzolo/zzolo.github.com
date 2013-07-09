@@ -1,0 +1,353 @@
+---
+layout: post
+title: Registered Voters in Minnesota Counties
+---
+
+<h3>A look at relation between registered voters in Minnesota counties (and experimenting with D3)</h3>
+
+<p>By registered voters, the 5 most populous counties, out of 87, makes up just slightly over 50% of all registered voters in the state of Minnesota.  This does not work like the Presidential race with the electoral college where one state gives all its votes to a single candidate, voting on state wide elections is done by the populous vote alone.  It does point out just how unevenly distributed registered voters are across the counties, and this could influence how state wide races turn out; it also explains how on a map, Minnesota may look red, but still vote blue.</p>
+
+<p>The chart below is interactive; you can click on any county to add it to the selected pile and see how it swings the count.</p>
+
+<p>Do note that this interactive piece is made with <a href="d3js.org">D3</a> and uses SVG which means it will not run in older browsers like Internet Explorer 7 or 8.</p>
+
+<!-- START: Embeddable -->
+  <div class="node-body fieldlayout node-field-body">
+    <style type="text/css">
+      @import url('https://s3.amazonaws.com/data.minnpost/js/qtip2-master-20121022/jquery.qtip.min.css');
+      @import url('https://s3.amazonaws.com/data.minnpost/js/jquery.ui-autocomplete-1.9.1/jquery.ui-autocomplete-1.9.1-ui-lightness.min.css');
+    </style>
+    
+    <style type="text/css">
+      #minnpost-registered-voters-county-chart {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      .clear {
+        clear: both;
+      }
+      .js-dependent,
+      .hidden {
+        display: none;
+      }
+      .footnote {
+        font-size: .75em;
+        font-style: italic;
+        color: #414141;
+        margin-top: 3em;
+        border-top: 1px solid #BCBCBC;
+        padding-top: 1em;
+      }
+      .loading-general {
+        width: 100%;
+        text-align: center;
+        padding: 2em 2em;
+        color: #ABABAB;
+        vertical-align: middle;
+        height: 100%;
+        line-height: 100%;
+      }
+      .loading-general span {
+        padding: 10px 5px 10px 40px;
+        background: transparent url('https://s3.amazonaws.com/data.minnpost/projects/2012-mn-election-results/images/ajax-loader.gif') center left no-repeat;
+        vertical-align: middle;
+        height: 100%;
+        line-height: 100%;
+      }
+      
+      .tooltip-body-container {
+        position: absolute;
+        z-index: 99;
+      }
+      .tooltip-container {
+        background-color: #E2E2E2;
+        border: 1px solid #777777;
+        padding: .5em 1em;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
+      #minnpost-registered-voters-county-chart table {
+        width: 100%;
+        font-size: .85em;
+        font-family: Helvetica,Arial,Geneva,sans-serif;
+      }
+      #minnpost-registered-voters-county-chart table tr:nth-child(even) {
+        background-color: #EBEBEB;
+      }
+      #d3-chart-container {
+        width: 100%;
+        height: 400px;
+        font-family: Helvetica,Arial,Geneva,sans-serif;
+        font-size: .85em;
+      }
+      
+      /**
+       * Responsive screen size styles
+       */
+      @media screen and (max-width: 768px) {
+      }
+    </style>
+    
+    <!--[if lte IE 7]>
+    <![endif]-->
+    
+    
+    
+    <!-- Initial HTML for application -->
+    <div id="minnpost-registered-voters-county-chart">
+      <noscript>
+        <p>This application requires Javascript which is used to make your web browser more interactive.  If this message does not go away, please consider enabling Javascript.  Here are <a href="http://www.enable-javascript.com/" target="_blank">instructions on how to enable JavaScript in your web browser</a>.</p>
+      </noscript>
+      
+      <!--[if lte IE 7]>
+        <div class="ie-upgrade-note">
+          <h4>Consider upgrading your browser</h4>
+          <p>Your <strong>Internet Browser</strong> is the application you use to navigate webpages on the internet.  You are currently using an older version of Internet Explorer.  Unfortunately, with this old browser, you will not be able to experience the full version of this interactive story.</p>
+          
+          <p><a href="http://browsehappy.com/" target="_blank">Click here to find out about options for newer browsers</a>.</p>
+        
+          <p>If you cannot install new applications on your computer (because you are at work, for example), consider using <a href="http://www.google.com/chromeframe" target="_blank">Google's Chrome Frame</a> for Internet Explorer.</p>
+        </div>
+      <![endif]-->
+      
+      <div id="chart-container">
+      </div>
+      
+      <p class="footnote">Registered voter data provided by the <a href="http://www.sos.state.mn.us/index.aspx?page=531" target="_blank">MN Secretary of State</a><span class="last-updated"></span>.  Data processing aided by <a href="https://scraperwiki.com/" target="_blank">ScraperWiki</a>.</p>
+    </div>
+    
+    <!-- Templates to be used in client side processing. -->
+    <script id="template-loading" type="text/template">
+      <div class="loading-general-container">
+        <div class="loading-general"><span>Loading...</span></div>
+      </div>
+    </script>
+    
+    <script id="template-service-down" type="text/template">
+      <h3>We are sorry</h3>
+      <p>The election data service seems to be down or you no longer have access to the Internet.  Try refreshing the page or checking your Internet connection.</p>
+    </script>
+    
+    <script id="template-application" type="text/template">
+      <div class="counter-container"></div>
+      <div id="d3-chart-container"></div>
+    </script>
+    
+    <script id="template-tooltip" type="text/template">
+      <div class="tooltip-container">
+        <h5><%= d.county %> County</h5>
+        
+        Registered voters: <strong><%= d3.format(',d')(d.voters) %></strong>
+      </div>
+    </script>
+    
+    <script id="template-counter" type="text/template">
+      <div class="counter-container-table">
+        <table>
+          <thead>
+            <tr><th></th><th>Counties</th><th>Registerd voters</th><th>Percent</th></tr>
+          </thead>
+          <tbody>
+            <tr class="selected-container">
+              <td>Selected</td>
+              <td><%= selectedCount %></td>
+              <td><%= d3.format(',d')(selectedVoters) %></td>
+              <td><%= d3.format('.1%')(selectedVoters / totalVoters) %></td>
+            </tr>
+            <tr class="other-container">
+              <td>Other</td>
+              <td><%= otherCount %></td>
+              <td><%= d3.format(',d')(otherVoters) %></td>
+              <td><%= d3.format('.1%')(otherVoters / totalVoters) %></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </script>
+  
+    <!-- jQuery that is used on site -->
+    <script type="text/javascript">
+      window.jQuery || document.write('<script type="text/javascript" src="https://s3.amazonaws.com/data.minnpost/js/jquery-1.3.2/jquery-1.3.2.min.js"><\/script>')
+    </script>
+    <!-- Underscore, a custom jquery, and backbone for app logic -->
+    <script type="text/javascript" src="https://s3.amazonaws.com/data.minnpost/js/underscore-1.3.3/underscore-min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/data.minnpost/js/jquery-custom-master-20120606/jquery-1.7.2.custom.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/data.minnpost/js/jquery.jsonp-2.4.0/jquerycustom.jsonp-2.4.0.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/data.minnpost/js/d3-2.10.3/d3.v2.min.js"></script>
+    
+    
+    <script type="text/javascript">
+      // Handle custom jQuery
+      jQueryCustom = jQueryCustom.noConflict();
+      
+      (function($, w, undefined) {
+        var dataURL = ['https://api.scraperwiki.com/api/1.0/datastore/sqlite?',
+          'format=jsondict&name=mn_registered_voters_by_county&callback=?&query=',
+          encodeURI('SELECT s.* FROM swdata AS s INNER JOIN (SELECT date FROM swdata ORDER BY date DESC LIMIT 1) AS j ON j.date = s.date')];
+        
+        // Function for handling data
+        var processData = function(data) {
+          var recent = data;
+          var recentDate = data[0].date;
+          var templateTooltip = $('#template-tooltip').html();
+          var templateApplication = $('#template-application').html();
+          var templateCounter = $('#template-counter').html();
+          var voterMax = (_.max(recent, function(r) { return r.voters; })).voters;
+          var selectedDefault = [ 'Hennepin', 'Ramsey', 'Dakota', 'Anoka', 'Washington' ];
+
+          // Reset container
+          $('#chart-container').html(_.template(templateApplication, {}));
+          // Add last updated
+          $('.last-updated').html('; last updated on ' + recentDate);
+          
+          // Select defaults
+          recent = _.map(recent, function(r) {
+            r.selected = (_.contains(selectedDefault, r.county)) ? true : false;
+            return r;
+          });
+          
+          // Convert data to use in pack
+          var recentPack = {
+            'name': 'Counties',
+            'children': recent,
+            'county': 'top-level'
+          };
+          
+          // Number formater
+          var numFormater = d3.format(',d');
+          
+          // Tooltip placeholder
+          var $tooltip = $('<div>').addClass('tooltip-body-container').hide().appendTo('body');
+          
+          // Color range
+          // '#6DAC15', '#74AA15', '#7CA915', '#84A715', '#8CA615', '#94A415', '#9CA315', '#A4A115', '#ACA015', '#ACA015', '#AC9615', '#AC8D15', '#AC8315', '#AC7A15', '#AC7015', '#AC6715', '#AC5D15', '#AC5415'
+          //'#5415AC', '#482DB7', '#3D46C2', '#325ECD', '#2777D8', '#1C90E3', '#1A95C6', '#199BA9', '#17A08D', '#16A670', '#15AC54'
+          //'#26C318', '#33B342', '#40A36C', '#4E9397', '#5B83C1', '#6974EC', '#7861E3', '#874FDB', '#963CD3', '#A52ACB', '#B518C3'
+          //'#26C318', '#33B342', '#40A36C', '#4E9397', '#5B83C1', '#6974EC', '#5875E3', '#4877DB', '#3878D3', '#287ACB', '#187CC3'
+          var colorRange = d3.scale.linear()
+            .domain(d3.range(1, voterMax, 10000))
+            .range(['#26C318', '#33B342', '#40A36C', '#4E9397', '#5B83C1', '#6974EC', '#5875E3', '#4877DB', '#3878D3', '#287ACB', '#187CC3'].reverse())
+            .clamp(true);
+          
+          // Layout
+          var $container = $('#d3-chart-container');
+          var w = $container.width();
+          var h = $container.height();
+          var pack = d3.layout.pack().size([w - 5, h - 5]).padding(8)
+            .sort(function(a, b) { return b.voters - a.voters; } )
+            .value(function(d) { return d.voters; } );
+          var packedData = pack.nodes(recentPack).filter(function(d) { return !d.children; });
+          
+          // Create svg canvas
+          var svg = d3.select('#d3-chart-container').append('svg')
+            .attr('width', w).attr('height', h).attr('class', 'county-chart');
+            
+          // Process data table
+          var processTable = function(data) {
+            var counts = {
+              selectedCount: 0,
+              selectedVoters: 0,
+              otherCount: 0,
+              otherVoters: 0,
+              totalCount: 0,
+              totalVoters: 0,
+            }
+            
+            _.each(data, function(d) {
+              counts.totalCount += 1;
+              counts.totalVoters += d.voters;
+              if (!_.isUndefined(d.selected) && d.selected === true) {
+                counts.selectedCount += 1;
+                counts.selectedVoters += d.voters;
+              }
+              else {
+                counts.otherCount += 1;
+                counts.otherVoters += d.voters;
+              }
+            });
+            
+            $('.counter-container').html(_.template(templateCounter, counts));
+          };
+            
+          // Function to handle update of data
+          var dataHandler = function(data) {
+            // Create node for groups of items
+            var nodes = svg.selectAll('g.countyNode').data(data, function(d) { return d.county; });
+            
+            // Update all
+            nodes.selectAll('circle')
+              .style('stroke', function(d) {
+                return (!_.isUndefined(d.selected) && d.selected === true) ? '#222222' : 'transparent';
+              });
+            // Table values
+            processTable(data);
+            
+            // Enter, update new elements
+            var nodesEnter = nodes.enter().append('g');
+            
+            nodesEnter.attr('class', 'countyNode')
+              .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+            
+            nodesEnter.append('circle')
+              .attr('r', function(d) { return d.r; })
+              .style('fill', function(d) { return colorRange(d.voters); })
+              .style('stroke-width', 3)
+              .style('stroke', function(d) {
+                return (!_.isUndefined(d.selected) && d.selected === true) ? '#222222' : 'transparent';
+              });
+            
+            nodesEnter.append('text')
+              .attr('text-anchor', 'middle')
+              .attr('dy', '.3em')
+              .style('fill', '#333333')
+              .text(function(d) { 
+                return d.county.substring(0, (Math.floor(d.r / 5) === 1) ? 0 : Math.floor(d.r / 5));
+              });
+              
+            // Rollover
+            nodesEnter.on('mouseover', function(d, i) {
+              d3.select(this).style('cursor', 'pointer');
+              
+              $tooltip
+                .css('top', (d.y + $container.offset().top - 10) + 'px')
+                .css('left', (d.x + $container.offset().left + d.r + 10) + 'px')
+                .html(_.template(templateTooltip, { d: d }))
+                .show();
+              
+              var color = d3.rgb(d3.select(this).select('circle').style('fill'));
+              d3.select(this).select('circle').style('fill', color.brighter().toString());
+            });
+            nodesEnter.on('mouseout', function(d, i) {
+              $tooltip.hide();
+              var color = d3.rgb(d3.select(this).select('circle').style('fill'));
+              d3.select(this).select('circle').style('fill', color.darker().toString());
+            });
+            nodesEnter.on('click', function(d, i) {
+              packedData = _.map(packedData, function(p) {
+                if (p.county === d.county) {
+                  p.selected = (!_.isUndefined(p.selected) && p.selected === true) ? false: true;
+                }
+                return p;
+              });
+              dataHandler(packedData);
+            });
+          }
+          
+          // Start off with data
+          dataHandler(packedData);
+        };
+        
+        // Kick it off
+        $('#chart-container').html(_.template($('#template-loading').html(), {}));
+        $.jsonp({
+          url: dataURL.join(''),
+          success: processData,
+          error: function(e) {
+            $('#chart-container').html(_.template($('#template-service-down').html(), {}));
+          }
+        });
+      })(jQueryCustom, window);
+    </script>
+  </div>
+  <!-- END: Embeddable -->
