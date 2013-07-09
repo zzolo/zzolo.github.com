@@ -18,7 +18,7 @@ After an excellent lunch provided by [E-Democracy](http://forums.e-democracy.org
 
 #### Data Source Documentation
 
-<img src="/images/data-sources.png" width="210" height="150" alt="" title="">
+<img src="/images/posts/data-sources.png" width="210" height="150" alt="" title="">
 
 Kristen, Amy, and Jake worked on documenting and linking data source in the Twin Cities and Minnesota, almost a 1,000 datasets!  This is an ongoing goal of Open Twin Cities and helps in planning a future hackathon that will be data focused; finding data sources is necessary given that there are not many data catalogs available in our state (the [Minnesota Data Catalog](http://www.state.mn.us/opendata/data.html) is alright, but is not really updated or updatable).
 
@@ -27,19 +27,19 @@ Kristen, Amy, and Jake worked on documenting and linking data source in the Twin
 
 #### Technology Center Data
 
-<img src="/images/tlc-ctc-locations_0.png" width="210" height="150" alt="" title="">
+<img src="/images/posts/tlc-ctc-locations_0.png" width="210" height="150" alt="" title="">
 
 Elise, Mary Anne, Bill, and Alison worked with the [Technology Literacy Collaborative](http://tlc-mn.org/) (TLC) to help expose their amazing list of [community technology centers](http://tlc-mn.org/ctc) data.
 
 #### St. Paul Crime Data
 
-<img src="/images/st-paul-crimes.png" width="210" height="150" alt="" title="">
+<img src="/images/posts/st-paul-crimes.png" width="210" height="150" alt="" title="">
 
 Rodrigo and Michael worked on starting to parse out the [crime data in St. Paul](http://www.stpaul.gov/DocumentCenter/) which reports individual crimes (with the address slightly redacted) in weekly MS Excel files tucked away in a complicated interface.  So, Rodrigo spent a fair amount of time just trying to scrape the list of report files: [scraper for list of documents](https://scraperwiki.com/scrapers/findstpaulpoliceincidentreports/) and [scraper for getting data from documents](https://scraperwiki.com/scrapers/stpaulcrimestat).  Michael spent time parsing and visualizing a single report; you can see a [basic St. Paul crime data](http://michaelaltmann.cartodb.com/tables/3978/public#/map) built with CartoDB.
 
 #### Visualizing Minneapolis Crime Data
 
-<img src="/images/mpls-crime-data.png" width="210" height="150" alt="" title="">
+<img src="/images/posts/mpls-crime-data.png" width="210" height="150" alt="" title="">
 
 Kristina and Dan worked on visualizing some of the [Minneapolis crime data](http://www.minneapolismn.gov/police/statistics/crime-statistics_codefor_statistics) which is released monthly in aggregate in MS Excel files.  They built a visualization in D3; you can see a [screenshot](https://www.evernote.com/shard/s37/sh/d4b5796e-2fc5-4b5d-9ba0-053a1a947c00/2d57d113ff42418f94c5da4ac7e11c13) here, and [the code on Github](https://github.com/gelicia/mplsCrimeMapODD).
 
