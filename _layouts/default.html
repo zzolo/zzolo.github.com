@@ -45,8 +45,11 @@
           <a href="//linkedin.com/in/alanpalazzolo" class="linked-in abg" title="LinkedIn" target="_blank">
             <img src="/images/linkedin-256.png" />
           </a>
-          <a href="//prose.io/#zzolo/zzolo.github.com" class="prose abg" title="Edit this with Prose.io" target="_blank">
-            <img src="/images/icon-prose-114.png" />
+          <a href="{% if page.path %}//prose.io/#zzolo/zzolo.github.com/edit/master/{{ page.path }}{% else %}//prose.io/#zzolo/zzolo.github.com{% endif %}" class="prose-edit abg" title="Edit this with Prose.io" target="_blank">
+            <img src="/images/document-256.png" />
+          </a>
+          <a href="//prose.io/#zzolo/zzolo.github.com/new/master/_posts" class="prose-add abg" title="Add post with Prose.io" target="_blank">
+            <img src="/images/new-file-256.png" />
           </a>
         </div>
       </div>

@@ -53,7 +53,8 @@ a:visited {
   text-decoration: none;
 }
 a:hover,
-a:visited:hover {
+a:visited:hover,
+a:hover:visited {
   border-bottom: 2px solid #AC050F;
 }
 
@@ -62,7 +63,8 @@ aa.bg:visited {
   background-color: #AC050F;
 }
 a.abg:hover,
-aa.bg:visited:hover {
+a.abg:visited:hover,
+a.abg:hover:visited {
   background-color: #E05E77;
   border-bottom: none;
 }
