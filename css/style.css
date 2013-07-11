@@ -182,6 +182,20 @@ table tbody > tr:nth-child(odd) > th {
   line-height: 1.5em;
 }
 
+@media only screen and (max-width: 530px) {
+  .home .site .header h1 a {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .home .site .header h1 a {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+
 .site .header h1 a:hover {
   color: #212121;
 }
