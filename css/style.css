@@ -249,6 +249,15 @@ table tbody > tr:nth-child(odd) > th {
 }
 
 
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.site .about {
+  margin-bottom: 2em;
+}
+
 
 /*****************************************************************************/
 /*
@@ -309,30 +318,28 @@ table tbody > tr:nth-child(odd) > th {
 .web-links {
   text-align: center;
   margin-bottom: 2em;
+  line-height: 1em;
 }
-.web-links .item {
+.web-links a {
   width: 15%;
+  padding: .25em .25em;
   display: inline-block;
+  background-color: #0099CC;
+  border-radius: 5px;
 }
-.web-links .item .icon {
-  height: 4em;
-  width: 100%;
+.web-links a:hover {
+  background-color: #006400;
 }
-.web-links .item .text {
-  margin-top: .5em;
-  height: 1em;
-  width: 100%;
+.web-links a img {
+  max-width: 100%;
 }
 
 .footer .web-links {
   text-align: right;
   margin-bottom: 1em;
 }
-.footer .web-links .item {
+.footer .web-links a {
   width: 5%;
-}
-.footer .web-links .item .icon {
-  height: 2em;
 }
 
 
