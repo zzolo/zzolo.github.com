@@ -1,4 +1,11 @@
-/* Colors: http://www.colorcombos.com/color-schemes/90/ColorCombo90.html
+/**
+ * Purple: #9C2867
+ * Red: #AC050F  darker: #7C040C
+ * Pink: #E05E77
+ * Green: #75722D
+ * Brown: #533324
+ * Black: #2D1D15
+ */
 
 /*****************************************************************************/
 /*
@@ -18,7 +25,7 @@ body {
   background-color: #FFFFFF;
   font: 20.34px Helvetica, Georgia, Arial, sans-serif;
   text-align: left;
-  color: #232324;
+  color: #2D1D15;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,13 +42,29 @@ h4 { font-weight: bold; }
 
 p { margin-bottom: 1em; }
 
-a         { color: #0099CC; text-decoration: none; }
-a:hover   { color: #0099CC; text-decoration: none; text-decoration: underline; }
-a:visited { color: #0099CC; text-decoration: none; }
-
 table {
   font-size: inherit;
   font: 100%;
+}
+
+a,
+a:visited {
+  color: #AC050F;
+  text-decoration: none;
+}
+a:hover,
+a:visited:hover {
+  border-bottom: 2px solid #AC050F;
+}
+
+a.abg,
+aa.bg:visited {
+  background-color: #AC050F;
+}
+a.abg:hover,
+aa.bg:visited:hover {
+  background-color: #E05E77;
+  border-bottom: none;
 }
 
 /**
@@ -169,7 +192,7 @@ table tbody > tr:nth-child(odd) > th {
 
 .site .header h1 a {
   font-size: .85em;
-  color: #676767;
+  color: #7C040C;
   line-height: 1em;
 }
 .site .header h1 {
@@ -197,7 +220,8 @@ table tbody > tr:nth-child(odd) > th {
 }
 
 .site .header h1 a:hover {
-  color: #212121;
+  color: #E05E77;
+  border-bottom: none;
 }
 
 .site .header .header-image {
@@ -216,6 +240,17 @@ table tbody > tr:nth-child(odd) > th {
 
 .site .header .header-image img {
   max-width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  .site .header .header-image img {
+    opacity: 0.75;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .site .header .header-image img {
+    opacity: 0.55;
+  }
 }
 
 .site .menu {
@@ -254,8 +289,14 @@ table tbody > tr:nth-child(odd) > th {
 /* Home
 /*
 /*****************************************************************************/
-.site .about {
-  margin-bottom: 2em;
+.home .about {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.home .post-list-title {
+  text-align: center;
+  border-bottom: 1px solid #DBDBDB;
 }
 
 
@@ -317,18 +358,14 @@ table tbody > tr:nth-child(odd) > th {
 /*****************************************************************************/
 .web-links {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3.5em;
   line-height: 1em;
 }
 .web-links a {
   width: 15%;
   padding: .25em .25em;
   display: inline-block;
-  background-color: #0099CC;
   border-radius: 5px;
-}
-.web-links a:hover {
-  background-color: #006400;
 }
 .web-links a img {
   max-width: 100%;
