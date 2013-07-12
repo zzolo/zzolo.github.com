@@ -381,6 +381,10 @@ table tbody > tr:nth-child(odd) > th {
   margin-bottom: .5em;
 }
 
+.post .geojson {
+  display: none;
+}
+
 
 /*****************************************************************************/
 /*
