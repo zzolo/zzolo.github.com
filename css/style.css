@@ -69,6 +69,13 @@ a.abg:hover:visited {
   border-bottom: none;
 }
 
+a img {
+  border: 2px solid #AC050F;
+}
+a:hover img {
+  border: 2px solid #E05E77;
+}
+
 /**
  * http://nicolasgallagher.com/micro-clearfix-hack/
  * For modern browsers
@@ -357,6 +364,14 @@ table tbody > tr:nth-child(odd) > th {
 }
 .post-nav .post-nav-prev {
   float: left;
+}
+
+.post .thumbnails a img {
+  float: left;
+  width: 10%;
+  max-height: 150px;
+  margin-right: .5em;
+  margin-bottom: .5em;
 }
 
 
