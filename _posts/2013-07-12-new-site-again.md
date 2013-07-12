@@ -10,6 +10,7 @@ The new site runs on [Jekyll](http://jekyllrb.com/) and is hosted through [Githu
 * _Cost_.  Github Pages is a free service provided by Github.  I was not spending a lot of money with VPS.net, but that was through some discounts.  Running Drupal sites that can handle traffic spikes is not a cheap activity.
 * _Complication_.  Jekyll is a very thin layer on top of plain HTML/CSS/JS; it has very little options and features.  Previously I had hoped and sometimes accomplished using my personal site(s) as places for experimentation where having a full server and platform made sense, but now I just want to make a small post and go.  Drupal is a complicated, and powerful, platform that I just don't need and haven't really used in some time.  I also don't have to worry about server administration.
 * _Stability_.  With significantly less complication, the site is much more stable.
+* _Security_.  The new site is essentially flat files and that means there is little to no security risks.  With Drupal I had to stay on top of security updates.
 * _Skills_.  I no longer do much Drupal work and those skills are not as sharp as they once were.  On the flip side, I use Github everyday and code primarily with just HTML/CSS/JS.
 * _Newness_.  It was time for a change (visually).
 
