@@ -333,10 +333,17 @@ table tbody > tr:nth-child(odd) > th {
 .posts li:hover {
   background-color: #EBEBEB;
 }
-.posts li span {
+.posts li .display-date {
   display: block;
   float: right;
   text-align: right;
+}
+.posts li .visual-date.processed {
+  display: inline-block;
+  width: .75em;
+  margin-right: .5em;
+  height: .75em;
+  border-radius: 3px;
 }
 
 .meta {

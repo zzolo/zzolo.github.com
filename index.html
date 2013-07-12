@@ -25,10 +25,27 @@ class: home
   <h2 class="post-list-title"></h2>
   <ul class="posts">
     {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date_to_string }}</span>
+      <li data-id="{{ post.id }}">
+        <span class="visual-date"></span>
+        <span class="display-date">{{ post.date | date_to_string }}</span>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
 </div>
+
+<script type="text/javascript">
+  (function() {
+    window.zzolo = window.zzolo || {};
+    zzolo.posts = [];
+    
+    {% for post in site.posts %}
+      zzolo.posts.push({
+        id: "{{ post.id }}",
+        date: "{{ post.date }}",
+        url: "{{ post.url }}",
+        title: "{{ post.title | replace:'"',"'" }}"
+      });
+    {% endfor %}
+  })();
+</script>
