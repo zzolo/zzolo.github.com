@@ -6,10 +6,10 @@ permalink: atom.xml
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Alan Pala[zzolo]</title>
-  <link href="http://zzolo.org/"/>
+  <link href="{{ site.baseurl }}"/>
   <link type="application/atom+xml" rel="self" href="http://zzolo.org/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://zzolo.org/</id>
+  <id>{{ site.baseurl }}</id>
   <author>
     <name>Alan Palazzolo</name>
     <email>contact@zzolo.org</email>
@@ -17,13 +17,13 @@ permalink: atom.xml
 
   {% for post in site.posts %}
   <entry>
-    <id>http://zzolo.org/{{ post.id }}</id>
+    <id>{{ site.baseurl }}{{ post.id }}</id>
     <link type="text/html" rel="alternate" href="http://zzolo.org/{{ post.url }}"/>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>Alan Palazzolo</name>
-      <uri>http://zzolo.org/</uri>
+      <uri>{{ site.baseurl }}</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
