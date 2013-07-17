@@ -3,7 +3,7 @@ layout: post
 title: Why I code in the newsroom
 ---
 
-As part of the 2014 [Open News Fellowship](http://www.mozillaopennews.org/fellowships/) application drive, some of us that code/hack/develop/program in the newsroom were asked to write about why we do.  I actually wanted to write about this for a while, so it worked out nicely.
+Read this and then go apply for the 2014 [Open News Fellowship](http://www.mozillaopennews.org/fellowships/)!
 
 _For those of us coming from a software background, let's make a distinction around what is developing in the newsroom.  Developing in the newsrooms is not working on the infrastructure behind a news website; it means making the news with code, such as data visualization, analysis, interaction design, and much more.  This line gets blurry sometimes, of course, but the idea is important._
 
