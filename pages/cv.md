@@ -6,7 +6,7 @@ class: cv
 
 # Alan Palazzolo
 
-I am driven towards making the world a better place through collaboration, open source, and community with a focus on telling compelling stories with data and promoting a more open, civil culture.
+I am driven towards making the world a better place through collaboration, open source, and community with a focus on telling compelling stories with data and code.
 
 ## Summary
 
@@ -38,6 +38,7 @@ Implementing interactive stories and pieces in collaboration with reporters and 
 * Collaborating with the data team to create interactive stories based on compelling data sets.
 * Promoting and implementing open source policies, including making almost all code written open on Github.
 * Experimenting with open source technologies to enable new and cost-effective ways of telling the news.
+* Building reusable tools and libraries for internal and external use.
 
 ### 2011 Fellow at Code for America
 
@@ -116,12 +117,13 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 
 The following are significant projects that I have created or contributed to on Github.
 
-* [Legislature Tracker](https://github.com/MinnPost/legislature-tracker) is a UI and editorial layer on top of the Open States API for a specific state.
+* [Simple Map](http://code.minnpost.com/simple-map-d3/) is a Javascript library for making maps in D3 with some basic configuration.
+* [Legislature Tracker](http://code.minnpost.com/legislature-tracker/) is a UI and editorial layer on top of the Open States API for a specific state.
+* [jQuery Vertical Timeline](https://github.com/MinnPost/jquery-vertical-timeline) is a port/enhancement of the Vertical Timeline tool; it is much more flexible and configurable.
 * [MN Boundary Service](https://github.com/MinnPost/mn-boundaryservice) is an implementation of a boundary service for Minnesota.
 * [Change by Us](https://github.com/localprojects/Change-By-Us) focuses on encouraging citizen engagement to make their neighborhoods and cities better.  This is not currently open source yet but will be soon.
 * [Commitalization](https://github.com/zzolo/commitalization) is a Node.js application that utilizes Github webhooks to create a live visualization of selected projects.
 * [Badger v Panda](https://github.com/zzolo/badger-panda) provided a playful mechanism to vote on our mascot at Code for America; written with Node.js and utilizing websockets to provide a voting system where users can see as votes come in.
-* [City Hero](https://github.com/zzolo/city-hero), an early iteration on the engagement toolkit idea, it provides a handholding approach to help citizens participate in their cities; written on Node.js.
 * [HistoryNear.Me](https://github.com/zzolo/historynear.me) is a simple application to help people find historic sites near them; built for the San Diego Apps competition.
 
 ### [Drupal](http://drupal.org/user/147331)
@@ -135,7 +137,9 @@ The following are significant projects that I have created or contributed to on 
 
 ## Speaking Engagements
 
+* I spoke on [why not to use Drupal](http://zzolo.org/no-drupal-presentation/) at the Twin Cities Drupal Camp 2013.
 * I gave a talk about the MinnPost Nice Ride visualization and another about D3.js at the [Twin Cities Data Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
+* I present about [data visualization](https://github.com/zzolo/data-viz-presentation) to the University of Minnesota's Code People group, the Twin Cities Research Group, and the Twin Cities Web Design group.
 * I was on a panel about data visualization hosted by the [Minnesota School of Journalism](http://journalists.org/event/data-visualization-a-conversation-among-crafts/).
 * I was on a panel about open source in government at [Open Gov West 2011 Portland](http://www.opengovwest.org/events/conference/opengovwest-11/speakers-panelists/).
 * I gave a presentation on the state of geospatial in Drupal entitled [Spatially Drupal at DrupalCamp Twin Cities](http://2012.tcdrupal.org/sessions/spatially-drupal-state-drupal-geocms).
@@ -150,8 +154,9 @@ The following are significant projects that I have created or contributed to on 
 
 I am active in fostering and creating in-person and online communities.
 
+* I helped organize [Visualizing Neighborhoods](http://www.cura.umn.edu/visualizingneighborhoods) and [Hack for MN](http://hackformn.org/), two local hackathons focused on helping community.
 * I co-founded and help organize [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better collaborative citizen experience through technology.
-* I co-founded and current staff of [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter in the Minneapolis area.
+* I co-founded and am current staff of [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter in the Minneapolis area.
 * I founded and organize the [Twin Cities (Data) Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
 * I helped organize the first [Drupal Non-Profit Summit](http://2011.badcamp.net/drupal-non-profit-summit) at the [2011 Bay Area Drupal Camp](http://2011.badcamp.net/).
 * I led the first ever [Code Review Sprint](http://chicago2011.drupal.org/forum/code-review-sprint-friday) to review project applications at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/)
@@ -167,7 +172,9 @@ I am active in fostering and creating in-person and online communities.
 
 The following are some of the other events I have attended over the years.
 
-* Attened [NICAR 2012](http://ire.org/conferences/nicar-2012/).
+* Attended [Eyeo 2013](http://eyeofestival.com/).
+* Attended [NICAR 2013](http://ire.org/conferences/nicar-2013/).
+* Attended [NICAR 2012](http://ire.org/conferences/nicar-2012/).
 * Attended [Open Gov West 2011 Portland](http://www.opengovwest.org/events/conference/opengovwest-11).
 * Participated in [Hack for Change](http://hackforchange.com/) and created [Safehood](https://github.com/hackforchange/Safehood).
 * Participated in [Code for Oakland](http://codeforoakland.org/) and created [ComTXT](https://github.com/zzolo/comtxt).
