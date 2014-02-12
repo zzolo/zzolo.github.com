@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Picnic in Campel
+title: Picnic in Champel
 created: 1279602000
+published: true
 ---
 
 ![](/images/posts/picnic-in-campel.JPG)
