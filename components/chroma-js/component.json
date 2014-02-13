@@ -1,8 +1,0 @@
-{
-  "name": "chroma-js",
-  "version": "0.4.8",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gka/chroma.js.git"
-  }
-}
