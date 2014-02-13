@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV
+title: Curriculum vitae
 class: cv
 published: true
 ---
@@ -124,6 +124,7 @@ The following are significant projects that I have created or contributed to on 
 
 * Led a discussion about [Open Data](http://zzolo.org/open-data-crime-presentation) at a [Black Box Monday event](http://www.eventbrite.com/e/digging-into-open-data-a-panel-discussion-with-minnposts-alan-palazzolo-tickets-10212406583) put on by the Minnesota Society of Professional Journalists.
 * Demoed [Lumière](https://github.com/zzolo/lumiere) at [JavascriptMN](http://www.meetup.com/JavaScriptMN/events/139309312/); [(video)](https://www.youtube.com/watch?feature=player_detailpage&v=3C7Moz6p-U4#t=6271).
+* Led a discussion on Open Data and Journalism at [MozFest 2013](http://schedule.mozillafestival.org/).
 * Gave a presentation on [Telling Stories with Data](http://zzolo.org/another-sweet-data-visualization-presentation/#/) as a part of the [Digital Arts Sicences + Humanities](https://www.lib.umn.edu/digital/dash) (DASH) Series at the University of Minnesota; [(video)](https://www.lib.umn.edu/digital/dash/past-events).
 * Shared [initial thoughts on Ractive](http://zzolo.org/ractive-js-example-presentation/#/) at the [JavascriptMN Meetup](http://www.meetup.com/JavaScriptMN/events/126391322/).
 * Spoke on [why not to use Drupal](http://zzolo.org/no-drupal-presentation/) at the Twin Cities Drupal Camp 2013.
@@ -144,27 +145,30 @@ The following are significant projects that I have created or contributed to on 
 
 I am active in fostering and creating in-person and online communities.
 
-* I helped organize [Visualizing Neighborhoods](http://www.cura.umn.edu/visualizingneighborhoods) and [Hack for MN](http://hackformn.org/), two local hackathons focused on helping community.
-* I co-founded and help organize [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better collaborative citizen experience through technology.
-* I co-founded and am current staff of [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter in the Minneapolis area.
-* I founded and organize the [Twin Cities (Data) Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
-* I helped organize the first [Drupal Non-Profit Summit](http://2011.badcamp.net/drupal-non-profit-summit) at the [2011 Bay Area Drupal Camp](http://2011.badcamp.net/).
-* I led the first ever [Code Review Sprint](http://chicago2011.drupal.org/forum/code-review-sprint-friday) to review project applications at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/)
-* I led a number of BoF (Bird of Feather) discussions at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/), including [Drupal Geospatial Stack](http://chicago2011.drupal.org/conference/bof/building-drupal-geospatial-stack) and [Drupal and Government](http://chicago2011.drupal.org/conference/bof/drupal-and-government).
-* I led the [Drupal geospatial BoF](http://cph2010.drupal.org/sessions/drupal-and-geographic-technologies) and [cvs application reviewing BoF](http://cph2010.drupal.org/sessions/help-drupal-grow-reviewing-cvsgit-applications) at [DrupalCon Copenhagen](http://cph2010.drupal.org/).
-* I [jump-started](http://groups.drupal.org/node/27326) the [Swiss Romandy Drupal User Group](http://groups.drupal.org/node/36192).
-* I helped organize and lead a [BoF about OpenLayers and GIS in Drupal](http://paris2009.drupalcon.org/forum/mapping-and-drupal) at DrupalCon Paris.
-* I organized a [Twin Cities Documentation Sprint](http://groups.drupal.org/node/21946).
-* I organized a successful, monthly [Twin Cities Drupal Happy Hour](http://groups.drupal.org/node/20600).
-* With the help of a couple other [Open Circuit](http://tcopencircuit.org/) members, I organized a Drupal Camp in the Twin Cities called [Drupal Daze](http://drupaldaze.com/).
+* Helped organize [Visualizing Neighborhoods](http://www.cura.umn.edu/visualizingneighborhoods), [Hack for MN](http://hackformn.org/), [Capitol Code](http://capitolcode.mn.gov/), [Open Data Day 2013](http://www.meetup.com/cfabrigade/Twin-Cities/871962/), and other local hackathon-like events.
+* Co-founded and help organize [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better collaborative citizen experience through technology.
+* Co-founded [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter in the Minneapolis area.
+* Founded and organize the [Twin Cities (Data) Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
+* Co-organized the first [Drupal Non-Profit Summit](http://2011.badcamp.net/drupal-non-profit-summit) at the [2011 Bay Area Drupal Camp](http://2011.badcamp.net/).
+* Led the first ever [Code Review Sprint](http://chicago2011.drupal.org/forum/code-review-sprint-friday) to review project applications at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/)
+* Led a number of BoF (Bird of Feather) discussions at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/), including [Drupal Geospatial Stack](http://chicago2011.drupal.org/conference/bof/building-drupal-geospatial-stack) and [Drupal and Government](http://chicago2011.drupal.org/conference/bof/drupal-and-government).
+* Led the [Drupal geospatial BoF](http://cph2010.drupal.org/sessions/drupal-and-geographic-technologies) and [cvs application reviewing BoF](http://cph2010.drupal.org/sessions/help-drupal-grow-reviewing-cvsgit-applications) at [DrupalCon Copenhagen](http://cph2010.drupal.org/).
+* [Jump-started](http://groups.drupal.org/node/27326) the [Swiss Romandy Drupal User Group](http://groups.drupal.org/node/36192).
+* Helped organize and lead a [BoF about OpenLayers and GIS in Drupal](http://paris2009.drupalcon.org/forum/mapping-and-drupal) at DrupalCon Paris.
+* Organized a [Twin Cities Documentation Sprint](http://groups.drupal.org/node/21946).
+* Started a successful, monthly [Twin Cities Drupal Happy Hour](http://groups.drupal.org/node/20600).
+* Co-organized a Drupal Camp in the Twin Cities called [Drupal Daze](http://drupaldaze.com/).
 
 ## Events Attended
 
-The following are some of the other events I have attended over the years.
+The following are some of the more significant events I have attended over the years that have not been mentioned previously.
 
-* Attended [Eyeo 2013](http://eyeofestival.com/).
+* Attneded [FOSS4G North America](http://foss4g-na.org/) 2013.
+* Attneded [CityCampMN 2013](http://citycampmn.govfresh.com/).
+* Attended [Eyeo](http://eyeofestival.com/) 2013.
 * Attended [NICAR 2013](http://ire.org/conferences/nicar-2013/).
 * Attended [NICAR 2012](http://ire.org/conferences/nicar-2012/).
+* Attended the [Code for America Summit](http://cfasummit.org/) 2012.
 * Attended [Open Gov West 2011 Portland](http://www.opengovwest.org/events/conference/opengovwest-11).
 * Participated in [Hack for Change](http://hackforchange.com/) and created [Safehood](https://github.com/hackforchange/Safehood).
 * Participated in [Code for Oakland](http://codeforoakland.org/) and created [ComTXT](https://github.com/zzolo/comtxt).
@@ -176,7 +180,7 @@ The following are some of the other events I have attended over the years.
 * Should have attened [DrupalCon San Francisco](http://sf2010.drupal.org/) but a [volcano got in the way](http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull).
 * Attended [DrupalCon Paris](http://paris2009.drupalcon.org/).
 * Attended [DrupalCon DC](http://dc2009.drupalcon.org/).
-* With a team of 10, I help build a Drupal site for a non-profit in the 2009 [F1 Overnight Website Challenge](http://overnightwebsitechallenge.com/).
+* Participated in [F1 Overnight Website Challenge](http://overnightwebsitechallenge.com/) in 2009.
 * Attended the Twin Cities event [Drupal Day](http://tcopencircuit.org/node/6).
 
 ## Education
