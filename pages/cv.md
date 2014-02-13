@@ -93,6 +93,8 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 ## Publishing
 
 * Co-authored book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media, focused on providing a solid base for Drupal site builders and architects to get up to speed with web mapping and specifically mapping in Drupal.
+* Articles written for Source (Open News) on [keeping costs down on news apps](https://source.opennews.org/en-US/learning/building-news-apps-shoestring/), the [Legislature Tracker](https://source.opennews.org/en-US/articles/launching-minnesota-legislative-bill-tracker/), as well as [Simple Map and Tulip](https://source.opennews.org/en-US/articles/mapping-made-simple-tulip/).
+* Designed, coded, or wrote many [articles on MinnPost](http://minnpost.com/author/alan-palazzolo).
 
 ## Open Source ###
 
@@ -102,8 +104,9 @@ The following are significant projects that I have created or contributed to on 
 
 * [Lumière](https://github.com/zzolo/lumiere) is a hardware project that allows anyone to change the color of our holiday lights.
 * [Totoro](https://github.com/zzolo/totoro) is an experiment in visualizing live bus time arrivals for placement within bus stops.
-* [Simple Map](http://code.minnpost.com/simple-map-d3/) is a Javascript library for making maps in D3 with some basic configuration.
-* [Legislature Tracker](http://code.minnpost.com/legislature-tracker/) is a UI and editorial layer on top of the Open States API for a specific state.
+* [Tulip](https://github.com/minnput/tulip) is an interface for creating Simple Maps.
+* [Simple Map](https://github.com/simple-map-d3/) is a Javascript library for making maps in D3 with some basic configuration.
+* [Legislature Tracker](https://github.com/legislature-tracker/) is a UI and editorial layer on top of the Open States API for a specific state.
 * [jQuery Vertical Timeline](https://github.com/MinnPost/jquery-vertical-timeline) is a port/enhancement of the Vertical Timeline tool; it is much more flexible and configurable.
 * [MN Boundary Service](https://github.com/MinnPost/mn-boundaryservice) is an implementation of a boundary service for Minnesota.
 * [Change by Us](https://github.com/localprojects/Change-By-Us) focuses on encouraging citizen engagement to make their neighborhoods and cities better.  This is not currently open source yet but will be soon.
