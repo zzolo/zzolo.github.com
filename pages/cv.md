@@ -2,6 +2,7 @@
 layout: default
 title: CV
 class: cv
+published: true
 ---
 
 # Alan Palazzolo
@@ -15,13 +16,9 @@ I am driven towards making the world a better place through collaboration, open 
 * Co-authored a book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media.
 * Managed a small web team as well as sustainably upgraded and fully restructured the resource library built on [Drupal](http://drupal.org) in my position as Web Manager at [Shelter Centre](http://sheltercentre.org/), a small NGO in Geneva, Switzerland.
 * Co-founded and current organizer of [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better citizen and government collaborative experience in the Twin Cities through technology.
-* Co-founded and current staff of [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter aimed at reducing e-waste and bridging the digital divide in the Minneapolis area.
+* Co-founded [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter aimed at reducing e-waste and bridging the digital divide in the Minneapolis area.
 * Presented on Drupal and mapping at [DrupalCons](http://drupalcon.org) in Chicago, Copenhagen, and Paris.
 * Architected and implemented Drupal solutions as a Lead Developer at [Trellon](http://www.trellon.com/) for large non-profits including the Jane Goodall Institute, Mozilla, and InterAction.
-* Developed web applications for non-profit clients as Senior Developer at [Chicago Technology Cooperative](http://chicagotech.org/), focusing on building solutions with Drupal and CiviCRM.
-* Maintained and supported the [Drupal OpenLayers](http://drupal.org/project/openlayers) module, considered one of the leading options for mapping in Drupal, as well as other modules on Drupal.org.
-* Participated in coding competitions for social change at events like [Apps for Communities](http://appsforcommunities.challenge.gov/), [Code for Oakland](http://codeforoakland.org/), [Hack for Change](http://hackforchange.com/), and the [F1 Overnight Web Challenge](http://overnightwebsitechallenge.com/).
-* Organized events like [Drupal Daze](http://drupaldaze.com/) and the first ever [Drupal Non-Profit Summit](http://2011.badcamp.net/drupal-non-profit-summit), as well as local Drupal community groups in Minneapolis and Geneva.
 
 ## Professional Experience 
 
@@ -29,14 +26,12 @@ I am driven towards making the world a better place through collaboration, open 
 
 2012 - present, Minneapolis, USA
 
-* [minnpost.com/author/alan-palazzolo](http://www.minnpost.com/author/alan-palazzolo)
-* [github.com/minnpost](https://github.com/minnpost)
-
-Implementing interactive stories and pieces in collaboration with reporters and the data team.
+Implementing [interactive stories and pieces](http://www.minnpost.com/author/alan-palazzolo) in collaboration with reporters and the data team.
 
 * Working closely with reporters and editors to supplement stories with visual and interactive elements.
+* Creating original content from start to finish.
 * Collaborating with the data team to create interactive stories based on compelling data sets.
-* Promoting and implementing open source policies, including making almost all code written open on Github.
+* Promoting and implementing open source policies; making almost all code written [open from the start](https://github.com/minnpost).
 * Experimenting with open source technologies to enable new and cost-effective ways of telling the news.
 * Building reusable tools and libraries for internal and external use.
 
@@ -44,13 +39,11 @@ Implementing interactive stories and pieces in collaboration with reporters and 
 
 2011, San Francisco, USA
 
-* [philly.changeby.us](http://philly.changeby.us)
-* [commits.codeforamerica.org](http://commits.codeforamerica.org)
-
 Created open source tools for cities to utilize and replicate in multiple places, while shifting culture around technology use within government.
 
 * Worked closely with the city of Seattle, while interviewing community members, to create solutions that fit the city's goals as service providers to citizens.
 * Lead team in open sourcing main project focusing on enhancing civic engagement and encouraging citizens to address neighborhood needs.
+* Launched project in both Seattle and [Philadelphia](http://philly.changeby.us).
 * Actively learned new technologies, including Python and Node.js, on own and engaging other fellows with specific expertise.
 * Mentored Google Summer of Code students in building PHP-based civic API wrappers.
 * Built application focused on team building that highlights code commits.
@@ -59,11 +52,9 @@ Created open source tools for cities to utilize and replicate in multiple places
 
 2009 - 2011, Geneva, Switzerland
 
-* [sheltercentre.org](http://sheltercentre.org)
+Administered, developed, and enhanced the organization's [web services](http://sheltercentre.org), as well as managed the entire office technology infrastructure.
 
-Administered, developed, and enhanced the organization's web services, as well as managed the entire office technology infrastructure.
-
-* Created and implemented upgrade path to Drupal 6 that focused on removing unnecessary structures, migrating to a more sustainable infrastructure, adding new geo-focused functionality, while minimizing downtime to the site.
+* Created and implemented upgrade path to Drupal 6 that focused on removing unnecessary structures, migrating to a more sustainable infrastructure, adding new geo-focused functionality, and all while minimizing downtime to the site.
 * Managed multiple assistants with focus in areas such as systems administration, web administration, and web content management.
 * Created and maintained a documentation repository that fully describes the infrastructure and services in the office.
 * Enhanced the office and web infrastructure with open source tools to provide a stable, sustainable, robust, and scalable system.
@@ -72,11 +63,7 @@ Administered, developed, and enhanced the organization's web services, as well a
 
 2008 - 2009, Minneapolis, USA
 
-* [vocalo.org](http://vocalo.org)
-* [unwomen-usnc.org](http://unwomen-usnc.org)
-
-Developed multiple Drupal solutions for the custom needs of non-profit organizations, with a focus on mapping and integrating CiviCRM.
-
+* Developed multiple Drupal solutions for the custom needs of non-profit organizations, with a focus on mapping and integrating CiviCRM.
 * Collaborated in small teams to analyze, architect, and implement web application solutions.
 * Created many custom Drupal modules to fit the needs of various projects, mainly modules that added integration between Drupal and CiviCRM.
 * Planned and implemented migration paths for both sites and data.
@@ -86,16 +73,12 @@ Developed multiple Drupal solutions for the custom needs of non-profit organizat
 
 2009, Minneapolis, USA
 
-* [interaction.org](http://interaction.org)
-* [janegoodall.org](http://janegoodall.org)
-
-Provided development and leadership on large Drupal web projects.
-
+* Provided development and leadership on large Drupal web projects.
 * Collaborated in small teams with well-known Drupal community members to complete large scale web applications.
 * Developed many custom Drupal modules to fit the specific needs of clients.
 * Implemented themes based on design specifications.
 
-### DBA at Minneapolis College of Art and Design
+### Databast Administrator at Minneapolis College of Art and Design
 
 2005 - 2008, Minneapolis, USA
 
@@ -117,6 +100,8 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 
 The following are significant projects that I have created or contributed to on Github.
 
+* [Lumière](https://github.com/zzolo/lumiere) is a hardware project that allows anyone to change the color of our holiday lights.
+* [Totoro](https://github.com/zzolo/totoro) is an experiment in visualizing live bus time arrivals for placement within bus stops.
 * [Simple Map](http://code.minnpost.com/simple-map-d3/) is a Javascript library for making maps in D3 with some basic configuration.
 * [Legislature Tracker](http://code.minnpost.com/legislature-tracker/) is a UI and editorial layer on top of the Open States API for a specific state.
 * [jQuery Vertical Timeline](https://github.com/MinnPost/jquery-vertical-timeline) is a port/enhancement of the Vertical Timeline tool; it is much more flexible and configurable.
@@ -137,18 +122,23 @@ The following are significant projects that I have created or contributed to on 
 
 ## Speaking Engagements
 
-* I spoke on [why not to use Drupal](http://zzolo.org/no-drupal-presentation/) at the Twin Cities Drupal Camp 2013.
-* I gave a talk about the MinnPost Nice Ride visualization and another about D3.js at the [Twin Cities Data Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
-* I present about [data visualization](https://github.com/zzolo/data-viz-presentation) to the University of Minnesota's Code People group, the Twin Cities Research Group, and the Twin Cities Web Design group.
-* I was on a panel about data visualization hosted by the [Minnesota School of Journalism](http://journalists.org/event/data-visualization-a-conversation-among-crafts/).
-* I was on a panel about open source in government at [Open Gov West 2011 Portland](http://www.opengovwest.org/events/conference/opengovwest-11/speakers-panelists/).
-* I gave a presentation on the state of geospatial in Drupal entitled [Spatially Drupal at DrupalCamp Twin Cities](http://2012.tcdrupal.org/sessions/spatially-drupal-state-drupal-geocms).
-* I co-presented [Making Beautiful Maps](http://chicago2011.drupal.org/sessions/making-beautiful-maps) [(video)](http://www.archive.org/details/drupalconchi_day2_making_beautifil_maps") at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/).
-* I co-presented [Mapping with OpenLayers](http://cph2010.drupal.org/sessions/mapping-drupal-openlayers) [(video)](http://www.archive.org/details/MappingInDrupalWithOpenlayers") at [DrupalCon Copenhagen](http://cph2010.drupal.org/)
-* I was a featured speaker at [Drupal Dev Days](http://www.drupal-dev-days.de) in Munich and spoke on both [Coding Standards](http://www.drupal-dev-days.de/en/sessions/code-you-can-snuggle-following-drupal-coding-standards) and [OpenLayers](http://www.drupal-dev-days.de/en/sessions/understanding-openlayers-drupal).
-* I was a featured speaker presenting on [OpenLayers at DrupalCamp Spain](http://www.drupalcamp.es/sessions/building-maps-openlayers-drupal).
-* I [co-presented on OpenLayers](http://www.archive.org/details/DrupalconParisGeotoolsforDrupal) at [DrupalCon Paris](http://paris2009.drupalcon.org/session/geo-tools-drupal).
-* I spoke about [Drupal coding standards and best practices](http://drupalcampwi.com/session/building-a-module-best-practices) at [DrupalCamp Wisconsin](http://drupalcampwi.com/).
+* Led a discussion about [Open Data](http://zzolo.org/open-data-crime-presentation) at a [Black Box Monday event](http://www.eventbrite.com/e/digging-into-open-data-a-panel-discussion-with-minnposts-alan-palazzolo-tickets-10212406583) put on by the Minnesota Society of Professional Journalists.
+* Demoed [Lumière](https://github.com/zzolo/lumiere) at [JavascriptMN](http://www.meetup.com/JavaScriptMN/events/139309312/); [(video)](https://www.youtube.com/watch?feature=player_detailpage&v=3C7Moz6p-U4#t=6271).
+* Gave a presentation on [Telling Stories with Data](http://zzolo.org/another-sweet-data-visualization-presentation/#/) as a part of the [Digital Arts Sicences + Humanities](https://www.lib.umn.edu/digital/dash) (DASH) Series at the University of Minnesota; [(video)](https://www.lib.umn.edu/digital/dash/past-events).
+* Shared [initial thoughts on Ractive](http://zzolo.org/ractive-js-example-presentation/#/) at the [JavascriptMN Meetup](http://www.meetup.com/JavaScriptMN/events/126391322/).
+* Spoke on [why not to use Drupal](http://zzolo.org/no-drupal-presentation/) at the Twin Cities Drupal Camp 2013.
+* Explained [Data Visualization in the Newsroom](http://zzolo.org/data-visualization-newsroom-presentation/) to a Data Journalism class at the University of Minnesota.
+* Gave a talk about the [MinnPost Nice Ride visualization](http://zzolo.org/niceride-presentation/) and another [about D3.js](http://zzolo.org/d3js-example-presentation/) at the [Twin Cities Data Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
+* Presented about [data visualization](https://github.com/zzolo/data-viz-presentation) to the University of Minnesota's Code People group, the Twin Cities Research Group, and the Twin Cities Web Design group.
+* On a panel about [data visualization](http://zzolo.org/mjc-data-visualization-presentation/) hosted by the [Minnesota School of Journalism](http://journalists.org/event/data-visualization-a-conversation-among-crafts/).
+* On a panel about open source in government at [Open Gov West 2011 Portland](http://www.opengovwest.org/events/conference/opengovwest-11/speakers-panelists/).
+* Gave a presentation on the state of geospatial in Drupal entitled [Spatially Drupal at DrupalCamp Twin Cities](http://2012.tcdrupal.org/sessions/spatially-drupal-state-drupal-geocms).
+* Co-presented [Making Beautiful Maps](http://chicago2011.drupal.org/sessions/making-beautiful-maps) [(video)](http://www.archive.org/details/drupalconchi_day2_making_beautifil_maps") at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/).
+* Co-presented [Mapping with OpenLayers](http://cph2010.drupal.org/sessions/mapping-drupal-openlayers) [(video)](http://www.archive.org/details/MappingInDrupalWithOpenlayers") at [DrupalCon Copenhagen](http://cph2010.drupal.org/)
+* Featured speaker at [Drupal Dev Days](http://www.drupal-dev-days.de) in Munich and spoke on both [Coding Standards](http://www.drupal-dev-days.de/en/sessions/code-you-can-snuggle-following-drupal-coding-standards) and [OpenLayers](http://www.drupal-dev-days.de/en/sessions/understanding-openlayers-drupal).
+* Featured speaker presenting on [OpenLayers at DrupalCamp Spain](http://www.drupalcamp.es/sessions/building-maps-openlayers-drupal).
+* Co-presented on [OpenLayers](http://www.archive.org/details/DrupalconParisGeotoolsforDrupal) at [DrupalCon Paris](http://paris2009.drupalcon.org/session/geo-tools-drupal).
+* Spoke about [Drupal coding standards and best practices](http://drupalcampwi.com/session/building-a-module-best-practices) at [DrupalCamp Wisconsin](http://drupalcampwi.com/).
 
 ## Community Leadership
 
