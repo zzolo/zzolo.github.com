@@ -70,7 +70,7 @@ function yourmodule_translate($name, $string, $langcode = NULL, $textgroup = 'yo
 </div>
 
 
-The i18n module also provides a way to more easily translate variables that your module may store.  The mechanism that tells the i18n about your variables is a variable itself, <code>$conf['i18n_variables']</code>, usually set in the settings.php file.  Your module can circumvent this, by utilizing **<code>hook_init()</code>**.  For example:
+The i18n module also provides a way to more easily translate variables that your module may store.  The mechanism that tells the i18n about your variables is a variable itself, <code>$conf\['i18n_variables'\]</code>, usually set in the settings.php file.  Your module can circumvent this, by utilizing **<code>hook_init()</code>**.  For example:
 
 
 <div>

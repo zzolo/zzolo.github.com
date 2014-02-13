@@ -27,7 +27,7 @@ The Drupal OpenLayers module is actually a full suite of modules that provide ma
 * **OpenLayers Layers** modules provides a wide range of layers to use outside the simple default, like Yahoo, Google, OpenStreetMap tiles, and more.  Layers can be manually put into map arrays, but with hooks, other modules can provided named layers that get put together when the map is rendered.
 * Much like the layers module, the **OpenLayers Behaviors** module provides a set of behavior add-ons that can easily be added to map arrays.  These include things like feature controls, fullscreen controls, popups, and tooltips.
 * On the input side, there is the **OpenLayers CCK** module which provides integration with OpenLayers and CCK.  This module provides a field and widget for basic WKT input, as well as a widget for the Geo module; both of which allow the user to use a map to enter features like points, lines, and polygons.  On the formatter side, you can display any preset map for the field.
-* A simple way to display a map is to use the **OpenLayers Filter** module, which provides an input format filter where a user can input <code>[openlayers preset_name]</code> into the body content of a node and it will be rendered as that map.
+* A simple way to display a map is to use the **OpenLayers Filter** module, which provides an input format filter where a user can input <code>\[openlayers preset_name\]</code> into the body content of a node and it will be rendered as that map.
 * Finally, there is a Views plugin provided by the **OpenLayers Views** module that allows the user to aggregate all kinds of Drupal data and put it into a map.
 
 ### The History and the Code ###
