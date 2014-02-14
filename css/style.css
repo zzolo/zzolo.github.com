@@ -392,6 +392,10 @@ table tbody > tr:nth-child(odd) > th {
   display: none;
 }
 
+.post iframe {
+  margin-bottom: 1.5em;
+}
+
 
 /*****************************************************************************/
 /*
