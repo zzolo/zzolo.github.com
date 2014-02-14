@@ -17,3 +17,6 @@ permalink: pretty
 
 # Add pygments
 pygments: true
+
+# Exlusions
+#exclude: []

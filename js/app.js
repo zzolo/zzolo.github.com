@@ -1,13 +1,20 @@
 /**
  * Main JS
  */
-(function($, _, chroma) {
+(function($, _, chroma, Ractive) {
   window.zzolo = window.zzolo || {};
 
-  // Post visualizations
-  if (_.isArray(zzolo.posts)) {
-    processPosts(zzolo.posts);
-  }
+  $(document).ready(function() {
+    // Post visualizations
+    if (_.isArray(zzolo.posts)) {
+      processPosts(zzolo.posts);
+    }
+
+    // Haikus
+    if ($('body').hasClass('haikus')) {
+      processHaikus();
+    }
+  });
 
   // Process posts for visualization
   function processPosts(posts) {
@@ -35,6 +42,30 @@
           .css('background-color', colorScale(p.timestamp).hex());
       });
     });
-  };
+  }
 
-})(jQuery, _, chroma);
+  // Process haikus
+  function processHaikus() {
+    var projectPath = '/projects/portrait_and_haiku/';
+    var ractive = new Ractive({
+      el: $('#haikus-container'),
+      template: $('#template-haikus').html(),
+      data: {}
+    });
+
+    // Get data first
+    $.getJSON(projectPath + 'data/haikus.json', function(haikus) {
+      haikus = _.map(haikus, function(h) {
+        h.date = moment(h.date);
+        h.portrait = projectPath + 'images/' + h.portrait;
+        h.haiku = h.haiku.replace(new RegExp('\n', 'g'), '<br>');
+        return h;
+      });
+      haikus = _.sortBy(haikus, function(h) {
+        return h.date.unix();
+      });
+      ractive.set('haikus', haikus);
+    });
+  }
+
+})(jQuery, _, chroma, Ractive);

@@ -460,3 +460,28 @@ pre.terminal code {
 .highlight pre {
   overflow-x: auto;
 }
+
+
+
+/*****************************************************************************/
+/*
+/* Haikus
+/*
+/*****************************************************************************/
+.haikus .loading {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.haiku {
+  margin-bottom: 3em;
+}
+
+.haiku .haiku-date {
+  float: right;
+  text-align: right;
+  width: 33.3333%;
+  color: #898989;
+  font-size: .85;
+  line-height: 1.5em;
+}
