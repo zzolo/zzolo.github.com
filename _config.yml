@@ -20,3 +20,6 @@ pygments: true
 
 # Exlusions
 #exclude: []
+
+# As per Github
+markdown: kramdown
