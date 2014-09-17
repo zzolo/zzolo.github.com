@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/zzolo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://zzolo.org
+  * I am zzolo (https://keybase.io/zzolo) on keybase.
+  * I have a public key with fingerprint 256F 9044 B919 F5B9 87D8  ACBB 45A6 A63B 5F99 5539
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.6.0"
+        },
+        "key": {
+            "fingerprint": "256f9044b919f5b987d8acbb45a6a63b5f995539",
+            "host": "keybase.io",
+            "key_id": "45A6A63B5F995539",
+            "uid": "c5be93bc0dfa6a16b7d934043dd8f900",
+            "username": "zzolo"
+        },
+        "merkle_root": {
+            "ctime": 1410968555,
+            "hash": "74396684135d24189958da09d363d97166345846bad8fc41dbe840ce9fa70b57ebb9ad50b2e523da4d09aedf8c4985d61029c351d86efcf2d9cc428a1a2de9a3",
+            "seqno": 49283
+        },
+        "service": {
+            "hostname": "zzolo.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1410968731,
+    "expire_in": 157680000,
+    "prev": "03676ead4d513adf31c72f06ec67a715f5e335da4cd5d32c4eb50f1cc279a473",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVUm1oVlUcf7aW2x6QLEG0JMelvqzxdM49L/ecJcWTuSBSWm5Snx7O293ufHbv
+4713m8/GTHxJylwFIlEhsUA3EZwZFTWMiego0UDTJLD6EGqBlRHSh8c6d6yY59N5
++f1/L//zf2vxPbl83fHa4tq3pz87Xff1DZnrWnHkvRFHRrrqtI84qhyYMM12oeg3
+TruzyVSlSEwhiFrCSJtCX9Iyj2lzBk2cBFFoUaBAC8AZbcvgWbEfhD0mrsRBxuW4
+hPocYCw55D6RnHmaCSUlJoIKiiTxOScEcUvZGyXpXarOHGcp0PYWkyItUvQ06fgf
+PzD3oIg0HEkFtG8ZIZWe5ggDjLRmVhlkwMTE85GGh6NylJntN/GmsinFUTSXWKVB
+9g4xBJwyQoi1I5JeW+FhxCllGCKiXQyZlWdaAK4RRZp7kFKECcNUCqunMNTSMAyU
+4b7wgCSekZILTYB0DXGRFlgDLoz2mcKcEU0hcLlCBGpGja98V3OlsMsEFK42XCDr
+PzGbw8hpx9xlaDQ7xoOBMpntrGULkxWiuMcWVOIojVRUtte9aVppzwKn1UoGGzKy
+NE9wsCSDUNvfWvid0ELvboaHYJtjtlSC2JSCDEE8yoBdmY4ZzCYAUY8aobEmEAnt
+I6g81wfUKOoJDxKfGGS7J7DSRCNXYSMJ8KFSrscF9hZERNan6LGUSdATinQgNs7o
+a3UrG3J1+dyie+uzec3lm5f8N8Rnq0257Z907Nh5qlYtPT89e7X40x0z3hWfeLu1
++YnyI/u/2vDjtXX1a54988zhCyvvPNnY9OX3Q53HTky+se3AfnC9++fbDzvbJ7ub
+189c6l43ezg+NxGecdjFpUtHb91+kwSbP7r4HLt55dTetUTPrJ7JN3S82Hf/eVP5
+rqN10UNfVB5/5+hUcWjf2K7JXav+GKtdScMN3o3LD27VR3/ov9rlj481NR76dd/e
+vkdrncO/vTzx+2zx5vvH1u55qXny1gs7310z9WHLKj11JCkeOv7XioP+Bw3TS16F
+y7deGtlybeCbp3L/fPzY9N98/bJtv0ysPvtn4/KNB3ZfuK/z893gerpjD3v9ZP0D
+r4xfbv10KP8v
+=mQ/L
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zzolo
+
+==================================================================
