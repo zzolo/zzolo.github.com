@@ -20,7 +20,7 @@ I am driven towards making the world a better place through collaboration, open 
 * Presented on Drupal and mapping at [DrupalCons](http://drupalcon.org) in Chicago, Copenhagen, and Paris.
 * Architected and implemented Drupal solutions as a Lead Developer at [Trellon](http://www.trellon.com/) for large non-profits including the Jane Goodall Institute, Mozilla, and InterAction.
 
-## Professional Experience 
+## Professional Experience
 
 ### Interactive News Developer at MinnPost
 
@@ -100,10 +100,16 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 
 ### [Github](http://github.com/zzolo)
 
-The following are significant projects that I have created or contributed to on Github.
+The following are some of the significant projects that I have created or contributed to on Github.
 
+* [aRanger](https://github.com/minnpost/aranger) is a simple interface for arranging items in a grid for something like a cartogram.
 * [Lumière](https://github.com/zzolo/lumiere) is a hardware project that allows anyone to change the color of our holiday lights.
+* [mbtiles2s3](https://github.com/MinnPost/mbtiles2s3) is a Python tool for converting an mbtiles file to flat image and grid files up on S3.
+* [SimpleMapD3](http://code.minnpost.com/simple-map-d3/) is a Javascript library to create maps quickly and easily with D3.
 * [Totoro](https://github.com/zzolo/totoro) is an experiment in visualizing live bus time arrivals for placement within bus stops.
+* [JSONProxy](https://github.com/MinnPost/jsonproxy) is a Flask application that proxies a JSON request into a JSONP request.
+* [GS Proxy](https://github.com/MinnPost/gs-proxy) is a simple Flask application to proxy requests to specific Google Spreadsheets which limit the number of requests without communicating those limits.
+* [All Good Proxy](https://github.com/MinnPost/all-good-proxy) is a Node proxy to ensure that only good results are passed through and uses cached data otherwise; this is useful to ensure applications are up and running which depend on services you don't have control over.
 * [Tulip](https://github.com/minnput/tulip) is an interface for creating Simple Maps.
 * [Simple Map](https://github.com/simple-map-d3/) is a Javascript library for making maps in D3 with some basic configuration.
 * [Legislature Tracker](https://github.com/legislature-tracker/) is a UI and editorial layer on top of the Open States API for a specific state.
@@ -125,6 +131,7 @@ The following are significant projects that I have created or contributed to on 
 
 ## Speaking Engagements
 
+* Led a discussion on [Style Guides](http://schedule.srccon.org/#_session-28) at the first SRCCON.
 * Led a discussion about [Open Data](http://zzolo.org/open-data-crime-presentation) at a [Black Box Monday event](http://www.eventbrite.com/e/digging-into-open-data-a-panel-discussion-with-minnposts-alan-palazzolo-tickets-10212406583) put on by the Minnesota Society of Professional Journalists.
 * Demoed [Lumière](https://github.com/zzolo/lumiere) at [JavascriptMN](http://www.meetup.com/JavaScriptMN/events/139309312/); [(video)](https://www.youtube.com/watch?feature=player_detailpage&v=3C7Moz6p-U4#t=6271).
 * Led a discussion on Open Data and Journalism at [MozFest 2013](http://schedule.mozillafestival.org/).
@@ -148,6 +155,7 @@ The following are significant projects that I have created or contributed to on 
 
 I am active in fostering and creating in-person and online communities.
 
+* Reviewed, judged, and consulted on [CURA:Tech](http://www.cura-tech.org/), a small grants program for civic technology focused on communities of color and low income communities.
 * Helped organize [Visualizing Neighborhoods](http://www.cura.umn.edu/visualizingneighborhoods), [Hack for MN](http://hackformn.org/), [Capitol Code](http://capitolcode.mn.gov/), [Open Data Day 2013](http://www.meetup.com/cfabrigade/Twin-Cities/871962/), and other local hackathon-like events.
 * Co-founded and help organize [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better collaborative citizen experience through technology.
 * Co-founded [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter in the Minneapolis area.
@@ -162,12 +170,14 @@ I am active in fostering and creating in-person and online communities.
 * Started a successful, monthly [Twin Cities Drupal Happy Hour](http://groups.drupal.org/node/20600).
 * Co-organized a Drupal Camp in the Twin Cities called [Drupal Daze](http://drupaldaze.com/).
 
-## Events Attended
+## Events
 
 The following are some of the more significant events I have attended over the years that have not been mentioned previously.
 
-* Attneded [FOSS4G North America](http://foss4g-na.org/) 2013.
-* Attneded [CityCampMN 2013](http://citycampmn.govfresh.com/).
+* Participated in 2-day [human-centered design workshop](http://www.cura-tech.org/participate.php) via CURA:Tech.
+* Attended [NICAR 2014](http://ire.org/conferences/nicar-2014/).
+* Attended [FOSS4G North America](http://foss4g-na.org/) 2013.
+* Attended [CityCampMN 2013](http://citycampmn.govfresh.com/).
 * Attended [Eyeo](http://eyeofestival.com/) 2013.
 * Attended [NICAR 2013](http://ire.org/conferences/nicar-2013/).
 * Attended [NICAR 2012](http://ire.org/conferences/nicar-2012/).
