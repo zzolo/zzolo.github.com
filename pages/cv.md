@@ -20,7 +20,7 @@ I am driven towards making the world a better place through collaboration, open 
 * Presented on Drupal and mapping at [DrupalCons](http://drupalcon.org) in Chicago, Copenhagen, and Paris.
 * Architected and implemented Drupal solutions as a Lead Developer at [Trellon](http://www.trellon.com/) for large non-profits including the Jane Goodall Institute, Mozilla, and InterAction.
 
-## Professional Experience
+## Professional experience
 
 ### Interactive News Developer at MinnPost
 
@@ -69,7 +69,7 @@ Administered, developed, and enhanced the organization's [web services](http://s
 * Planned and implemented migration paths for both sites and data.
 * Lead an internal documentation initiative to help better organize the companies collective intellectual resources.
 
-### Lead Developer, Trellon
+### Lead Developer at Trellon
 
 2009, Minneapolis, USA
 
@@ -96,7 +96,7 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 * Articles written for Source (Open News) on [keeping costs down on news apps](https://source.opennews.org/en-US/learning/building-news-apps-shoestring/), the [Legislature Tracker](https://source.opennews.org/en-US/articles/launching-minnesota-legislative-bill-tracker/), as well as [Simple Map and Tulip](https://source.opennews.org/en-US/articles/mapping-made-simple-tulip/).
 * Designed, coded, or wrote many [articles on MinnPost](http://minnpost.com/author/alan-palazzolo).
 
-## Open Source ###
+## Open source
 
 ### [Github](http://github.com/zzolo)
 
@@ -129,7 +129,7 @@ The following are significant projects that I have created or contributed to on 
 * [TypeKit](http://drupal.org/typekit) is a simple module integrating the TypeKit service with Drupal.
 * [Proxy](http://drupal.org/proxy) creates a very basic web proxy for Drupal, made for the main purpose of running cross-site javascript requests.
 
-## Speaking Engagements
+## Speaking engagements
 
 * Led a discussion on [Style Guides](http://schedule.srccon.org/#_session-28) at the first SRCCON.
 * Led a discussion about [Open Data](http://zzolo.org/open-data-crime-presentation) at a [Black Box Monday event](http://www.eventbrite.com/e/digging-into-open-data-a-panel-discussion-with-minnposts-alan-palazzolo-tickets-10212406583) put on by the Minnesota Society of Professional Journalists.
@@ -151,7 +151,7 @@ The following are significant projects that I have created or contributed to on 
 * Co-presented on [OpenLayers](http://www.archive.org/details/DrupalconParisGeotoolsforDrupal) at [DrupalCon Paris](http://paris2009.drupalcon.org/session/geo-tools-drupal).
 * Spoke about [Drupal coding standards and best practices](http://drupalcampwi.com/session/building-a-module-best-practices) at [DrupalCamp Wisconsin](http://drupalcampwi.com/).
 
-## Community Leadership
+## Community leadership
 
 I am active in fostering and creating in-person and online communities.
 
@@ -159,7 +159,7 @@ I am active in fostering and creating in-person and online communities.
 * Helped organize [Visualizing Neighborhoods](http://www.cura.umn.edu/visualizingneighborhoods), [Hack for MN](http://hackformn.org/), [Capitol Code](http://capitolcode.mn.gov/), [Open Data Day 2013](http://www.meetup.com/cfabrigade/Twin-Cities/871962/), and other local hackathon-like events.
 * Co-founded and help organize [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better collaborative citizen experience through technology.
 * Co-founded [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter in the Minneapolis area.
-* Founded and organize the [Twin Cities (Data) Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group).
+* Founded and organize the [Twin Cities (Data) Visualization meetup](http://www.meetup.com/Twin-Cities-Visualization-Group), a local, monthly meet-up community of practice with over 600 members.
 * Co-organized the first [Drupal Non-Profit Summit](http://2011.badcamp.net/drupal-non-profit-summit) at the [2011 Bay Area Drupal Camp](http://2011.badcamp.net/).
 * Led the first ever [Code Review Sprint](http://chicago2011.drupal.org/forum/code-review-sprint-friday) to review project applications at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/)
 * Led a number of BoF (Bird of Feather) discussions at [DrupalCon Chicago 2011](http://chicago2011.drupal.org/), including [Drupal Geospatial Stack](http://chicago2011.drupal.org/conference/bof/building-drupal-geospatial-stack) and [Drupal and Government](http://chicago2011.drupal.org/conference/bof/drupal-and-government).
