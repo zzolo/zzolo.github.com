@@ -23,14 +23,14 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFFFFF;
-  font: 20.34px Helvetica, Georgia, Arial, sans-serif;
+  font: 20.34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: left;
   color: #2D1D15;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  font-family: "Franklin ITC Pro Bold", sans-serif;
+  font-family: 'Alef', sans-serif;
   line-height: 1.25em;
   margin-bottom: .5em;
 }
@@ -110,8 +110,18 @@ a:hover img {
 /*
 /*****************************************************************************/
 ul, ol {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-left: 2em;
+}
+
+ul ul, ol ol {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.25em;
 }
 
 blockquote {
@@ -473,12 +483,16 @@ pre.terminal code {
 /*
 /*****************************************************************************/
 .projects .project {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .projects .project a img {
   display: block;
   margin-bottom: .5em;
+  border: 2px solid #BDBDBD;
+}
+.projects .project a:hover img {
+  border: 2px solid #E05E77;
 }
 
 
