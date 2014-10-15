@@ -11,14 +11,12 @@ I am driven towards making the world a better place through collaboration, open 
 
 ## Summary
 
-* Telling data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) implementing news applications and data visualizations, mostly in Javascript.
-* Built web applications for community engagement as an inaugural 2011 Fellow at [Code for America](http://codeforamerica.org), working in Python and Node.js, with a focus on agile, test-driven development.
+* Telling data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) and creating news applications and data visualizations.
+* Built web applications for community engagement as an inaugural 2011 Fellow at [Code for America](http://codeforamerica.org), with a focus on agile, test-driven development.
 * Co-authored a book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media.
-* Managed a small web team as well as sustainably upgraded and fully restructured the resource library built on [Drupal](http://drupal.org) in my position as Web Manager at [Shelter Centre](http://sheltercentre.org/), a small NGO in Geneva, Switzerland.
-* Co-founded and current organizer of [Open Twin Cities](http://opentwincities.org/), a group focused on creating a better citizen and government collaborative experience in the Twin Cities through technology.
-* Co-founded [Free Geek Twin Cities](http://freegeektwincities.org/), a Free Geek chapter aimed at reducing e-waste and bridging the digital divide in the Minneapolis area.
-* Presented on Drupal and mapping at [DrupalCons](http://drupalcon.org) in Chicago, Copenhagen, and Paris.
-* Architected and implemented Drupal solutions as a Lead Developer at [Trellon](http://www.trellon.com/) for large non-profits including the Jane Goodall Institute, Mozilla, and InterAction.
+* Exploring the connection of art, hardware, code, and community through projects like [Lacu](http://code.minnpost.com/minnpost-lacu/) and [Lumiere](http://lumiere.lighting/).
+* Organized many events and communities and founded local groups including [Open Twin Cities](http://opentwincities.org/), the [Twin Cities Data Visualization](http://www.meetup.com/Twin-Cities-Visualization-Group/) group, and [Free Geek Twin Cities](http://freegeektwincities.org/).
+* Managed a small web team as well as sustainably upgraded and fully restructured the resource library as the Web Manager at [Shelter Centre](http://sheltercentre.org/), a small NGO in Geneva, Switzerland.
 
 ## Professional experience
 
@@ -33,7 +31,8 @@ Implementing [interactive stories and pieces](http://www.minnpost.com/author/ala
 * Collaborating with the data team to create interactive stories based on compelling data sets.
 * Promoting and implementing open source policies; making almost all code written [open from the start](https://github.com/minnpost).
 * Experimenting with open source technologies to enable new and cost-effective ways of telling the news.
-* Building reusable tools and libraries for internal and external use.
+* Building [reusable tools and libraries](http://code.minnpost.com/) for internal and external use.
+* Participated in the week-long [Propublica P5](http://www.propublica.org/nerds/item/latest-p5-resident-working-on-open-source-legislation-tracker) to make the [State Bill Tracker](https://github.com/MinnPost/legislature-tracker) more usable for other news organizations.
 
 ### 2011 Fellow at Code for America
 
@@ -69,16 +68,7 @@ Administered, developed, and enhanced the organization's [web services](http://s
 * Planned and implemented migration paths for both sites and data.
 * Lead an internal documentation initiative to help better organize the companies collective intellectual resources.
 
-### Lead Developer at Trellon
-
-2009, Minneapolis, USA
-
-* Provided development and leadership on large Drupal web projects.
-* Collaborated in small teams with well-known Drupal community members to complete large scale web applications.
-* Developed many custom Drupal modules to fit the specific needs of clients.
-* Implemented themes based on design specifications.
-
-### Databast Administrator at Minneapolis College of Art and Design
+### Database Administrator at Minneapolis College of Art and Design
 
 2005 - 2008, Minneapolis, USA
 
@@ -103,7 +93,7 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 The following are some of the significant projects that I have created or contributed to on Github.
 
 * [aRanger](https://github.com/minnpost/aranger) is a simple interface for arranging items in a grid for something like a cartogram.
-* [Lumière](https://github.com/zzolo/lumiere) is a hardware project that allows anyone to change the color of our holiday lights.
+* [Lumière](https://github.com/lumiere-lighting) is a hardware project that allows anyone to change the color of our holiday lights.
 * [mbtiles2s3](https://github.com/MinnPost/mbtiles2s3) is a Python tool for converting an mbtiles file to flat image and grid files up on S3.
 * [SimpleMapD3](http://code.minnpost.com/simple-map-d3/) is a Javascript library to create maps quickly and easily with D3.
 * [Totoro](https://github.com/zzolo/totoro) is an experiment in visualizing live bus time arrivals for placement within bus stops.
