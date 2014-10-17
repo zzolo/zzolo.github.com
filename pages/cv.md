@@ -22,7 +22,9 @@ I am driven towards making the world a better place through collaboration, open 
 
 ### Interactive News Developer at MinnPost
 
-2012 - present, Minneapolis, USA
+<div class="sub-heading">
+  2012 - present, Minneapolis, USA
+</div>
 
 Implementing [interactive stories and pieces](http://www.minnpost.com/author/alan-palazzolo) in collaboration with reporters and the data team.
 
@@ -36,7 +38,9 @@ Implementing [interactive stories and pieces](http://www.minnpost.com/author/ala
 
 ### 2011 Fellow at Code for America
 
-2011, San Francisco, USA
+<div class="sub-heading">
+  2011, San Francisco, USA
+</div>
 
 Created open source tools for cities to utilize and replicate in multiple places, while shifting culture around technology use within government.
 
@@ -49,7 +53,9 @@ Created open source tools for cities to utilize and replicate in multiple places
 
 ### Web Manager at Shelter Centre
 
-2009 - 2011, Geneva, Switzerland
+<div class="sub-heading">
+  2009 - 2011, Geneva, Switzerland
+</div>
 
 Administered, developed, and enhanced the organization's [web services](http://sheltercentre.org), as well as managed the entire office technology infrastructure.
 
@@ -60,7 +66,9 @@ Administered, developed, and enhanced the organization's [web services](http://s
 
 ### Senior Developer at Chicago Technology Cooperative
 
-2008 - 2009, Minneapolis, USA
+<div class="sub-heading">
+  2008 - 2009, Minneapolis, USA
+</div>
 
 * Developed multiple Drupal solutions for the custom needs of non-profit organizations, with a focus on mapping and integrating CiviCRM.
 * Collaborated in small teams to analyze, architect, and implement web application solutions.
@@ -70,7 +78,9 @@ Administered, developed, and enhanced the organization's [web services](http://s
 
 ### Database Administrator at Minneapolis College of Art and Design
 
-2005 - 2008, Minneapolis, USA
+<div class="sub-heading">
+  2005 - 2008, Minneapolis, USA
+</div>
 
 Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, and maintaining Jenzabar, an education-focused, integrated, database application.  Maintained and developed multiple web sites and web servers.  Focused on adding functionality to existing web sites.
 
