@@ -24,6 +24,7 @@ So, why did I even try to get a job at a newsroom, and after about a year on the
 #### It is important
 
 I have never been a heavy reader of any news journals, but I have always realized that reporters and news organizations (often) play an important role in our culture, socially, economically, and politically.  At a non-profit paper that has a focus on politics, the idea of providing a social good is maybe a bit more prominent than other papers.
+
 #### Open source (output)
 
 One of the biggest things that drew me to the newsroom was seeing some of the amazing code that folks were producing in newsrooms and putting up on Github.  Newsroom share their code (well, the good ones do, and the rest will follow).  Some like the New York Times produce libraries that are now used by news and non-news developers around the world.  At MinnPost, we put almost [all our code on Github](https://github.com/minnpost), not because it is going to necessarily be reusable for other organizations, but because it allows for us to be transparent and easily manage the code.  Open source is very important to me.
@@ -72,5 +73,3 @@ It's a whole lot of fun!!!
 * [Michelle Minkoff at AP](http://michelleminkoff.com/2013/07/17/why-i-develop-in-the-newsroom/)
 * [Tiff Fehr at NYT](http://www.journogeekery.com/post/55707365311/why-develop-in-a-newsroom)
 * [ProPublica Nerds](http://www.propublica.org/nerds/item/why-develop-in-the-newsroom)
-
-
