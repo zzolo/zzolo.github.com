@@ -98,35 +98,25 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 
 ## Open source
 
-### [Github](http://github.com/zzolo)
+The following are some of the significant, open source projects that I have created or contributed to.
 
-The following are some of the significant projects that I have created or contributed to on Github.
-
+* [Tik Tok](https://github.com/datanews/tik-tok) is Javascript library that creates a simple but extensible timeline in the browser.
+* [tables](https://github.com/datanews/tables) is a command-line tool to easily import data in formats like CSV or JSON into relational databases such as SQLite or Postgres.
+* [Locator](https://github.com/datanews/locator) is a map locator image maker; built to be customized and deployed by an organization.
 * [aRanger](https://github.com/minnpost/aranger) is a simple interface for arranging items in a grid for something like a cartogram.
-* [Lumière](https://github.com/lumiere-lighting) is a hardware project that allows anyone to change the color of our holiday lights.
-* [mbtiles2s3](https://github.com/MinnPost/mbtiles2s3) is a Python tool for converting an mbtiles file to flat image and grid files up on S3.
+* [Lumière](https://github.com/lumiere-lighting) is a hardware project that allows anyone to change the color of holiday lighting through texting and social media.
+* [mbtiles2s3](https://github.com/MinnPost/mbtiles2s3) is a command-line, Python tool for converting an mbtiles file to flat image and grid files up on S3.
 * [SimpleMapD3](http://code.minnpost.com/simple-map-d3/) is a Javascript library to create maps quickly and easily with D3.
 * [Totoro](https://github.com/zzolo/totoro) is an experiment in visualizing live bus time arrivals for placement within bus stops.
 * [JSONProxy](https://github.com/MinnPost/jsonproxy) is a Flask application that proxies a JSON request into a JSONP request.
-* [GS Proxy](https://github.com/MinnPost/gs-proxy) is a simple Flask application to proxy requests to specific Google Spreadsheets which limit the number of requests without communicating those limits.
-* [All Good Proxy](https://github.com/MinnPost/all-good-proxy) is a Node proxy to ensure that only good results are passed through and uses cached data otherwise; this is useful to ensure applications are up and running which depend on services you don't have control over.
-* [Tulip](https://github.com/minnput/tulip) is an interface for creating Simple Maps.
+* [GS Proxy](https://github.com/MinnPost/gs-proxy) is a Flask application to proxy requests to specific Google Spreadsheets to help get around request limitations.
+* [All Good Proxy](https://github.com/MinnPost/all-good-proxy) is a Node proxy to ensure that only good results are passed through and uses cached data otherwise.
+* [Tulip](https://github.com/minnput/tulip) is an interface for creating Simple Map images.
 * [Simple Map](https://github.com/simple-map-d3/) is a Javascript library for making maps in D3 with some basic configuration.
 * [Legislature Tracker](https://github.com/legislature-tracker/) is a UI and editorial layer on top of the Open States API for a specific state.
-* [jQuery Vertical Timeline](https://github.com/MinnPost/jquery-vertical-timeline) is a port/enhancement of the Vertical Timeline tool; it is much more flexible and configurable.
-* [MN Boundary Service](https://github.com/MinnPost/mn-boundaryservice) is an implementation of a boundary service for Minnesota.
-* [Change by Us](https://github.com/localprojects/Change-By-Us) focuses on encouraging citizen engagement to make their neighborhoods and cities better.  This is not currently open source yet but will be soon.
-* [Commitalization](https://github.com/zzolo/commitalization) is a Node.js application that utilizes Github webhooks to create a live visualization of selected projects.
-* [Badger v Panda](https://github.com/zzolo/badger-panda) provided a playful mechanism to vote on our mascot at Code for America; written with Node.js and utilizing websockets to provide a voting system where users can see as votes come in.
-* [HistoryNear.Me](https://github.com/zzolo/historynear.me) is a simple application to help people find historic sites near them; built for the San Diego Apps competition.
-
-### [Drupal](http://drupal.org/user/147331)
-
-The following are significant projects that I have created or contributed to on Drupal.org.
-
-* [OpenLayers](http://drupal.org/openlayers) is a full featured integration module between the Drupal content system and the OpenLayers mapping library.  This is a widely used module focused on flexibility and extensibility.
+* [jQuery Vertical Timeline](https://github.com/MinnPost/jquery-vertical-timeline) is a port/enhancement of the Vertical Timeline tool.
+* [Drupal OpenLayers](http://drupal.org/openlayers) is a full featured integration module between the Drupal content system and the OpenLayers mapping library.
 * [Encryption](http://drupal.org/encrypt) provides a basic, pluggable encryption API for Drupal.
-* [TypeKit](http://drupal.org/typekit) is a simple module integrating the TypeKit service with Drupal.
 * [Proxy](http://drupal.org/proxy) creates a very basic web proxy for Drupal, made for the main purpose of running cross-site javascript requests.
 
 ## Speaking engagements

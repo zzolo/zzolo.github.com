@@ -13,13 +13,13 @@ class: post
 <div class="post-nav cf">
   {% if page.previous %}
     <div class="post-nav-prev">
-      &larr; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+      <a href="{{ page.previous.url }}"><i class="ion-arrow-left-b"></i>&nbsp; {{ page.previous.title }}</a>
     </div>
   {% endif %}
-  
+
   {% if page.next %}
     <div class="post-nav-next">
-      <a href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr; 
+      <a href="{{ page.next.url }}">{{ page.next.title }} &nbsp;<i class="ion-arrow-right-b"></i></a>
     </div>
   {% endif %}
 </div>

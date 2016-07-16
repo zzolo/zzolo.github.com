@@ -7,7 +7,7 @@
   $(document).ready(function() {
     // Post visualizations
     if (_.isArray(zzolo.posts)) {
-      processPosts(zzolo.posts);
+      //processPosts(zzolo.posts);
     }
 
     // Haikus

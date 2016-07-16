@@ -1,10 +1,9 @@
 ---
-layout: nil
 permalink: atom.xml
 ---
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
   <title>Alan Pala[zzolo]</title>
   <link href="{{ site.baseurl }}"/>
   <link type="application/atom+xml" rel="self" href="http://zzolo.org/atom.xml"/>
@@ -28,5 +27,5 @@ permalink: atom.xml
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
- 
+
 </feed>

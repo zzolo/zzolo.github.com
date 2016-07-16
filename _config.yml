@@ -10,13 +10,13 @@ description: Alan Palazzolo is an open source coder trying to make the world a l
 baseurl: http://zzolo.org
 
 # Continue compiling even if there are errors. Keep it true, unless troubleshooting.
-auto: true
+#auto: true
 
 # Makes pretty permalinks. See Jekyll docs for alternatives.
 permalink: pretty
 
-# Add pygments
-pygments: true
+# Add syntax highlighting. Github uses rouge
+highlighter: rouge
 
 # Exlusions
 #exclude: []

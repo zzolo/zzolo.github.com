@@ -4,20 +4,20 @@ class: home
 ---
 
 <div id="home">
-  <p class="about">Alan Pala<strong>zzolo</strong> is an open source coder trying to make the world a little better with technology.</p>
-  
+  <p class="about">Alan Pala<strong>zzolo</strong> is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.</p>
+
   <div class="web-links cf">
-    <a href="//twitter.com/zzolo" class="twitter abg" title="Twitter" target="_blank">
-      <img src="/images/icons/twitter-256.png" />
+    <a href="https://twitter.com/zzolo" class="twitter" title="Twitter" target="_blank">
+      <i class="ion-social-twitter"></i>
     </a>
-    <a href="//github.com/zzolo" class="github abg" title="Github" target="_blank">
-      <img src="/images/icons/github-256.png" />
+    <a href="https://github.com/zzolo" class="github" title="Github" target="_blank">
+      <i class="ion-social-github"></i>
     </a>
-    <a href="//flickr.com/photos/masada4242/" class="flikcr abg" title="Flickr" target="_blank">
-      <img src="/images/icons/flickr-256.png" />
+    <a href="https://linkedin.com/in/alanpalazzolo" class="linked-in" title="LinkedIn" target="_blank">
+      <i class="ion-social-linkedin"></i>
     </a>
-    <a href="//linkedin.com/in/alanpalazzolo" class="linked-in abg" title="LinkedIn" target="_blank">
-      <img src="/images/icons/linkedin-256.png" />
+    <a href="https://keybase.io/zzolo" class="keybase" title="Keybase" target="_blank">
+      <i class="ion-key"></i>
     </a>
   </div>
 
@@ -37,7 +37,7 @@ class: home
   (function() {
     window.zzolo = window.zzolo || {};
     zzolo.posts = [];
-    
+
     {% for post in site.posts %}
       zzolo.posts.push({
         id: "{{ post.id }}",

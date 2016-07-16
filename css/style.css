@@ -14,24 +14,27 @@
 /*****************************************************************************/
 
 /* Global Reset */
-* {
+html,
+*, *:before, *:after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body { height: 100%; }
 
 body {
   background-color: #FFFFFF;
-  font: 20.34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 18px 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: left;
   color: #2D1D15;
+  line-height: 1.35em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  font-family: 'Alef', sans-serif;
-  line-height: 1.25em;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5em;
   margin-bottom: .5em;
 }
 
@@ -49,31 +52,31 @@ table {
 
 a,
 a:visited {
-  color: #AC050F;
+  color: #2274A5;
   text-decoration: none;
 }
 a:hover,
 a:visited:hover,
 a:hover:visited {
-  border-bottom: 2px solid #AC050F;
+  border-bottom: 2px solid #2274A5;
 }
 
 a.abg,
 aa.bg:visited {
-  background-color: #AC050F;
+  background-color: #2274A5;
 }
 a.abg:hover,
 a.abg:visited:hover,
 a.abg:hover:visited {
-  background-color: #E05E77;
+  background-color: #1D6690;
   border-bottom: none;
 }
 
 a img {
-  border: 2px solid #AC050F;
+  border: 2px solid #2274A5;
 }
 a:hover img {
-  border: 2px solid #E05E77;
+  border: 2px solid #1D6690;
 }
 
 /**
@@ -180,13 +183,26 @@ table tbody > tr:nth-child(odd) > th {
   font-size: 115%;
   width: 960px;
   margin: .5em auto 2em;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
 @media only screen and (max-width: 960px) {
   .site {
     width: auto;
     padding: 0 5px;
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .site {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .site {
+    font-size: 80%;
   }
 }
 
@@ -200,7 +216,7 @@ table tbody > tr:nth-child(odd) > th {
 /*
 /*****************************************************************************/
 .site .header {
-  border-bottom: 10px solid #000000;
+  border-bottom: 0.25em solid #000000;
   margin-bottom: 1em;
   position: relative;
 }
@@ -209,23 +225,30 @@ table tbody > tr:nth-child(odd) > th {
   margin-bottom: 3em;
 }
 
-.site .header h1 a {
-  color: #7C040C;
+.site .header h1 a,
+.site .header h1 a:visited {
+  color: #E83F6F;
   line-height: 1em;
 }
+
+.site .header h1 a:hover,
+.site .header h1 a:visited:hover {
+  color: #E6285E;
+}
+
 .site .header h1 {
   margin-bottom: 0;
   z-index: 10;
 
 }
 .home .site .header h1 a {
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.5em;
 }
 
 @media only screen and (max-width: 530px) {
   .home .site .header h1 a {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
   }
 }
@@ -238,7 +261,7 @@ table tbody > tr:nth-child(odd) > th {
 }
 
 .site .header h1 a:hover {
-  color: #E05E77;
+  color: #2274A5;
   border-bottom: none;
 }
 
@@ -265,9 +288,16 @@ table tbody > tr:nth-child(odd) > th {
     opacity: 0.75;
   }
 }
+
 @media only screen and (max-width: 530px) {
   .site .header .header-image img {
-    opacity: 0.55;
+    opacity: 0.65;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .site .header .header-image img {
+    opacity: 0;
   }
 }
 
@@ -308,7 +338,9 @@ table tbody > tr:nth-child(odd) > th {
 /*****************************************************************************/
 .home .about {
   text-align: center;
-  margin-bottom: 3em;
+  margin: 1.5em 0 1.5em 0;
+  font-size: 2em;
+  line-height: 1.35em;
 }
 
 .home .post-list-title {
@@ -413,26 +445,53 @@ table tbody > tr:nth-child(odd) > th {
 /*
 /*****************************************************************************/
 .web-links {
+  font-size: 4em;
   text-align: center;
-  margin-bottom: 3.5em;
+  margin-bottom: 1em;
   line-height: 1em;
 }
+
 .web-links a {
-  width: 15%;
   padding: .25em .25em;
   display: inline-block;
   border-radius: 5px;
+  color: #32936F;
 }
+
+.web-links a:hover {
+  color: #2C8162;
+  border-bottom: none;
+}
+
 .web-links a img {
   max-width: 100%;
 }
 
 .footer .web-links {
+  font-size: 2em;
   text-align: right;
   margin-bottom: 1em;
 }
+
 .footer .web-links a {
-  width: 5%;
+  color: #E83F6F;
+  padding: 0 0.5em;
+}
+
+.footer .web-links a:hover {
+  color: #E6285E;
+  padding: 0 0.5em;
+}
+
+@media only screen and (max-width: 400px) {
+  .web-links a,
+  .footer .web-links a {
+    padding: 0 0.15em;
+  }
+}
+
+#contact-content .web-links {
+  font-size: 6em;
 }
 
 
@@ -482,17 +541,80 @@ pre.terminal code {
 /* Projects
 /*
 /*****************************************************************************/
+.projects-layout {
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.5em;
+  margin-left: -0.5em;
+}
+
 .projects .project {
-  margin-bottom: 3em;
+  -webkit-flex: 1 0 33.3333332%;
+  -moz-flex: 1 0 33.3333332%;
+  flex: 1 0 33.3333332%;
+  background-color: #FFBF00;
+  margin: 0.5em;
+  padding: 1em 0;
+}
+
+@media only screen and (max-width: 725px) {
+  .projects .project {
+    -webkit-flex: 1 0 50%;
+    -moz-flex: 1 0 50%;
+    flex: 1 0 50%;
+  }
+}
+
+.projects .project h3,
+.projects .project div {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.projects .project img {
+  display: block;
+  margin-bottom: 0.5em;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 12em;
+  object-fit: cover;
 }
 
 .projects .project a img {
-  display: block;
-  margin-bottom: .5em;
-  border: 2px solid #BDBDBD;
 }
+
 .projects .project a:hover img {
-  border: 2px solid #E05E77;
+  border-top: 2px solid #2274A5;
+  border-bottom: 2px solid #2274A5;
+}
+
+.projects .project .links {
+  font-size: 0.85em;
+  margin: 0;
+  text-align: right;
+  line-height: 1.25em;
+}
+
+.projects .project .links a {
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+.projects .project .links a:hover {
+  border: none;
+  color: #1D6690;
+}
+
+.projects .project .links a i {
+  display: inline-block;
+  padding-left: 0.25em;
 }
 
 
@@ -509,6 +631,38 @@ pre.terminal code {
   color: #676767;
   margin-bottom: 1em;
   font-size: 0.85em;
+}
+
+.cv h2 {
+  border-bottom-width: 0.15em;
+  border-bottom-style: solid;
+  display: inline-block;
+  clear: both;
+}
+
+h2#summary {
+  border-bottom-color: #E83F6F;
+}
+h2#professional-experience {
+  border-bottom-color: #2274A5;
+}
+h2#publishing {
+  border-bottom-color: #32936F;
+}
+h2#open-source {
+  border-bottom-color: #FFBF00;
+}
+h2#speaking-engagements {
+  border-bottom-color: #E83F6F;
+}
+h2#community-leadership {
+  border-bottom-color: #2274A5;
+}
+h2#events {
+  border-bottom-color: #32936F;
+}
+h2#education {
+  border-bottom-color: #FFBF00;
 }
 
 

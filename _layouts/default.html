@@ -15,8 +15,9 @@
     <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
 
     <!-- CSS -->
-    <link href="http://fonts.googleapis.com/css?family=Alef:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="/css/syntax-github.css">
     <link rel="stylesheet" href="/css/style.css">
 
@@ -31,8 +32,8 @@
         <h1 class="title"><a href="/">zzolo</a></h1>
 
         <ul class="menu">
-          <li><a href="/pages/projects">projects</a></li>
           <li><a href="/pages/contact">contact</a></li>
+          <li><a href="/pages/projects">projects</a></li>
           <li><a href="/pages/cv">cv</a></li>
         </ul>
       </div>
@@ -43,29 +44,26 @@
 
       <div class="footer">
         <div class="web-links cf">
-          <a href="/atom.xml" class="rss abg" title="RSS/ATOM" target="_blank">
-            <img src="/images/icons/rss-256.png" />
+          <a href="/atom.xml" class="rss" title="RSS/ATOM" target="_blank">
+            <i class="ion-social-rss"></i>
           </a>
-          <a href="//twitter.com/zzolo" class="twitter abg" title="Twitter" target="_blank">
-            <img src="/images/icons/twitter-256.png" />
+          <a href="//twitter.com/zzolo" class="twitter" title="Twitter" target="_blank">
+            <i class="ion-social-twitter"></i>
           </a>
-          <a href="//github.com/zzolo" class="github abg" title="Github" target="_blank">
-            <img src="/images/icons/github-256.png" />
+          <a href="//github.com/zzolo" class="github" title="Github" target="_blank">
+            <i class="ion-social-github"></i>
           </a>
-          <a href="//flickr.com/photos/masada4242/" class="flikcr abg" title="Flickr" target="_blank">
-            <img src="/images/icons/flickr-256.png" />
+          <a href="https://keybase.io/zzolo" class="keybase" title="Keybase" target="_blank">
+            <i class="ion-key"></i>
           </a>
-          <a href="//linkedin.com/in/alanpalazzolo" class="linked-in abg" title="LinkedIn" target="_blank">
-            <img src="/images/icons/linkedin-256.png" />
+          <a href="//linkedin.com/in/alanpalazzolo" class="linked-in" title="LinkedIn" target="_blank">
+            <i class="ion-social-linkedin"></i>
           </a>
-          <a href="//internetdefenseleague.org/" class="idl abg" title="Internet Defense League" target="_blank">
-            <img src="/images/icons/idl-150.png" />
+          <a href="{% if page.path %}//prose.io/#zzolo/zzolo.github.com/edit/master/{{ page.path }}{% else %}//prose.io/#zzolo/zzolo.github.com{% endif %}" class="prose-edit" title="Edit this with Prose.io" target="_blank">
+            <i class="ion-edit"></i>
           </a>
-          <a href="{% if page.path %}//prose.io/#zzolo/zzolo.github.com/edit/master/{{ page.path }}{% else %}//prose.io/#zzolo/zzolo.github.com{% endif %}" class="prose-edit abg" title="Edit this with Prose.io" target="_blank">
-            <img src="/images/icons/document-256.png" />
-          </a>
-          <a href="//prose.io/#zzolo/zzolo.github.com/new/master/_posts" class="prose-add abg" title="Add post with Prose.io" target="_blank">
-            <img src="/images/icons/new-file-256.png" />
+          <a href="//prose.io/#zzolo/zzolo.github.com/new/master/_posts" class="prose-add" title="Add post with Prose.io" target="_blank">
+            <i class="ion-plus-circled"></i>
           </a>
         </div>
       </div>
