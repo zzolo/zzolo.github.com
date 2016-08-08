@@ -11,7 +11,8 @@ I am driven towards making the world a better place through collaboration, open 
 
 ## Summary
 
-* Telling data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) and creating news applications and data visualizations.
+* Enhancing both audio and digital as a Front-end Developer on the [WNYC DataNews](http://www.wnyc.org/people/data-news-team/) team as well as building tools to improve productivity for multiple teams.
+* Created data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) and developing news applications and data visualizations.
 * Built web applications for community engagement as an inaugural 2011 Fellow at [Code for America](http://codeforamerica.org), with a focus on agile, test-driven development.
 * Co-authored a book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media.
 * Exploring the connection of art, hardware, code, and community through projects like [Lacu](http://code.minnpost.com/minnpost-lacu/) and [Lumiere](http://lumiere.lighting/).
@@ -20,23 +21,37 @@ I am driven towards making the world a better place through collaboration, open 
 
 ## Professional experience
 
+### Front-end Developer at WNYC
+
+<div class="sub-heading">
+  2015 - present, remote for New York City, USA
+</div>
+
+Part of the DataNews team, we worked independently and with other staff in the newsroom to enhance audio and digital pieces with data analysis, visuals, and interactive experiences.
+
+* Working with reporters to request, parse, and analyze data relevant to stories.
+* Collaborating with our team to create visual pieces and stories.
+* Creating open source tools to help our staff as well as other organizations work more effectively.
+* Built [InfoMagical](http://project.wnyc.org/infomagical/), an experimental texting engagement piece for the Note to Self podcast.
+
 ### Interactive News Developer at MinnPost
 
 <div class="sub-heading">
-  2012 - present, Minneapolis, USA
+  2012 - 2015, Minneapolis, USA
 </div>
 
 Implementing [interactive stories and pieces](http://www.minnpost.com/author/alan-palazzolo) in collaboration with reporters and the data team.
 
-* Working closely with reporters and editors to supplement stories with visual and interactive elements.
-* Creating original content from start to finish.
-* Collaborating with the data team to create interactive stories based on compelling data sets.
-* Promoting and implementing open source policies; making almost all code written [open from the start](https://github.com/minnpost).
-* Experimenting with open source technologies to enable new and cost-effective ways of telling the news.
-* Building [reusable tools and libraries](http://code.minnpost.com/) for internal and external use.
+* Worked closely with reporters and editors to supplement stories with visual and interactive elements.
+* Created original content from start to finish.
+* Collaborated with the data team to create interactive stories based on compelling data sets.
+* Promoted and implemented open source policies; making almost all code written [open from the start](https://github.com/minnpost).
+* Experimented with open source technologies to enable new and cost-effective ways of telling the news.
+* Built [reusable tools and libraries](http://code.minnpost.com/) for internal and external use.
 * Participated in the week-long [Propublica P5](http://www.propublica.org/nerds/item/latest-p5-resident-working-on-open-source-legislation-tracker) to make the [State Bill Tracker](https://github.com/MinnPost/legislature-tracker) more usable for other news organizations.
+* Participated in the an [OpenNews Code Convening](https://source.opennews.org/en-US/articles/return-code-convenings-elections-and-updates/) focused on elections and made our [Election Night API](http://code.minnpost.com/election-night-api/) reusable.
 
-### 2011 Fellow at Code for America
+### Code for America Fellow
 
 <div class="sub-heading">
   2011, San Francisco, USA
@@ -92,9 +107,10 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 
 ## Publishing
 
-* Co-authored book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media, focused on providing a solid base for Drupal site builders and architects to get up to speed with web mapping and specifically mapping in Drupal.
-* Articles written for Source (Open News) on [keeping costs down on news apps](https://source.opennews.org/en-US/learning/building-news-apps-shoestring/), the [Legislature Tracker](https://source.opennews.org/en-US/articles/launching-minnesota-legislative-bill-tracker/), as well as [Simple Map and Tulip](https://source.opennews.org/en-US/articles/mapping-made-simple-tulip/).
+* Analysis, coding, or reporting on [WNYC](http://www.wnyc.org/people/alan-palazzolo/).
 * Designed, coded, or wrote many [articles on MinnPost](http://minnpost.com/author/alan-palazzolo).
+* Articles written for Source (Open News) on [keeping costs down on news apps](https://source.opennews.org/en-US/learning/building-news-apps-shoestring/), the [Legislature Tracker](https://source.opennews.org/en-US/articles/launching-minnesota-legislative-bill-tracker/), as well as [Simple Map and Tulip](https://source.opennews.org/en-US/articles/mapping-made-simple-tulip/).
+* Co-authored book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media, focused on providing a solid base for Drupal site builders and architects to get up to speed with web mapping and specifically mapping in Drupal.
 
 ## Open source
 
@@ -121,7 +137,10 @@ The following are some of the significant, open source projects that I have crea
 
 ## Speaking engagements
 
-* Led a discussion on [Style Guides](http://schedule.srccon.org/#_session-28) at the first SRCCON.
+* Led an experimental [Playtime](http://schedule.srccon.org/#_session-playtime) at SRCCON 2016.
+* Led a discussion on [Front-end tools](http://2015.srccon.org/schedule/#_session-46) at SRCCON 2015.
+* Co-presented about [visualization and the physical world](https://www.twilio.com/signal/2015/videos/visualization-and-the-physical-world) at Signal 2015.
+* Led a discussion on [Style Guides](http://2014.srccon.org/schedule/#_session-28) at the first SRCCON.
 * Led a discussion about [Open Data](http://zzolo.org/open-data-crime-presentation) at a [Black Box Monday event](http://www.eventbrite.com/e/digging-into-open-data-a-panel-discussion-with-minnposts-alan-palazzolo-tickets-10212406583) put on by the Minnesota Society of Professional Journalists.
 * Demoed [Lumière](https://github.com/zzolo/lumiere) at [JavascriptMN](http://www.meetup.com/JavaScriptMN/events/139309312/); [(video)](https://www.youtube.com/watch?feature=player_detailpage&v=3C7Moz6p-U4#t=6271).
 * Led a discussion on Open Data and Journalism at [MozFest 2013](http://schedule.mozillafestival.org/).
@@ -165,6 +184,7 @@ I am active in fostering and creating in-person and online communities.
 The following are some of the more significant events I have attended over the years that have not been mentioned previously.
 
 * Participated in 2-day [human-centered design workshop](http://www.cura-tech.org/participate.php) via CURA:Tech.
+* Attended [NICAR 2015](https://ire.org/conferences/nicar2015/).
 * Attended [NICAR 2014](http://ire.org/conferences/nicar-2014/).
 * Attended [FOSS4G North America](http://foss4g-na.org/) 2013.
 * Attended [CityCampMN 2013](http://citycampmn.govfresh.com/).
@@ -186,7 +206,7 @@ The following are some of the more significant events I have attended over the y
 * Participated in [F1 Overnight Website Challenge](http://overnightwebsitechallenge.com/) in 2009.
 * Attended the Twin Cities event [Drupal Day](http://tcopencircuit.org/node/6).
 
-## Education
+## Formal education
 
 ### BBA, Computer Information Systems from Appalachian State University
 
