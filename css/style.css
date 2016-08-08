@@ -438,6 +438,12 @@ table tbody > tr:nth-child(odd) > th {
   margin-bottom: 1.5em;
 }
 
+.post img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
 
 /*****************************************************************************/
 /*
