@@ -174,6 +174,34 @@ table tbody > tr:nth-child(odd) > th {
   background-color: #F9F9F9;
 }
 
+
+/*****************************************************************************/
+/*
+/* Print only
+/*
+/*****************************************************************************/
+.print-only-block {
+  display: none;
+}
+.print-only-inline {
+  display: none;
+}
+.print-only-inline-block {
+  display: none;
+}
+
+@media print {
+  .print-only-block {
+    display: block;
+  }
+  .print-only-inline {
+    display: inline;
+  }
+  .print-only-inline-block {
+    display: inline-block;
+  }
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -669,6 +697,24 @@ h2#events {
 }
 h2#education {
   border-bottom-color: #FFBF00;
+}
+
+@media print {
+  .cv .site h1.title a {
+    color: white;
+  }
+
+  .cv ul.menu a {
+    color: white;
+  }
+
+  .cv a {
+    color: #2D1D15;
+  }
+
+  .cv .footer {
+    display: none;
+  }
 }
 
 
