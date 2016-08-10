@@ -15,7 +15,7 @@ I am driven towards making the world a better place through collaboration, open 
 * Created data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) and developing news applications and data visualizations.
 * Built web applications for community engagement as an inaugural 2011 Fellow at [Code for America](http://codeforamerica.org), with a focus on agile, test-driven development.
 * Co-authored a book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media.
-* Exploring the connection of art, hardware, code, and community through projects like [Lacu](http://code.minnpost.com/minnpost-lacu/) and [Lumiere](http://lumiere.lighting/).
+* Exploring the connection of art, hardware, code, and community through projects like the [Aurora Shanty](https://www.kickstarter.com/projects/706726178/the-aurora-shanty),  [Lacu](http://code.minnpost.com/minnpost-lacu/) and [Lumiere](http://lumiere.lighting/).
 * Organized many events and communities and founded local groups including [Open Twin Cities](http://opentwincities.org/), the [Twin Cities Data Visualization](http://www.meetup.com/Twin-Cities-Visualization-Group/) group, and [Free Geek Twin Cities](http://freegeektwincities.org/).
 * Managed a small web team as well as sustainably upgraded and fully restructured the resource library as the Web Manager at [Shelter Centre](http://sheltercentre.org/), a small NGO in Geneva, Switzerland.
 
@@ -27,7 +27,7 @@ I am driven towards making the world a better place through collaboration, open 
   2015 - present, remote for New York City, USA
 </div>
 
-Part of the DataNews team, we worked independently and with other staff in the newsroom to enhance audio and digital pieces with data analysis, visuals, and interactive experiences.
+Part of the DataNews team, we work independently and with other staff in the newsroom to enhance audio and digital pieces with data analysis, visuals, and interactive experiences.
 
 * Working with reporters to request, parse, and analyze data relevant to stories.
 * Collaborating with our team to create visual pieces and stories.
@@ -107,7 +107,7 @@ Administered multiple MS SQL Server instances.  Focused on cleaning, enhancing, 
 
 ## Publishing
 
-* Analysis, coding, or reporting on [WNYC](http://www.wnyc.org/people/alan-palazzolo/).
+* Analysis, coding, or reporting at [WNYC](http://www.wnyc.org/people/alan-palazzolo/).
 * Designed, coded, or wrote many [articles on MinnPost](http://minnpost.com/author/alan-palazzolo).
 * Articles written for Source (Open News) on [keeping costs down on news apps](https://source.opennews.org/en-US/learning/building-news-apps-shoestring/), the [Legislature Tracker](https://source.opennews.org/en-US/articles/launching-minnesota-legislative-bill-tracker/), as well as [Simple Map and Tulip](https://source.opennews.org/en-US/articles/mapping-made-simple-tulip/).
 * Co-authored book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media, focused on providing a solid base for Drupal site builders and architects to get up to speed with web mapping and specifically mapping in Drupal.

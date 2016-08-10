@@ -217,7 +217,7 @@ table tbody > tr:nth-child(odd) > th {
 @media only screen and (max-width: 960px) {
   .site {
     width: auto;
-    padding: 0 5px;
+    padding: 0 10px;
     font-size: 100%;
   }
 }
