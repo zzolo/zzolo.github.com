@@ -33,6 +33,7 @@ Part of the DataNews team, we work independently and with other staff in the new
 * Collaborating with our team to create visual pieces and stories.
 * Creating open source tools to help our staff as well as other organizations work more effectively.
 * Built [InfoMagical](http://project.wnyc.org/infomagical/), an experimental texting engagement piece for the Note to Self podcast.
+* Invited to participate in an [OpenNews Code/Documentation  Convening](https://source.opennews.org/en-US/articles/building-guide-open-sourcing-newsroom-code/) focused on creating an open source playbook for newsrooms.
 
 ### Interactive News Developer at MinnPost
 
@@ -49,7 +50,7 @@ Implementing [interactive stories and pieces](http://www.minnpost.com/author/ala
 * Experimented with open source technologies to enable new and cost-effective ways of telling the news.
 * Built [reusable tools and libraries](http://code.minnpost.com/) for internal and external use.
 * Participated in the week-long [Propublica P5](http://www.propublica.org/nerds/item/latest-p5-resident-working-on-open-source-legislation-tracker) to make the [State Bill Tracker](https://github.com/MinnPost/legislature-tracker) more usable for other news organizations.
-* Participated in the an [OpenNews Code Convening](https://source.opennews.org/en-US/articles/return-code-convenings-elections-and-updates/) focused on elections and made our [Election Night API](http://code.minnpost.com/election-night-api/) reusable.
+* Invited to participate in an [OpenNews Code Convening](https://source.opennews.org/en-US/articles/return-code-convenings-elections-and-updates/) focused on elections and made our [Election Night API](http://code.minnpost.com/election-night-api/) reusable.
 
 ### Code for America Fellow
 
