@@ -33,6 +33,7 @@ Part of the DataNews team, we work independently and with other staff in the new
 * Collaborating with our team to create visual pieces and stories.
 * Creating open source tools to help our staff as well as other organizations work more effectively.
 * Built [InfoMagical](http://project.wnyc.org/infomagical/), an experimental texting engagement piece for the Note to Self podcast.
+* Created [Landslide](https://github.com/datanews/landslide), an information gathering system used for the [ElectionLand](https://projects.propublica.org/electionland/) project, under a very quick deadline.
 * Invited to participate in an [OpenNews Code/Documentation  Convening](https://source.opennews.org/en-US/articles/building-guide-open-sourcing-newsroom-code/) focused on creating an open source playbook for newsrooms.
 
 ### Interactive News Developer at MinnPost
@@ -91,6 +92,8 @@ Administered, developed, and enhanced the organization's [web services](http://s
 * Created many custom Drupal modules to fit the needs of various projects, mainly modules that added integration between Drupal and CiviCRM.
 * Planned and implemented migration paths for both sites and data.
 * Lead an internal documentation initiative to help better organize the companies collective intellectual resources.
+
+<div class="page-break"></div>
 
 ### Database Administrator at Minneapolis College of Art and Design
 

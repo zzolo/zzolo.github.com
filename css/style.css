@@ -190,7 +190,18 @@ table tbody > tr:nth-child(odd) > th {
   display: none;
 }
 
+@media all {
+	.page-break	{
+    display: none;
+  }
+}
+
 @media print {
+	.page-break	{
+    display: block;
+    page-break-before: always;
+  }
+
   .print-only-block {
     display: block;
   }
