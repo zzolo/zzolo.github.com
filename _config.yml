@@ -7,7 +7,8 @@ description: Alan Palazzolo is an open source coder trying to make the world a l
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/blog
-baseurl: http://zzolo.org
+baseurl: https://zzolo.org
+url: https://zzolo.org
 
 # Continue compiling even if there are errors. Keep it true, unless troubleshooting.
 #auto: true
