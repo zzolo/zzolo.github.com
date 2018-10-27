@@ -36,7 +36,7 @@
 
     <!-- Google structured data -->
     <script type="application/ld+json">
-      {% if !page.url || page.url == '/' %}
+      {% if page.url != '/' %}
         {
           "@context": "http://schema.org",
           "@type": "Organization",
