@@ -1,0 +1,17 @@
+.haikus {
+  margin-bottom: 3em;
+
+  .loading {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  .haiku-date {
+    float: right;
+    text-align: right;
+    width: 33.3333%;
+    color: $color-gray-dark;
+    font-size: 0.85;
+    line-height: 1.5em;
+  }
+}

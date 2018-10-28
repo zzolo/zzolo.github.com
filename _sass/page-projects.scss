@@ -1,0 +1,52 @@
+.projects .project {
+  margin-bottom: 2em;
+
+  .project-image {
+    width: 60%;
+    float: left;
+  }
+
+  .project-description {
+    width: 40%;
+    float: left;
+    padding-left: 1em;
+  }
+
+  @media only screen and (max-width: 750px) {
+    .project-image,
+    .project-description {
+      width: 100%;
+      float: none;
+      padding: 0;
+    }
+  }
+
+  img {
+    display: block;
+    margin-bottom: 0.5em;
+    border: none;
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+  }
+
+  p {
+    font-size: 0.85em;
+    line-height: 1.35em;
+  }
+
+  .links {
+    font-size: 0.85em;
+    margin-bottom: 0.5em;
+
+    a {
+      display: inline-block;
+      padding-right: 0.5em;
+
+      i {
+        display: inline-block;
+        padding-left: 0.25em;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/* Variables */
+$color-background: #f7efd4;
+$color-text: #472c25;
+$color-site-title: #91371b;
+$color-site-title-hover: darken($color-site-title, 15);
+$color-header-line: #eb712f;
+$color-link: #91371b;
+$color-link-hover: darken($color-link, 15);
+$color-menu: $color-link;
+$color-menu-hover: $color-link-hover;
+$color-web-links: #eb712f;
+$color-web-links-hover: darken($color-web-links, 15);
+$color-gray-darker: #232323;
+$color-gray-dark: #454545;
+$color-gray-medium: #898989;
+$color-gray-light: #b2b2b2;
+$color-gray-lighter: #efefef;
+@import "reset";
+@import "site";
+@import "utility";
+@import "print";
+@import "header";
+@import "footer";
+@import "posts";
+@import "page-home";
+@import "page-404";
+@import "page-contact";
+@import "page-projects";
+@import "page-cv";
+@import "project-haiku";

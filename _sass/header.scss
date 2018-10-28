@@ -1,0 +1,88 @@
+.header {
+  border-bottom: 0.25em solid $color-header-line;
+  margin-bottom: 3em;
+  position: relative;
+
+  h1 {
+    margin-bottom: 0;
+    z-index: 10;
+
+    a,
+    a:visited {
+      color: $color-site-title;
+      line-height: 1em;
+      font-size: 2em;
+      line-height: 1.5em;
+      border-bottom: none;
+
+      &:hover {
+        color: $color-site-title-hover;
+        border-bottom: none;
+      }
+
+      @media only screen and (max-width: 530px) {
+        font-size: 1.5em;
+        line-height: 1.5em;
+      }
+
+      @media only screen and (max-width: 375px) {
+        font-size: 1em;
+        line-height: 1.5em;
+      }
+    }
+  }
+
+  .header-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 9em;
+    height: 9em;
+    z-index: -10;
+
+    img,
+    object,
+    svg {
+      max-width: 100%;
+      position: absolute;
+      bottom: 0;
+      color: $color-header-line;
+      fill: $color-header-line;
+      transition: fill 0.5s;
+
+      @media only screen and (max-width: 650px) {
+        opacity: 0.75;
+      }
+
+      @media only screen and (max-width: 530px) {
+        opacity: 0.65;
+      }
+
+      @media only screen and (max-width: 374px) {
+        opacity: 0;
+      }
+    }
+
+    @media only screen and (max-width: 650px) {
+      width: 8em;
+      height: 8em;
+    }
+
+    @media only screen and (max-width: 530px) {
+      width: 7em;
+      height: 7em;
+    }
+  }
+
+  .menu {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    z-index: 10;
+
+    li {
+      list-style: none;
+      display: inline;
+      margin-right: 1em;
+    }
+  }
+}

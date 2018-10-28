@@ -1,0 +1,93 @@
+// General
+.meta {
+  font-size: 0.75em;
+  color: $color-gray-medium;
+}
+
+.post-title {
+  margin-bottom: 0em;
+}
+
+// List on home page
+.posts {
+  margin-left: 0;
+
+  li {
+    list-style: none;
+    line-height: 1.5em;
+    padding: 0.25em 0.5em;
+    margin-bottom: 0.25em;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: darken($color-background, 5);
+    }
+  }
+
+  .display-date {
+    display: block;
+    float: right;
+    text-align: right;
+  }
+
+  .visual-date.processed {
+    display: inline-block;
+    width: 0.75em;
+    margin-right: 0.5em;
+    height: 0.75em;
+    border-radius: 3px;
+  }
+}
+
+// On post pages
+.post {
+  .thumbnails a img {
+    float: left;
+    width: 10%;
+    max-height: 150px;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .geojson {
+    display: none;
+  }
+
+  iframe {
+    margin-bottom: 1.5em;
+  }
+
+  img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+// Bottom post nav
+.post-nav {
+  font-size: 0.85em;
+  margin-top: 2em;
+  margin-bottom: 0;
+
+  .post-nav-next,
+  .post-nav-prev {
+    display: block;
+    width: 50%;
+  }
+
+  .post-nav-next {
+    float: right;
+    text-align: right;
+  }
+
+  .post-nav-prev {
+    float: left;
+  }
+
+  .site .footer {
+    margin-top: 0.5em;
+  }
+}

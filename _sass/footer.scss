@@ -1,0 +1,23 @@
+.site .footer {
+  font-size: 80%;
+  border-top: 2px solid $color-gray-light;
+  margin-top: 2em;
+  padding: 1em 0;
+  text-align: right;
+
+  .web-links {
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 1em;
+
+    a {
+      color: $color-web-links;
+      padding: 0 0.5em;
+
+      &:hover {
+        color: $color-web-links-hover;
+        padding: 0 0.5em;
+      }
+    }
+  }
+}

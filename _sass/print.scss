@@ -1,0 +1,36 @@
+.print-only-block {
+  display: none;
+}
+
+.print-only-inline {
+  display: none;
+}
+
+.print-only-inline-block {
+  display: none;
+}
+
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+
+  .print-only-block {
+    display: block;
+  }
+
+  .print-only-inline {
+    display: inline;
+  }
+  
+  .print-only-inline-block {
+    display: inline-block;
+  }
+}
