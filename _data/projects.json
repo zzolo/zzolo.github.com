@@ -1,0 +1,481 @@
+[
+  {
+    "title": "Town halls",
+    "projectUrl": "http://www.wnyc.org/story/town-hall-tracker/",
+    "image": "town-halls.png",
+    "description": "During the 2017 congressional recess, we tracked which representatives were having town hall meetings.",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Where they stand",
+    "projectUrl": "http://www.wnyc.org/story/tracking-congress-stance-refugee-executive-order/",
+    "codeUrl": "",
+    "image": "travel-ban-stance.png",
+    "description": "Working with reporters and devs at WNYC and NPR, we quickly surveyed all members of Congress on their stance concerning the travel ban, and created a simple interface to look up your representatives.",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Harlem Heat",
+    "projectUrl": "https://www.wnyc.org/story/harlem-heat-song/",
+    "codeUrl": "",
+    "image": "harlem-heat.png",
+    "description": "As part of the <a href=\"https://www.wnyc.org/series/harlem-heat-project\" target=\"_blank\" rel=\"noopener\">Harlem Heat multi-part series</a> the data team created sensors to monitor the indoor temperature in Harlem that worked to inform reporting as well as <a href=\"https://www.wnyc.org/story/new-york-summer-heat-death-policy-de-blasio-bloomberg\" target=\"_blank\" rel=\"noopener\">data visualiztions</a> and <a href=\"https://www.wnyc.org/story/harlem-heat-song/\" target=\"_blank\" rel=\"noopener\">\"audio-izations\"</a>.",
+    "tags": ["wnyc", "front-end", "audio"]
+  },
+  {
+    "title": "Landslide",
+    "projectUrl": "",
+    "codeUrl": "https://github.com/datanews/landslide",
+    "image": "landslide.png",
+    "description": "For <a href=\"https://www.propublica.org/electionland/\" target=\"_blank\" rel=\"noopener\">Electionland</a> 2016, I created a small, lightweight interface to explore the firehose of multiple data sources that ElectionLand was gathering information from; this helped the volunteers and reports to triage quickly and get to the most relevant data they needed more efficiently.",
+    "tags": ["wnyc", "front-end", "back-end", "electionland"]
+  },
+  {
+    "title": "tables",
+    "projectUrl": "https://www.npmjs.com/package/tables",
+    "codeUrl": "https://github.com/datanews/tables",
+    "image": "tables.png",
+    "description": "<strong>tables</strong> is a command-line utility aimed at making it easy to get tabular data, large or small, in multiple file formats into a database quickly, while still supporing edge cases and flexibility.",
+    "tags": ["wnyc", "command-line", "database"]
+  },
+  {
+    "title": "catalog-it",
+    "projectUrl": "https://www.npmjs.com/package/catalog-it",
+    "codeUrl": "https://github.com/datanews/catalog-it",
+    "image": "catalog-it.png",
+    "description": "A command line utility, <strong>catalog-it</strong> provides functions to archive data catalogs.  By using something like cron, catalog-it can watch and download and archive every dataset in a data-catalog when it changes, such as <a href=\"data.cityofnewyork.us/\" target=\"_blank\" rel=\"noopener\">New York City's data portal</a>.  Currently only works with Socrata data portals.",
+    "tags": ["wnyc", "command-line", "archiving"]
+  },
+  {
+    "title": "MTA styles",
+    "projectUrl": "https://datanews.github.io/mta-styles/",
+    "codeUrl": "https://github.com/datanews/mta-styles",
+    "image": "mta-styles.png",
+    "description": "A small CSS/SASS library for creating consistent MTA subway symbols and colors.",
+    "tags": ["wnyc", "front-end", "tool", "design"]
+  },
+  {
+    "title": "Locator",
+    "projectUrl": "https://datanews.github.io/locator/",
+    "codeUrl": "ttps://github.com/datanews/locator",
+    "image": "locator.png",
+    "description": "A browser-based locator map image creator, <strong>Locator</strong> use browser mapping technologies to allow a user to create custom locator maps, and allows organizations to deploy Locator in a way that is consistent with their organization.",
+    "tags": ["wnyc", "front-end", "tool"]
+  },
+  {
+    "title": "Tik Tok",
+    "projectUrl": "https://datanews.github.io/tik-tok/",
+    "codeUrl": "https://github.com/datanews/tik-tok",
+    "image": "tik-tok.png",
+    "description": "<strong>Tik Tok</strong> is a front-end library for creating, simple but elegant vertical timelines; designed to be easy but customizable to fit different needs.",
+    "tags": ["wnyc", "front-end", "library"]
+  },
+  {
+    "title": "Section 8",
+    "projectUrl": "http://www.wnyc.org/story/section-8-part-one/",
+    "codeUrl": "",
+    "image": "section-8-housing.gif",
+    "description": "Working with reporters we analyzed and presented data that showed how those with <a href=\"https://project.wnyc.org/housing-choice-vouchers/chart-poverty.html\" target=\"_blank\" rel=\"noopener\">housing choice vouchers were more likely to live in high poverty areas</a> as well as mapping to show the <a href=\"https://project.wnyc.org/housing-choice-vouchers/map-growth.html\" target=\"_blank\" rel=\"noopener\">growth and concentration of vouhcers</a>.",
+    "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "Infomagical",
+    "projectUrl": "http://project.wnyc.org/infomagical/",
+    "codeUrl": "",
+    "image": "infomagical.png",
+    "description": "As part of Infomagical, an engagement project around information overload, I built a back-end SMS system that interacted with 20k users and sent over 100k messages and images, all on a very tight deadline.",
+    "tags": ["wnyc", "back-end", "sms"]
+  },
+  {
+    "title": "NJ toxic sites",
+    "projectUrl": "http://www.wnyc.org/story/nj-contaminated-sites/",
+    "codeUrl": "",
+    "image": "nj-toxic-sites.png",
+    "description": "After recieving information on every \"contaminated site\" within NJ, we analyzes <a href=\"https://project.wnyc.org/toxic-nj-chart/\" target=\"_blank\" rel=\"noopener\">who lived closest to these sites</a>, and allowed listeners to <a href=\"https://project.wnyc.org/toxic-nj/\" target=\"_blank\" rel=\"noopener\">find sites near where they lived</a> or cared about.",
+    "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "Aurora Shanty",
+    "projectUrl": "https://www.kickstarter.com/projects/706726178/the-aurora-shanty",
+    "codeUrl": "https://github.com/zzolo/aurora-shanty",
+    "image": "aurora.jpg",
+    "description": "As part of the <a href=\"http://www.artshantyprojects.org/2016artists\" target=\"_blank\" rel=\"noopener\">2016 Art Shanty</a> project, I led a team that built a northern-lights-inspired, solar-powered LED display inside a small shanty on a frozen lake for a month in the Minnesota winter.",
+    "tags": ["personal", "art", "hardware", "led"]
+  },
+  {
+    "title": "Schoolbook",
+    "projectUrl": "http://data.schoolbook.org/",
+    "codeUrl": "",
+    "image": "schoolbook.png",
+    "description": "In 2016, we updated the popular SchoolBook website that provided an interface to easily search and compare schools in NYC.",
+    "tags": ["wnyc", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Citi Bike deserts",
+    "projectUrl": "http://www.wnyc.org/story/citi-bike-deserts/",
+    "codeUrl": "",
+    "image": "citibike-deserts.png",
+    "description": "After tracking data from the hundreds of Citi Bike stations across the city, we were able to do determine when and where there was consistent empty or full areas around the city.",
+    "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "Kittenbus",
+    "projectUrl": "http://zzolo.org/kittenbus/",
+    "codeUrl": "https://github.com/zzolo/kittenbus",
+    "image": "kittenbus.png",
+    "description": "Working with young artists at <a href=\"http://juxtapositionarts.org/\" target=\"_blank\" rel=\"noopener\">Juxstaposition Arts</a>, we created and installed a display near a downtown bus stop in Minneapolis, that showed custom, animated visualizations of buses arriving in real-time.",
+    "tags": ["personal", "art", "civic"]
+  },
+  {
+    "title": "Pope visit",
+    "projectUrl": "http://www.wnyc.org/story/pope-nyc-traffic-map/",
+    "codeUrl": "",
+    "image": "pope-visit.png",
+    "description": "In 2015, Pope Francis visited New York City, so we turned the word-heavy advisory that the City provided into a <a href=\"https://project.wnyc.org/pope-crossing/\" target=\"_blank\" rel=\"noopener\">map of what and when roads were closed</a> during the visit to help commuters better plan.",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Bike lane blockers",
+    "projectUrl": "https://project.wnyc.org/bike-lane-blockers/",
+    "codeUrl": "",
+    "image": "bike-lane-blockers.png",
+    "description": "Asking listeners to submit their experiences and pictures, we created a map showing where cars, trucks, people, and may other things ended up blocking the bike lanes.",
+    "tags": ["wnyc", "front-end", "user-input"]
+  },
+  {
+    "title": "Metal detectors",
+    "projectUrl": "http://www.wnyc.org/story/school-metal-detectors/",
+    "codeUrl": "",
+    "image": "metal-detectors.png",
+    "description": "Manually piecing together multiple datasets, we <a href=\"https://project.wnyc.org/metal-detectors/\" target=\"_blank\" rel=\"noopener\">analyzed the schools</a> that had metal detectors and what kind of students ended up going through them.",
+    "tags": ["wnyc", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Illegal hotels",
+    "projectUrl": "http://www.wnyc.org/story/when-inspectors-look-illegal-hotels/",
+    "codeUrl": "",
+    "image": "illegal-hotels.png",
+    "description": "",
+    "tags": ["wnyc", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Parks access",
+    "projectUrl": "http://www.wnyc.org/story/parks-access/",
+    "codeUrl": "",
+    "image": "parks-access.png",
+    "description": "",
+    "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "Determined Dill",
+    "projectUrl": "http://zzolo.org/determined-dill/",
+    "codeUrl": "https://github.com/zzolo/determined-dill",
+    "image": "determined-dill.png",
+    "description": "",
+    "tags": ["personal", "art", "game"]
+  },
+  {
+    "title": "NYC stock photos",
+    "projectUrl": "http://www.wnyc.org/story/35-stock-photos-of-real-new-yorkers-doing-things/",
+    "codeUrl": "",
+    "image": "nyc-stock-photos.png",
+    "description": "",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Ice cream radar",
+    "projectUrl": "https://project.wnyc.org/ice-cream/",
+    "codeUrl": "",
+    "image": "ice-cream-radar.png",
+    "description": "",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Subway agony",
+    "projectUrl": "http://www.wnyc.org/story/your-subway-agony/",
+    "codeUrl": "",
+    "image": "subway-agony.png",
+    "description": "",
+    "tags": ["wnyc", "front-end", "data-analysis"]
+  },
+  {
+    "title": "NYC watershed",
+    "projectUrl": "http://project.wnyc.org/watershed/",
+    "codeUrl": "",
+    "image": "watershed.png",
+    "description": "",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Christieverse",
+    "projectUrl": "http://project.wnyc.org/christieverse/",
+    "codeUrl": "",
+    "image": "christieverse-screen.png",
+    "description": "",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Slack-enabled camera",
+    "projectUrl": "http://datanews.tumblr.com/post/116485006262/as-the-sole-remote-worker-on-the-datanews-team",
+    "codeUrl": "",
+    "image": "slack-enabled-camera.gif",
+    "description": "",
+    "tags": ["wnyc", "hardware"]
+  },
+  {
+    "title": "Speed cameras",
+    "projectUrl": "http://project.wnyc.org/speed-cameras/",
+    "codeUrl": "",
+    "image": "speed-cameras-screen.png",
+    "description": "",
+    "tags": ["wnyc", "front-end"]
+  },
+  {
+    "title": "Outside spending",
+    "projectUrl": "http://www.minnpost.com/data/2014/10/outsiders-how-big-money-flows-through-minnesota-elections",
+    "codeUrl": "https://github.com/MinnPost/minnpost-2014-follow-the-money",
+    "image": "outside-spending-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "MN House cartogram",
+    "projectUrl": "http://www.minnpost.com/data/2014/09/minnesotas-most-competitive-house-districts",
+    "codeUrl": "https://github.com/MinnPost/minnpost-pvi-map-2014",
+    "image": "mn-house-cartogram.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Minneapolis zoning",
+    "projectUrl": "https://www.minnpost.com/data/2015/02/how-minneapolis-zoned",
+    "codeUrl": "https://github.com/MinnPost/minnpost-minneapolis-zoning-map",
+    "image": "minneapolis-zoning.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "aRanger",
+    "projectUrl": "http://code.minnpost.com/aranger/",
+    "codeUrl": "https://github.com/MinnPost/aranger",
+    "image": "aranger-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "tool"]
+  },
+  {
+    "title": "20 races",
+    "projectUrl": "https://www.minnpost.com/data/2014/10/one-week-out-updated-look-20-races-will-decide-who-controls-minnesota-house",
+    "codeUrl": "https://github.com/minnpost/minnpost-hot-house-districts-2014",
+    "image": "20-races.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Lacu",
+    "projectUrl": "http://code.minnpost.com/minnpost-lacu/",
+    "codeUrl": "https://github.com/MinnPost/minnpost-lacu",
+    "image": "lacu-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "art"]
+  },
+  {
+    "title": "Green line analysis",
+    "projectUrl": "http://www.minnpost.com/data/2014/06/who-lives-green-line",
+    "codeUrl": "https://github.com/MinnPost/minnpost-green-line-demographics",
+    "image": "green-line-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Journalism in code",
+    "projectUrl": "http://code.minnpost.com/car-code/",
+    "codeUrl": "https://github.com/MinnPost/car-code",
+    "image": "car-code-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "tool", "community"]
+  },
+  {
+    "title": "Metro-area parcels",
+    "projectUrl": "http://www.minnpost.com/data/2014/05/mapping-residential-parcel-values-twin-cities-metro",
+    "codeUrl": "https://github.com/MinnPost/minnpost-metro-parcels",
+    "image": "residential-parcels-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "County commissioner",
+    "projectUrl": "https://www.minnpost.com/data/2014/04/last-minute-hennepin-county-candidate-picking-tool",
+    "codeUrl": "https://github.com/minnpost/minnpost-hennepin-county-3rd-commissioner-primary-candidates",
+    "image": "hennepin-county-commissioner.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Normal temperatures",
+    "projectUrl": "http://www.minnpost.com/data/2014/03/are-these-temperatures-normal",
+    "codeUrl": "https://github.com/MinnPost/minnpost-climate",
+    "image": "normal-temperature-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Snow emergency locator",
+    "projectUrl": "http://www.minnpost.com/snow",
+    "codeUrl": "https://github.com/MinnPost/minnpost-snow-emergency",
+    "image": "snow-emergency-tracker-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Lumière",
+    "projectUrl": "http://lumiere.lighting",
+    "codeUrl": "https://github.com/lumiere-lighting",
+    "image": "lumiere-project-screen.png",
+    "description": "",
+    "tags": ["personal", "hardware", "led"]
+  },
+  {
+    "title": "Visualizing HAZMAT",
+    "projectUrl": "http://www.minnpost.com/data/2014/01/visualizing-hazmat-incidents-minnesota",
+    "codeUrl": "https://github.com/MinnPost/minnpost-hazmat",
+    "image": "hazmat-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Gettysburg address",
+    "projectUrl": "http://www.minnpost.com/data/2013/11/how-well-do-you-remember-gettysburg-address",
+    "codeUrl": "https://github.com/MinnPost/minnpost-gettysburg-address",
+    "image": "gettysburg-address-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Totoro",
+    "projectUrl": "http://zzolo.org/totoro/",
+    "codeUrl": "https://github.com/zzolo/totoro",
+    "image": "totoro-project-screen.png",
+    "description": "",
+    "tags": ["personal", "art", "civic"]
+  },
+  {
+    "title": "Live elections results",
+    "projectUrl": "http://www.minnpost.com/results",
+    "codeUrl": "https://github.com/MinnPost/minnpost-elections-dashboard",
+    "image": "elections-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "back-end"]
+  },
+  {
+    "title": "Minneapolis crime",
+    "projectUrl": "http://www.minnpost.com/crime",
+    "codeUrl": "https://github.com/MinnPost/minnpost-crime",
+    "image": "crime-dashboard-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "Tulip",
+    "projectUrl": "http://code.minnpost.com/tulip/",
+    "codeUrl": "https://github.com/minnpost/tulip/",
+    "image": "tulip-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "tool", "mapping"]
+  },
+  {
+    "title": "Simple Map D3",
+    "projectUrl": "http://code.minnpost.com/simple-map-d3/",
+    "codeUrl": "https://github.com/minnpost/simple-map-d3/",
+    "image": "simple-map-d3-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "tool"]
+  },
+  {
+    "title": "Mapping fiber",
+    "projectUrl": "http://www.minnpost.com/data/2013/09/mapping-fiber-internet-minneapolis-where-it-and-will-it-expand",
+    "codeUrl": "https://github.com/MinnPost/minnpost-usi-fiber",
+    "image": "mapping-fiber-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "What did they pass?",
+    "projectUrl": "http://www.minnpost.com/data/2013/05/2013-legislative-session-what-did-they-pass",
+    "codeUrl": "https://github.com/MinnPost/minnpost-legislature-roundup-2013",
+    "image": "leg-passed-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Legislature tracker",
+    "projectUrl": "http://www.minnpost.com/data/2013/04/minnesota-legislative-bill-tracker",
+    "codeUrl": "https://github.com/MinnPost/legislature-tracker",
+    "image": "leg-tracker-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Dayton's budget",
+    "projectUrl": "http://www.minnpost.com/data/2013/01/budget-101-graphic-primer-daytons-budget-proposal",
+    "codeUrl": "https://github.com/MinnPost/minnpost-governor-budget-2013",
+    "image": "dayton-budget-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Legislature scenarios",
+    "projectUrl": "http://www.minnpost.com/data/2012/09/interactive-who-will-control-2013-minnesota-legislature",
+    "codeUrl": "",
+    "image": "leg-control-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end"]
+  },
+  {
+    "title": "Invasive species",
+    "projectUrl": "http://www.minnpost.com/data/2012/06/mapping-invasive-species-minnesota",
+    "codeUrl": "https://github.com/MinnPost/minnpost-dnr-invasive",
+    "image": "invasice-species-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis"]
+  },
+  {
+    "title": "A Day in the Life of Nice Ride",
+    "projectUrl": "http://www.minnpost.com/data/2012/06/day-life-nice-ride-bikes",
+    "codeUrl": "https://github.com/MinnPost/minnpost-nice-ride",
+    "image": "nice-ride-project-screen.png",
+    "description": "",
+    "tags": ["minnpost", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "Chronological",
+    "projectUrl": "http://zzolo.org/chronological/",
+    "codeUrl": "https://github.com/zzolo/chronological",
+    "image": "chronological-project-screen.png",
+    "description": "",
+    "tags": ["personal", "front-end", "art"]
+  },
+  {
+    "title": "Change by Us (Philly)",
+    "projectUrl": "",
+    "codeUrl": "https://github.com/codeforamerica/Change-By-Us",
+    "image": "change-by-us-projecy-screen.png",
+    "description": "",
+    "tags": ["code-for-america", "front-end", "back-end"]
+  },
+  {
+    "title": "HistoryNear.me",
+    "projectUrl": "",
+    "codeUrl": "https://github.com/zzolo/historynear.me",
+    "image": "historynear-me-project-screen.jpg",
+    "description": "",
+    "tags": ["personal", "front-end", "civic"]
+  },
+  {
+    "title": "Haiku and a Portrait",
+    "projectUrl": "/pages/haikus/",
+    "codeUrl": "",
+    "image": "haiku-portrait-project-screen.png",
+    "description": "",
+    "tags": ["personal", "art"]
+  }
+]
