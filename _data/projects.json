@@ -155,7 +155,7 @@
     "projectUrl": "http://www.wnyc.org/story/when-inspectors-look-illegal-hotels/",
     "codeUrl": "",
     "image": "illegal-hotels.png",
-    "description": "",
+    "description": "We did geospatial analysis of AirBnB listings and inpsections of \"illegal hotels\" in NYC.",
     "tags": ["wnyc", "front-end", "data-analysis"]
   },
   {
@@ -163,7 +163,7 @@
     "projectUrl": "http://www.wnyc.org/story/parks-access/",
     "codeUrl": "",
     "image": "parks-access.png",
-    "description": "",
+    "description": "We analyzed parks and parks access across NYC and found that though the numbers in aggregate are good, but access could varying greatly across the city.",
     "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
   },
   {
@@ -171,15 +171,15 @@
     "projectUrl": "http://zzolo.org/determined-dill/",
     "codeUrl": "https://github.com/zzolo/determined-dill",
     "image": "determined-dill.png",
-    "description": "",
+    "description": "As part of the first <a href=\"https://mnpicklefestival.com/\" target=\"_blank\" rel=\"noopener\">Minnesota Pickle Festival</a>, I created this simple, browser jumper game in collaboration with <a href=\"http://squawkproductions.com/\" target=\"_blank\" rel=\"noopener\">Squawk</a>.",
     "tags": ["personal", "art", "game"]
   },
   {
     "title": "NYC stock photos",
-    "projectUrl": "http://www.wnyc.org/story/35-stock-photos-of-real-new-yorkers-doing-things/",
+    "projectUrl": "https://project.wnyc.org/stock-photos/",
     "codeUrl": "",
     "image": "nyc-stock-photos.png",
-    "description": "",
+    "description": "Our team went out into the city and acted out typical situations one comes across in NYC; we then released the photos under a <a href=\"https://www.flickr.com/photos/wnyc/sets/72157657232039102/\" target=\"_blank\" rel=\"noopener\">Creative Commons license on Flickr</a>.",
     "tags": ["wnyc", "front-end"]
   },
   {
@@ -187,7 +187,7 @@
     "projectUrl": "https://project.wnyc.org/ice-cream/",
     "codeUrl": "",
     "image": "ice-cream-radar.png",
-    "description": "",
+    "description": "It was hot in NYC, so we made a map to help people to get to ice cream.",
     "tags": ["wnyc", "front-end"]
   },
   {
@@ -195,7 +195,7 @@
     "projectUrl": "http://www.wnyc.org/story/your-subway-agony/",
     "codeUrl": "",
     "image": "subway-agony.png",
-    "description": "",
+    "description": "To help determine just how late trains were running across the MTA system, we regulary took snapshots of real-time train data to create the simplified, emoji-based \"Subway Agony index\".",
     "tags": ["wnyc", "front-end", "data-analysis"]
   },
   {
@@ -203,7 +203,7 @@
     "projectUrl": "http://project.wnyc.org/watershed/",
     "codeUrl": "",
     "image": "watershed.png",
-    "description": "",
+    "description": "A visual explanaition of where NYC gets most of it's drinking water from.",
     "tags": ["wnyc", "front-end"]
   },
   {
@@ -211,7 +211,7 @@
     "projectUrl": "http://project.wnyc.org/christieverse/",
     "codeUrl": "",
     "image": "christieverse-screen.png",
-    "description": "",
+    "description": "In the wake of the George Washington Bridge lane closure, a.k.a. Bridgegate, we created an audio and visual walk through of the people involved and their relation to Governor Chris Christie.",
     "tags": ["wnyc", "front-end"]
   },
   {
