@@ -219,7 +219,7 @@
     "projectUrl": "http://datanews.tumblr.com/post/116485006262/as-the-sole-remote-worker-on-the-datanews-team",
     "codeUrl": "",
     "image": "slack-enabled-camera.gif",
-    "description": "",
+    "description": "An experiment in connecting Slack to a camera to help facilite remote work.",
     "tags": ["wnyc", "hardware"]
   },
   {
@@ -227,23 +227,23 @@
     "projectUrl": "http://project.wnyc.org/speed-cameras/",
     "codeUrl": "",
     "image": "speed-cameras-screen.png",
-    "description": "",
+    "description": "After analyzing ticket locations across the city, our team could pinpoint where speeding cameras were and what kind of impact they had.",
     "tags": ["wnyc", "front-end"]
   },
   {
     "title": "Outside spending",
-    "projectUrl": "http://www.minnpost.com/data/2014/10/outsiders-how-big-money-flows-through-minnesota-elections",
+    "projectUrl": "https://www.minnpost.com/data/2014/10/outsiders-how-big-money-flows-through-minnesota-elections/",
     "codeUrl": "https://github.com/MinnPost/minnpost-2014-follow-the-money",
     "image": "outside-spending-screen.png",
-    "description": "",
+    "description": "Working with our state political reporter, we visualized how money flowed through PACs on the Minnesota state level.",
     "tags": ["minnpost", "front-end"]
   },
   {
-    "title": "MN House cartogram",
-    "projectUrl": "http://www.minnpost.com/data/2014/09/minnesotas-most-competitive-house-districts",
+    "title": "MN competitive House districts",
+    "projectUrl": "https://www.minnpost.com/data/2014/09/minnesotas-most-competitive-house-districts/",
     "codeUrl": "https://github.com/MinnPost/minnpost-pvi-map-2014",
     "image": "mn-house-cartogram.png",
-    "description": "",
+    "description": "Analysis and presentation of political leanings for all state House races in Minnesota.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -251,7 +251,7 @@
     "projectUrl": "https://www.minnpost.com/data/2015/02/how-minneapolis-zoned",
     "codeUrl": "https://github.com/MinnPost/minnpost-minneapolis-zoning-map",
     "image": "minneapolis-zoning.png",
-    "description": "",
+    "description": "A simple map visualization of zoning across the city of Minneapolis.",
     "tags": ["minnpost", "front-end", "data-analysis", "mapping"]
   },
   {
@@ -259,7 +259,7 @@
     "projectUrl": "http://code.minnpost.com/aranger/",
     "codeUrl": "https://github.com/MinnPost/aranger",
     "image": "aranger-screen.png",
-    "description": "",
+    "description": "A browser-based tool to help create custom cartogram layouts.",
     "tags": ["minnpost", "front-end", "tool"]
   },
   {
@@ -267,7 +267,7 @@
     "projectUrl": "https://www.minnpost.com/data/2014/10/one-week-out-updated-look-20-races-will-decide-who-controls-minnesota-house",
     "codeUrl": "https://github.com/minnpost/minnpost-hot-house-districts-2014",
     "image": "20-races.png",
-    "description": "",
+    "description": "A breakdown of the 20 most competitive races for the Minnesota State House.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -275,15 +275,15 @@
     "projectUrl": "http://code.minnpost.com/minnpost-lacu/",
     "codeUrl": "https://github.com/MinnPost/minnpost-lacu",
     "image": "lacu-screen.png",
-    "description": "",
+    "description": "Lacu is a project we made for <a href=\"http://2014.northernspark.org/\" target=\"_blank\" rel=\"noopener\">Northern Spark 2014</a> which visualizes 13,817 lakes in Minnesota, two at a time. Lacu ran from sun up to sun down, the span of the event. The plan was to project it on the front of the Northrup Auditorium, but due to weather, we projected it inside the building.",
     "tags": ["minnpost", "front-end", "art"]
   },
   {
-    "title": "Green line analysis",
+    "title": "who lives on the green line",
     "projectUrl": "http://www.minnpost.com/data/2014/06/who-lives-green-line",
     "codeUrl": "https://github.com/MinnPost/minnpost-green-line-demographics",
     "image": "green-line-screen.png",
-    "description": "",
+    "description": "After the Green line opened, we visualized the demographics along the new transit line.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -291,7 +291,7 @@
     "projectUrl": "http://code.minnpost.com/car-code/",
     "codeUrl": "https://github.com/MinnPost/car-code",
     "image": "car-code-screen.png",
-    "description": "",
+    "description": "Regularly collecting information from all the journalism organizations on Github, \"journalism in code\" shows what code is being written across these organizations.",
     "tags": ["minnpost", "front-end", "tool", "community"]
   },
   {
@@ -299,7 +299,7 @@
     "projectUrl": "http://www.minnpost.com/data/2014/05/mapping-residential-parcel-values-twin-cities-metro",
     "codeUrl": "https://github.com/MinnPost/minnpost-metro-parcels",
     "image": "residential-parcels-screen.png",
-    "description": "",
+    "description": "A map of every parcel in the most of the counties in the Twin Cities metro area.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -307,7 +307,7 @@
     "projectUrl": "https://www.minnpost.com/data/2014/04/last-minute-hennepin-county-candidate-picking-tool",
     "codeUrl": "https://github.com/minnpost/minnpost-hennepin-county-3rd-commissioner-primary-candidates",
     "image": "hennepin-county-commissioner.png",
-    "description": "",
+    "description": "An interactive questionnaire for helping readers narrow their selection for the Hennepin County Commissioner primary.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -315,7 +315,7 @@
     "projectUrl": "http://www.minnpost.com/data/2014/03/are-these-temperatures-normal",
     "codeUrl": "https://github.com/MinnPost/minnpost-climate",
     "image": "normal-temperature-screen.png",
-    "description": "",
+    "description": "An hourly-updated look at how the temperatute today, the past week, the past month, and the current season in the Twin Cities compares to the 30-year normal.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -323,7 +323,7 @@
     "projectUrl": "http://www.minnpost.com/snow",
     "codeUrl": "https://github.com/MinnPost/minnpost-snow-emergency",
     "image": "snow-emergency-tracker-screen.png",
-    "description": "",
+    "description": "A mobile-friendly way to look up if you are parking on the right side of the road during a Snow Emergency in Minneapolis using browser-based location.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -331,15 +331,15 @@
     "projectUrl": "http://lumiere.lighting",
     "codeUrl": "https://github.com/lumiere-lighting",
     "image": "lumiere-project-screen.png",
-    "description": "",
+    "description": "<strong>Lumière</strong> is a personal project where anyone can change the colors of the holiday lights on our house.  Designed to be reusable and extended, its architecture is flexible and well-documented.",
     "tags": ["personal", "hardware", "led"]
   },
   {
-    "title": "Visualizing HAZMAT",
+    "title": "Visualizing hazardous materials",
     "projectUrl": "http://www.minnpost.com/data/2014/01/visualizing-hazmat-incidents-minnesota",
     "codeUrl": "https://github.com/MinnPost/minnpost-hazmat",
     "image": "hazmat-project-screen.png",
-    "description": "",
+    "description": "A visual breakdown of all the hazmat incidents that occurred in Minnesota from 2000 to 2012.",
     "tags": ["minnpost", "front-end"]
   },
   {
