@@ -347,7 +347,7 @@
     "projectUrl": "http://www.minnpost.com/data/2013/11/how-well-do-you-remember-gettysburg-address",
     "codeUrl": "https://github.com/MinnPost/minnpost-gettysburg-address",
     "image": "gettysburg-address-project-screen.png",
-    "description": "",
+    "description": "A quiz-like interactive to test how well readers know the Gettysburg Address.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -355,7 +355,7 @@
     "projectUrl": "http://zzolo.org/totoro/",
     "codeUrl": "https://github.com/zzolo/totoro",
     "image": "totoro-project-screen.png",
-    "description": "",
+    "description": "An experimentation in how to represent the live estimated time of arrival for buses.",
     "tags": ["personal", "art", "civic"]
   },
   {
@@ -363,7 +363,7 @@
     "projectUrl": "http://www.minnpost.com/results",
     "codeUrl": "https://github.com/MinnPost/minnpost-elections-dashboard",
     "image": "elections-project-screen.png",
-    "description": "",
+    "description": "Live election results dashboard utilizing data from the Minnesota Secretary of State.",
     "tags": ["minnpost", "front-end", "back-end"]
   },
   {
@@ -371,7 +371,7 @@
     "projectUrl": "http://www.minnpost.com/crime",
     "codeUrl": "https://github.com/MinnPost/minnpost-crime",
     "image": "crime-dashboard-project-screen.png",
-    "description": "",
+    "description": "Monthly interactive visual showing crime trends by neighborhoods in Minneapolis.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -379,7 +379,7 @@
     "projectUrl": "http://code.minnpost.com/tulip/",
     "codeUrl": "https://github.com/minnpost/tulip/",
     "image": "tulip-project-screen.png",
-    "description": "",
+    "description": "A browser-based tool for creating simple choropleth maps.",
     "tags": ["minnpost", "front-end", "tool", "mapping"]
   },
   {
@@ -387,7 +387,7 @@
     "projectUrl": "http://code.minnpost.com/simple-map-d3/",
     "codeUrl": "https://github.com/minnpost/simple-map-d3/",
     "image": "simple-map-d3-project-screen.png",
-    "description": "",
+    "description": "A javascript, D3 libary for making simple choropleth maps in the browser.",
     "tags": ["minnpost", "front-end", "tool"]
   },
   {
@@ -395,7 +395,7 @@
     "projectUrl": "http://www.minnpost.com/data/2013/09/mapping-fiber-internet-minneapolis-where-it-and-will-it-expand",
     "codeUrl": "https://github.com/MinnPost/minnpost-usi-fiber",
     "image": "mapping-fiber-project-screen.png",
-    "description": "",
+    "description": "Reporting and mapping on the spread of fiber-optic internet in Minneapolis.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -403,7 +403,7 @@
     "projectUrl": "http://www.minnpost.com/data/2013/05/2013-legislative-session-what-did-they-pass",
     "codeUrl": "https://github.com/MinnPost/minnpost-legislature-roundup-2013",
     "image": "leg-passed-project-screen.png",
-    "description": "",
+    "description": "A visual look at what the Minnesota State Legislature passed in the 2013 session.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -411,7 +411,7 @@
     "projectUrl": "http://www.minnpost.com/data/2013/04/minnesota-legislative-bill-tracker",
     "codeUrl": "https://github.com/MinnPost/legislature-tracker",
     "image": "leg-tracker-project-screen.png",
-    "description": "",
+    "description": "An interactive utilizing Open States to show how key bills are progressing through the Minnesota State Legislature.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -419,7 +419,7 @@
     "projectUrl": "http://www.minnpost.com/data/2013/01/budget-101-graphic-primer-daytons-budget-proposal",
     "codeUrl": "https://github.com/MinnPost/minnpost-governor-budget-2013",
     "image": "dayton-budget-project-screen.png",
-    "description": "",
+    "description": "A visual rundown of Governor Dayton's proposed budget.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -427,7 +427,7 @@
     "projectUrl": "http://www.minnpost.com/data/2012/09/interactive-who-will-control-2013-minnesota-legislature",
     "codeUrl": "",
     "image": "leg-control-project-screen.png",
-    "description": "",
+    "description": "An exploration of how the Minnesota State Legislature might turn out after the election.",
     "tags": ["minnpost", "front-end"]
   },
   {
@@ -435,7 +435,7 @@
     "projectUrl": "http://www.minnpost.com/data/2012/06/mapping-invasive-species-minnesota",
     "codeUrl": "https://github.com/MinnPost/minnpost-dnr-invasive",
     "image": "invasice-species-project-screen.png",
-    "description": "",
+    "description": "A map of all the reports of invasive species across Minnesota.",
     "tags": ["minnpost", "front-end", "data-analysis"]
   },
   {
@@ -443,7 +443,7 @@
     "projectUrl": "http://www.minnpost.com/data/2012/06/day-life-nice-ride-bikes",
     "codeUrl": "https://github.com/MinnPost/minnpost-nice-ride",
     "image": "nice-ride-project-screen.png",
-    "description": "",
+    "description": "An animated map showing bike-share trips across the city of Minneapolis.",
     "tags": ["minnpost", "front-end", "data-analysis", "mapping"]
   },
   {
@@ -451,7 +451,7 @@
     "projectUrl": "http://zzolo.org/chronological/",
     "codeUrl": "https://github.com/zzolo/chronological",
     "image": "chronological-project-screen.png",
-    "description": "",
+    "description": "A personal project showcasing the places I have lived to the tune of an Astronautalis song.",
     "tags": ["personal", "front-end", "art"]
   },
   {
@@ -459,7 +459,7 @@
     "projectUrl": "",
     "codeUrl": "https://github.com/codeforamerica/Change-By-Us",
     "image": "change-by-us-projecy-screen.png",
-    "description": "",
+    "description": "<strong>Change by Us</strong> is civic tool to gather and aggreagte feedback about community concerns.",
     "tags": ["code-for-america", "front-end", "back-end"]
   },
   {
@@ -467,7 +467,7 @@
     "projectUrl": "",
     "codeUrl": "https://github.com/zzolo/historynear.me",
     "image": "historynear-me-project-screen.jpg",
-    "description": "",
+    "description": "Explore historical sites in San Diego on this map.",
     "tags": ["personal", "front-end", "civic"]
   },
   {
@@ -475,7 +475,7 @@
     "projectUrl": "/pages/haikus/",
     "codeUrl": "",
     "image": "haiku-portrait-project-screen.png",
-    "description": "",
+    "description": "In 2009, I started the year with the thought that I would a take a self-portrait and write a haiku everyday. I did not make it more than a month, but the short time was enjoyable and I produced some decent work.",
     "tags": ["personal", "art"]
   }
 ]
