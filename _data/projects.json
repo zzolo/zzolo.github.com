@@ -1,5 +1,132 @@
 [
   {
+    "title": "Live midterm election results",
+    "projectUrl": "http://www.startribune.com/live-2018-minnesota-midterm-election-results-key-top-races-governor-attorney-general-us-senate-house-congress/497951121/",
+    "codeUrl": "https://github.com/striblab/2018-midterm-results",
+    "image": "midterm-results.png",
+    "description": "2018 live midterm election results powered by Associated Press and Minnesota Secretary of State via <a href=\"https://github.com/striblab/civix\" target=\"_blank\" rel=\"noopener\">civix</a>.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Minneapolis 2040 plan",
+    "projectUrl": "http://www.startribune.com/find-out-how-your-block-could-change-in-minneapolis-2040-plan/489889431/",
+    "codeUrl": "https://github.com/striblab/2018-2040-plan",
+    "image": "2040-plan.png",
+    "description": "How each parcel across Minneapolis will change under the proposed 2040 plan.",
+    "tags": ["startribune", "front-end", "data-analysis", "mapping"]
+  },
+  {
+    "title": "Top executives in Minnesota",
+    "projectUrl": "http://www.startribune.com/which-minnesota-bosses-were-the-highest-paid-this-past-year/483225791/",
+    "codeUrl": "https://github.com/striblab/2018-top-executives",
+    "image": "2018-top-executives.png",
+    "description": "List of the most compensated executives in Minnesota.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Minnesota election guide",
+    "projectUrl": "http://www.startribune.com/2018-minnesota-election-voter-guide-who-is-running-governor-house-senate-politics-issues/483224571/",
+    "codeUrl": "https://github.com/striblab/2018-voters-guide",
+    "image": "mn-election-guide.png",
+    "description": "Candidates positions for key races in state-level races in Minnesota..",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Strib social card generator",
+    "projectUrl": "http://static.startribune.com/news/tools/strib-card/",
+    "codeUrl": "https://github.com/striblab/strib-card",
+    "image": "strib-card.png",
+    "description": "A browser-based tool for creating images for social platforms.",
+    "tags": ["startribune", "front-end", "tool"]
+  },
+  {
+    "title": "Minnesota top businesses",
+    "projectUrl": "http://www.startribune.com/startribune-50-minnesota-largest-public-companies-increase-overall-revenue/483224831/",
+    "codeUrl": "https://github.com/striblab/2018-business-strib-50",
+    "image": "2018-top-business.png",
+    "description": "A breakdown of the top 50 publicly-traded companies based in Minnesota.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Minnesota campaign finance in key races",
+    "projectUrl": "http://www.startribune.com/campaign-finance-2018-minnesota-us-house-congressional-races-among-nations-most-competitive-already-draw-millions/478994733/",
+    "codeUrl": "https://github.com/striblab/campfi-2018",
+    "image": "2018-campaign-finance.png",
+    "description": "An updating look at how money is flowing to candidates in key races in Minnesota.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Summer camp guide",
+    "projectUrl": "http://www.startribune.com/nonprofit-100/460547793/",
+    "codeUrl": "https://github.com/striblab/2018-summer-camp-guide",
+    "image": "2018-summer-camp-guide.png",
+    "description": "An interactive, searchable database to help readers find summer camps for their kids and families.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Minnesota top non-profit 100",
+    "projectUrl": "http://www.startribune.com/nonprofit-100/460547793/",
+    "codeUrl": "https://github.com/striblab/strib-nonprofit-100-2017",
+    "image": "2017-non-profit-100.png",
+    "description": "The top 100 non-profits in Minnesota.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Twin Cities election guide",
+    "codeUrl": "https://github.com/striblab/2017-election-guide",
+    "image": "2017-election-guide.png",
+    "description": "Address-based lookup to figure out what is on the ballot in the Twin Cities.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Super Bowl guide",
+    "projectUrl": "https://static.startribune.com/guide/",
+    "codeUrl": "https://github.com/striblab/super-bowl-guide",
+    "image": "super-bowl-guide.png",
+    "description": "A progressive wbe app mini-site showcasing things to do and see in the Twin Cities for visitors that were in town for Super Bowl LII.",
+    "tags": ["startribune", "front-end", "progressive-web-app"]
+  },
+  {
+    "title": "Ranked-choice explained",
+    "projectUrl": "http://www.startribune.com/how-ranked-choice-voting-works/447982593/",
+    "codeUrl": "https://github.com/striblab/20130915-ranked-choice-voting",
+    "image": "ranked-choice-explained.png",
+    "description": "An updated visual explanation of how ranked-choice voting works.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Minnesota elections API",
+    "projectUrl": "https://github.com/striblab/mn-elections-api",
+    "codeUrl": "https://github.com/striblab/mn-elections-api",
+    "image": "mn-elections-api.png",
+    "description": "A command-line tool that turns data from the Minnesota Secretary of State into JSON files for use as a static API.",
+    "tags": ["startribune", "command-line", "api"]
+  },
+  {
+    "title": "Beating the odds",
+    "projectUrl": "http://www.startribune.com/beating-the-odds-which-minnesota-schools-are-scoring-better-than-expected/489886271/",
+    "codeUrl": "https://github.com/striblab/2018-school-test-scores",
+    "image": "beating-the-odds.png",
+    "description": "Updating our predictive analysis of how schools may doing better than what is modeled based on free or reduced-price lunch in the school.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Mayoral calculus",
+    "projectUrl": "http://www.startribune.com/rank-choice-voting-in-each-city/456673313/",
+    "codeUrl": "https://github.com/striblab/mayoral-shakedown",
+    "image": "mayoral-calculus.png",
+    "description": "A visual explanation of how the 2017 Minneapolis mayoral ranked-choice race was counted and how the winner was determined.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "How land use has changed in the Twin Cities",
+    "projectUrl": "http://www.startribune.com/from-parks-and-farms-to-housing-see-how-twin-cities-land-has-changed/440912883/",
+    "codeUrl": "https://github.com/striblab/20170629-metro-land-use",
+    "image": "land-use-map.png",
+    "description": "Utilizing land use data and aerial imagery, I created these maps to how land use has change from 2010 to 2016 in the Twin Cities.  The data analysis and mapping informed reporting on <a href=\"http://www.startribune.com/farms-and-factories-fade-in-burgeoning-metro-cities/440905033/\" target=\"_blank\" rel=\"noopener\">multiple</a> <a href=\"http://www.startribune.com/golf-courses-give-way-to-new-housing-amid-demand-for-land/437897933/\" target=\"_blank\" rel=\"noopener\">stories</a>.",
+    "tags": ["startribune", "front-end", "data-analysis", "mapping"]
+  },
+  {
     "title": "Town halls",
     "projectUrl": "http://www.wnyc.org/story/town-hall-tracker/",
     "image": "town-halls.png",
