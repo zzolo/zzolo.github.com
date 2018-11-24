@@ -33,12 +33,14 @@
     _.each(_.groupBy(posts, 'year'), function(y, year) {
       min = moment(year + '-01-01').unix();
       max = moment(year + '-12-31').unix();
-      colorScale = chroma.scale(['#DEDCAB', '#533324'])
+      colorScale = chroma
+        .scale(['#DEDCAB', '#533324'])
         .domain([min, max])
         .mode('lab');
 
       _.each(y, function(p) {
-        $('[data-id="' + p.id + '"] .visual-date').addClass('processed')
+        $('[data-id="' + p.id + '"] .visual-date')
+          .addClass('processed')
           .css('background-color', colorScale(p.timestamp).hex());
       });
     });
@@ -68,4 +70,12 @@
     });
   }
 
+  // Print contact info
+  if (window.atob) {
+    $('.contact-info').html(
+      window.atob(
+        'QWxhbiBQYWxhenpvbG88YnIgLz5hbGFuLnBhbGF6em9sb0BnbWFpbC5jb208YnIgLz4oNzcwKSA1OTYtMTk1MQ=='
+      )
+    );
+  }
 })(jQuery, _, chroma, Ractive);

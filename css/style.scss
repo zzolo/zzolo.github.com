@@ -5,6 +5,7 @@
 /* Variables */
 $color-background: #f7efd4;
 $color-text: #472c25;
+$color-text-print: #212121;
 $color-site-title: #91371b;
 $color-site-title-hover: darken($color-site-title, 15);
 $color-header-line: #eb712f;
@@ -22,7 +23,6 @@ $color-gray-lighter: #efefef;
 @import "reset";
 @import "site";
 @import "utility";
-@import "print";
 @import "header";
 @import "footer";
 @import "posts";
@@ -32,3 +32,4 @@ $color-gray-lighter: #efefef;
 @import "page-projects";
 @import "page-cv";
 @import "project-haiku";
+@import "print";
