@@ -49,6 +49,23 @@
   }
 
   @media print {
+    .contact-info {
+      display: block;
+    }
+
+    .header {
+      border-bottom-color: $color-text-print;
+
+      .header-image svg {
+        color: $color-text-print;
+        fill: $color-text-print;
+      }
+
+      h1 {
+        height: 2em;
+      }
+    }
+
     .site h1.title a {
       color: white;
     }
@@ -58,7 +75,7 @@
     }
 
     a {
-      color: #2d1d15;
+      color: $color-text-print;
     }
 
     .footer {

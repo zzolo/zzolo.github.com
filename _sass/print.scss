@@ -10,6 +10,10 @@
   display: none;
 }
 
+.contact-info {
+  display: none;
+}
+
 @media all {
   .page-break {
     display: none;
@@ -17,24 +21,6 @@
 }
 
 @media print {
-  body {
-    background-color: #ffffff;
-    color: $color-text-print;
-  }
-
-  .header {
-    border-bottom-color: $color-text-print;
-
-    .header-image svg {
-      color: $color-text-print;
-      fill: $color-text-print;
-    }
-
-    h1 {
-      height: 2em;
-    }
-  }
-
   .page-break {
     display: block;
     page-break-before: always;
@@ -50,5 +36,16 @@
 
   .print-only-inline-block {
     display: inline-block;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: $color-text-print;
+  }
+
+  .cv {
+    .contact-info {
+      display: block;
+    }
   }
 }
