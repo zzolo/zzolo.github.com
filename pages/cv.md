@@ -107,8 +107,6 @@ Administered, developed, and enhanced the organization's [web services](http://s
 - Planned and implemented migration paths for both sites and data.
 - Lead an internal documentation initiative to help better organize the companies collective intellectual resources.
 
-<div class="page-break"></div>
-
 ### Database Administrator at Minneapolis College of Art and Design
 
 <div class="sub-heading">
