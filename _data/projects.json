@@ -1,10 +1,25 @@
 [
   {
+    "title": "How high school hockey in Minnesota has changed",
+    "projectUrl": "http://www.startribune.com/how-youth-hockey-in-minnesota-has-changed-since-jack-jablonski-s-injury/503513582/",
+    "codeUrl": "https://github.com/striblab/data-documentation/tree/master/hs-hockey-penalties",
+    "image": "jablonski.png",
+    "description": "Analysis of hundreds of thousands of penalties over almost a decade to show how the game has changed in Minnesota high school hockey.",
+    "tags": ["startribune", "data-analysis"]
+  },
+  {
     "title": "Live midterm election results",
     "projectUrl": "http://www.startribune.com/live-2018-minnesota-midterm-election-results-key-top-races-governor-attorney-general-us-senate-house-congress/497951121/",
     "codeUrl": "https://github.com/striblab/2018-midterm-results",
     "image": "midterm-results.png",
     "description": "2018 live midterm election results powered by Associated Press and Minnesota Secretary of State via <a href=\"https://github.com/striblab/civix\" target=\"_blank\" rel=\"noopener\">civix</a>.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Denied Justice",
+    "projectUrl": "http://www.startribune.com/denied-justice-watch-survivors-tell-their-stories/483225441/",
+    "image": "denied-justice.png",
+    "description": "Denied Justice was a powerful, multi-part series about sexual assult in Minnesota; I was tasked with building the front-end of the interactive video installment.",
     "tags": ["startribune", "front-end"]
   },
   {
