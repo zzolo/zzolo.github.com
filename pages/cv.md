@@ -31,7 +31,7 @@ I am driven to make the world a better place through collaboration, open source,
 Working across the newsroom to elevate digital story-telling in the organization as well as improve workflows and processes.
 
 - Working with reporters and editors to analyze data and create visuals to inform and enhance content.
-- Collaborating with the digital design team and others in the newsroom to elevate the digitial building workflows.
+- Collaborating with the digital design team and others in the newsroom to elevate the digital building workflows.
 - Built and deployed elections infrastructure and front-end utilizing data from the Associated Press and the Minnesota Secretary of State, allowing our readers to see the results of every race in Minnesota for the midterm.
 - Built the [Super Bowl guide](https://static.startribune.com/guide), a progressive web app designed to help visitors in town for the Super Bowl find things to do and see.
 
@@ -64,7 +64,7 @@ Implementing [interactive stories and pieces](http://www.minnpost.com/author/ala
 - Promoted and implemented open source policies; making almost all code written [open from the start](https://github.com/minnpost).
 - Experimented with open source technologies to enable new and cost-effective ways of telling the news.
 - Built [reusable tools and libraries](http://code.minnpost.com/) for internal and external use.
-- Participated in the week-long [Propublica P5](http://www.propublica.org/nerds/item/latest-p5-resident-working-on-open-source-legislation-tracker) to make the [State Bill Tracker](https://github.com/MinnPost/legislature-tracker) more usable for other news organizations.
+- Participated in the week-long [ProPublica P5](http://www.propublica.org/nerds/item/latest-p5-resident-working-on-open-source-legislation-tracker) to make the [State Bill Tracker](https://github.com/MinnPost/legislature-tracker) more usable for other news organizations.
 - Invited to participate in an [OpenNews Code Convening](https://source.opennews.org/en-US/articles/return-code-convenings-elections-and-updates/) focused on elections and made our [Election Night API](http://code.minnpost.com/election-night-api/) reusable.
 
 ### Code for America Fellow
@@ -140,7 +140,7 @@ Administered multiple MS SQL Server instances. Focused on cleaning, enhancing, a
 - Led a discussion about [Open Data](http://zzolo.org/open-data-crime-presentation) at a [Black Box Monday event](http://www.eventbrite.com/e/digging-into-open-data-a-panel-discussion-with-minnposts-alan-palazzolo-tickets-10212406583) put on by the Minnesota Society of Professional Journalists.
 - Demoed [Lumière](https://github.com/zzolo/lumiere) at [JavascriptMN](http://www.meetup.com/JavaScriptMN/events/139309312/); [(video)](https://www.youtube.com/watch?feature=player_detailpage&v=3C7Moz6p-U4#t=6271).
 - Led a discussion on Open Data and Journalism at [MozFest 2013](http://schedule.mozillafestival.org/).
-- Gave a presentation on [Telling Stories with Data](http://zzolo.org/another-sweet-data-visualization-presentation/#/) as a part of the [Digital Arts Sicences + Humanities](https://www.lib.umn.edu/digital/dash) (DASH) Series at the University of Minnesota; [(video)](https://www.lib.umn.edu/digital/dash/past-events).
+- Gave a presentation on [Telling Stories with Data](http://zzolo.org/another-sweet-data-visualization-presentation/#/) as a part of the [Digital Arts Sciences + Humanities](https://www.lib.umn.edu/digital/dash) (DASH) Series at the University of Minnesota; [(video)](https://www.lib.umn.edu/digital/dash/past-events).
 - Shared [initial thoughts on Ractive](http://zzolo.org/ractive-js-example-presentation/#/) at the [JavascriptMN Meetup](http://www.meetup.com/JavaScriptMN/events/126391322/).
 - Spoke on [why not to use Drupal](http://zzolo.org/no-drupal-presentation/) at the Twin Cities Drupal Camp 2013.
 - Explained [Data Visualization in the Newsroom](http://zzolo.org/data-visualization-newsroom-presentation/) to a Data Journalism class at the University of Minnesota.
@@ -198,7 +198,7 @@ The following are some of the more significant events I have attended over the y
 - Attended [DrupalCon London](http://london2011.drupal.org/) with a Drupal Association Scholarship.
 - Attended [DrupalCon Chicago](http://chicago2011.drupalcon.org/).
 - Attended [DrupalCon Copenhagen](http://cph2010.drupal.org/) with a Drupal Association Scholarship.
-- Should have attened [DrupalCon San Francisco](http://sf2010.drupal.org/) but a [volcano got in the way](http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull).
+- Should have attend [DrupalCon San Francisco](http://sf2010.drupal.org/) but a [volcano got in the way](http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull).
 - Attended [DrupalCon Paris](http://paris2009.drupalcon.org/).
 - Attended [DrupalCon DC](http://dc2009.drupalcon.org/).
 - Participated in [F1 Overnight Website Challenge](http://overnightwebsitechallenge.com/) in 2009.
