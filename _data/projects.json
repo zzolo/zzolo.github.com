@@ -1,5 +1,29 @@
 [
   {
+    "title": "Big gaps in 911 response",
+    "projectUrl": "http://www.startribune.com/emergency-callers-wait-longer-for-police-responses-at-minneapolis-border/506438091/",
+    "codeUrl": "https://github.com/striblab/dispatch-response-times",
+    "image": "911-response.png",
+    "description": "An analysis of more than 70,000 calls shows disparities in response times across the Twin Cities.",
+    "tags": ["startribune", "data-analysis", "front-end"]
+  },
+  {
+    "title": "Disappearing forests in Minnesota",
+    "projectUrl": "http://www.startribune.com/climate-change-threatens-minnesota-s-forests/502090221/",
+    "codeUrl": "https://github.com/striblab/201901-biomes",
+    "image": "climate-change-forests.png",
+    "description": "Exploration and visualization of prediction models of biomes changing in Minesota.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
+    "title": "Housing markets in the Twin Cities",
+    "projectUrl": "http://www.startribune.com/ranking-the-hottest-housing-markets-in-the-twin-cities/502089881/",
+    "codeUrl": "https://github.com/striblab/2019-housing-index",
+    "image": "housing-index.png",
+    "description": "Analysis of a decade of housing data across the Twin Cities metro area giving readers a complete picture and ranking of each market in the area.",
+    "tags": ["startribune", "front-end"]
+  },
+  {
     "title": "How high school hockey in Minnesota has changed",
     "projectUrl": "http://www.startribune.com/how-youth-hockey-in-minnesota-has-changed-since-jack-jablonski-s-injury/503513582/",
     "codeUrl": "https://github.com/striblab/data-documentation/tree/master/hs-hockey-penalties",
