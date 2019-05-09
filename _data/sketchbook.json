@@ -8,5 +8,10 @@
     "id": "201905-snake",
     "title": "Phaser snake",
     "description": "Simple snake game with Phaser js"
+  },
+  {
+    "id": "201905-grid",
+    "title": "Grid",
+    "description": "Playing with a grid in D3"
   }
 ]
