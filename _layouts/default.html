@@ -7,113 +7,7 @@
   <!-- <![endif] -->
 
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width" />
-
-    <title>
-      {% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{
-        site.name
-      }}
-    </title>
-
-    <link
-      rel="alternate"
-      type="application/atom+xml"
-      href="/atom.xml"
-      title="Atom feed"
-    />
-
-    <!-- CSS -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="/bower_components/Ionicons/css/ionicons.min.css"
-    />
-    <link rel="stylesheet" href="/css/syntax-github.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-
-    <!-- Social Media Tags -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta
-      property="og:title"
-      content="{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}"
-    />
-    <meta
-      property="og:description"
-      content="{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}"
-    />
-    <meta property="og:image" content="{{ site.url }}/images/logo-tree-1.png" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:creator" content="@zzolo" />
-    <meta
-      name="twitter:title"
-      content="{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}"
-    />
-    <meta
-      name="twitter:description"
-      content="{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}"
-    />
-    <meta
-      name="twitter:image"
-      content="{{ site.url }}/images/logo-tree-1.png"
-    />
-
-    <!-- Google structured data -->
-    <script type="application/ld+json">
-      {% if page.url != '/' %}
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "name": "zzolo",
-          "url": "{{ site.url }}{{ page.url }}",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "{{ site.url }}/images/logo-tree-1.png",
-            "width": 300,
-            "height": 300
-          }
-        }
-      {% else %}
-        {
-          "@context": "http://schema.org",
-          "@type": "NewsArticle",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ site.url }}{{ page.url }}"
-          },
-          "headline": "{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}",
-          "description": "{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}",
-          "image": {
-            "@type": "ImageObject",
-            "url": "{{ site.url }}/images/logo-tree-1.png"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Alan Palazzolo"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "zzolo",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "{{ site.url }}/images/logo-tree-1.png",
-              "width": 300,
-              "height": 300
-            }
-          }
-        }
-      {% endif %}
-    </script>
+    {% include meta.html %}
   </head>
 
   <body class="{{ page.class }}">
@@ -128,6 +22,7 @@
         <ul class="menu">
           <li><a href="/pages/contact">contact</a></li>
           <li><a href="/pages/projects">projects</a></li>
+          <li><a href="/pages/sketchbook">sketchbook</a></li>
           <li><a href="/pages/cv">cv</a></li>
         </ul>
       </div>
@@ -135,59 +30,7 @@
       <div class="content">{{ content }}</div>
 
       <div class="footer">
-        <div class="web-links cf">
-          <a href="/atom.xml" class="rss" title="RSS/ATOM" target="_blank">
-            <i class="ion-social-rss"></i>
-          </a>
-          <a
-            href="//twitter.com/zzolo"
-            class="twitter"
-            title="Twitter"
-            target="_blank"
-          >
-            <i class="ion-social-twitter"></i>
-          </a>
-          <a
-            href="//github.com/zzolo"
-            class="github"
-            title="Github"
-            target="_blank"
-          >
-            <i class="ion-social-github"></i>
-          </a>
-          <a
-            href="https://keybase.io/zzolo"
-            class="keybase"
-            title="Keybase"
-            target="_blank"
-          >
-            <i class="ion-key"></i>
-          </a>
-          <a
-            href="//linkedin.com/in/alanpalazzolo"
-            class="linked-in"
-            title="LinkedIn"
-            target="_blank"
-          >
-            <i class="ion-social-linkedin"></i>
-          </a>
-          <a
-            href="{% if page.path %}//prose.io/#zzolo/zzolo.github.com/edit/master/{{ page.path }}{% else %}//prose.io/#zzolo/zzolo.github.com{% endif %}"
-            class="prose-edit"
-            title="Edit this with Prose.io"
-            target="_blank"
-          >
-            <i class="ion-edit"></i>
-          </a>
-          <a
-            href="//prose.io/#zzolo/zzolo.github.com/new/master/_posts"
-            class="prose-add"
-            title="Add post with Prose.io"
-            target="_blank"
-          >
-            <i class="ion-plus-circled"></i>
-          </a>
-        </div>
+        {% include web-links.html %}
       </div>
 
       <div class="footer print-only-block">

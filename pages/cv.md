@@ -3,6 +3,7 @@ layout: default
 title: Curriculum vitae
 class: cv
 published: true
+description: I am driven to make the world a better place through collaboration, open source, and community with a focus on telling compelling stories with data and code.
 ---
 
 # Alan Palazzolo

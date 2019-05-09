@@ -1,0 +1,20 @@
+---
+layout: default
+title: Sketchbook
+class: sketchbook
+description: Web sketches by Alan Palazzolo
+---
+
+<p>Collection of some quick web experiments; these are not cross-browser tested or optimize for multiple devices types.</p>
+
+<div class="sketches cf">
+  {% for sketch in site.data.sketchbook %}
+  <div class="sketch cf">
+    <h3>{{ sketch.title }}</h3>
+    <a href="{% if sketch.url and sketch.url != '' %}{{ sketch.url }}{% else %}/sketchbook/{{ sketch.id }}.html{% endif %}">
+      <img src="/sketchbook/{{ sketch.id }}.png" alt="Screenshot of {{ sketch.title }}">
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
