@@ -11,7 +11,7 @@ description: Web sketches by Alan Palazzolo
   {% for sketch in site.data.sketchbook %}
   <div class="sketch cf">
     <h3>{{ sketch.title }}</h3>
-    <a href="{% if sketch.url and sketch.url != '' %}{{ sketch.url }}{% else %}/sketchbook/{{ sketch.id }}.html{% endif %}">
+    <a href="{% if sketch.url and sketch.url != '' %}{{ sketch.url }}{% else %}/sketchbook/{{ sketch.id }}{% endif %}">
       <img src="/sketchbook/{{ sketch.id }}.png" alt="Screenshot of {{ sketch.title }}">
     </a>
   </div>

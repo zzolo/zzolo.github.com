@@ -1,0 +1,319 @@
+---
+layout: sketchbook
+title: Phaser Snake
+class: sketchbook-201905-snake
+description: Using Phaser to make a Snake game
+---
+
+<style>
+body > main {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+#sketchbook-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: 3px solid #212121;
+  border-radius: 6px;
+}
+
+</style>
+
+<div id="sketchbook-canvas"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
+
+<script>
+  // Globals
+  let snake;
+  let food;
+  let cursors;
+
+  // Constants
+  const UP = 0;
+  const DOWN = 1;
+  const LEFT = 2;
+  const RIGHT = 3;
+  const pixelSize = 16;
+
+  // Where it goes
+  let el = document.getElementById('sketchbook-canvas');
+  let width = window.innerWidth;
+  let height = window.innerHeight;
+  let canvasWidth = Math.round(width * 0.8 / pixelSize) * pixelSize;
+  let canvasHeight = Math.round(height * 0.8 / pixelSize) * pixelSize;
+  let pixelWidth = canvasWidth / pixelSize;
+  let pixelHeight = canvasHeight / pixelSize;
+
+  // Setup game
+  let game = new Phaser.Game({
+    type: Phaser.WEBGL,
+    width: canvasWidth,
+    height: canvasHeight,
+    backgroundColor: '#ffab2a',
+    parent: 'sketchbook-canvas',
+    scene: {
+      preload: preload,
+      create: create,
+      update: update
+    }
+  });
+
+  // Preload (assets)
+  function preload() {
+    this.load.image('food', './food.png');
+    this.load.image('body', './body.png');
+  }
+
+  // Create/setup
+  function create () {
+    // Food class
+    let Food = new Phaser.Class({
+      Extends: Phaser.GameObjects.Image,
+      initialize: function Food(scene, x, y) {
+        Phaser.GameObjects.Image.call(this, scene)
+
+        this.setTexture('food');
+        this.setPosition(x * pixelSize, y * pixelSize);
+        this.setOrigin(0);
+        this.total = 0;
+        scene.children.add(this);
+      },
+
+      // When eaten
+      eat() {
+        this.total++;
+        this.reposition();
+      },
+
+      // Reposition based on where snake is
+      reposition() {
+        //  First create an array that assumes all positions
+        //  are valid for the new piece of food
+        let testGrid = [];
+        for (let y = 0; y < pixelHeight; y++) {
+        testGrid[y] = testGrid[y] || [];
+          for (let x = 0; x < pixelWidth; x++) {
+            testGrid[y][x] = true;
+          }
+        }
+
+        // Snake tells us where it is
+        testGrid = snake.updateGrid(testGrid);
+
+        // Format for Phaser pick
+        let validLocations = [];
+        for (let y = 0; y < pixelHeight; y++) {
+          for (let x = 0; x < pixelWidth; x++) {
+            if (testGrid[y][x] === true) {
+              validLocations.push({ x: x, y: y });
+            }
+          }
+        }
+
+        // Pick
+        if (validLocations.length > 0) {
+          // Use the RNG to pick a random food position
+          let pos = Phaser.Math.RND.pick(validLocations);
+          this.setPosition(pos.x * pixelSize, pos.y * pixelSize);
+        }
+      }
+    });
+
+    // Snake class
+    let Snake = new Phaser.Class({
+      initialize: function Snake(scene, x, y) {
+        // Where is head
+        this.headPosition = new Phaser.Geom.Point(x, y);
+
+        // The whole body
+        this.body = scene.add.group();
+
+        // Head
+        this.head = this.body.create(x * pixelSize, y * pixelSize, 'body');
+        this.head.setOrigin(0);
+
+        // Tail
+        this.tail = new Phaser.Geom.Point(x * pixelSize, y * pixelSize);
+
+        // Defaults
+        this.alive = true;
+        this.speed = 100;
+        this.moveTime = 0;
+        let d = Phaser.Math.RND.pick([UP, DOWN, LEFT, RIGHT]);
+        this.heading = d;
+        this.direction = d;
+      },
+
+      // Update time
+      update(time) {
+        return (time >= this.moveTime) ? this.move(time) : undefined;
+      },
+
+      // Face different direction.  Limited based on what direction already going
+      faceLeft() {
+        this.heading = (this.direction === UP || this.direction === DOWN) ? LEFT : this.heading;
+      },
+      faceRight() {
+        this.heading = (this.direction === UP || this.direction === DOWN) ? RIGHT : this.heading;
+      },
+      faceUp() {
+        this.heading = (this.direction === LEFT || this.direction === RIGHT) ? UP : this.heading;
+      },
+      faceDown() {
+        this.heading = (this.direction === LEFT || this.direction === RIGHT) ? DOWN : this.heading;
+      },
+
+      // Handle move
+      move(time) {
+        /**
+         * Based on the heading property (which is the direction the pgroup pressed)
+         * we update the headPosition value accordingly.
+         *
+         * The Math.wrap call allow the snake to wrap around the screen, so when
+         * it goes off any of the sides it re-appears on the other.
+         */
+        switch (this.heading) {
+          case LEFT:
+            this.headPosition.x = Phaser.Math.Wrap(this.headPosition.x - 1, 0, pixelWidth);
+            break;
+          case RIGHT:
+            this.headPosition.x = Phaser.Math.Wrap(this.headPosition.x + 1, 0, pixelWidth);
+            break;
+          case UP:
+            this.headPosition.y = Phaser.Math.Wrap(this.headPosition.y - 1, 0, pixelHeight);
+            break;
+          case DOWN:
+            this.headPosition.y = Phaser.Math.Wrap(this.headPosition.y + 1, 0, pixelHeight);
+            break;
+        }
+
+        // Update direction
+        this.direction = this.heading;
+
+        // Update the body segments
+        Phaser.Actions.ShiftPosition(this.body.getChildren(), this.headPosition.x * pixelSize, this.headPosition.y * pixelSize, 1);
+
+        // Update the timer ready for the next movement
+        if (!this.eatSelf()) {
+          this.moveTime = time + this.speed;
+          return true;
+        }
+
+        return false;
+      },
+
+      // Ran into self
+      eatSelf() {
+        // Check to see if any of the body pieces have the same x/y as the head
+        // If they do, the head ran into the body
+        let hitBody = Phaser.Actions.GetFirst(this.body.getChildren(), { x: this.head.x, y: this.head.y }, 1);
+        if (hitBody) {
+          this.alive = false;
+          return true;
+        }
+
+        return false;
+      },
+
+      // Grow tail
+      grow() {
+        let newPart = this.body.create(this.tail.x, this.tail.y, 'body');
+        newPart.setOrigin(0);
+      },
+
+      // Collision with food
+      eatFood(food) {
+        if (this.head.x === food.x && this.head.y === food.y) {
+          this.grow();
+          food.eat();
+
+          //  For every 5 items of food eaten we'll increase the snake speed a little
+          if (this.speed > 20 && food.total % 5 === 0) {
+            this.speed -= 4;
+          }
+
+          return true;
+        }
+
+        return false;
+      },
+
+      // Given grid, remove where snake is
+      updateGrid(grid) {
+        // Remove all body pieces from valid positions list
+        this.body.children.each((segment) => {
+          grid[segment.y / pixelSize][segment.x / pixelSize] = false;
+        });
+
+        return grid;
+      }
+    });
+
+    // Create snake
+    snake = new Snake(
+      this,
+      Phaser.Math.Between(2, pixelWidth - 2),
+      Phaser.Math.Between(2, pixelHeight - 2)
+    );
+
+    // Create food
+    food = new Food(
+      this,
+      Phaser.Math.Between(2, pixelWidth - 2),
+      Phaser.Math.Between(2, pixelHeight - 2)
+    );
+
+    // Create our keyboard controls
+    cursors = this.input.keyboard.createCursorKeys();
+  }
+
+  // On update
+  function update(time, delta) {
+    // Snake is no longer
+    if (!snake.alive) {
+      return;
+    }
+
+    /**
+     * Check which key is pressed, and then change the direction the snake
+     * is heading based on that. The checks ensure you don't double-back
+     * on yourself, for example if you're moving to the right and you press
+     * the LEFT cursor, it ignores it, because the only valid directions you
+     * can move in at that time is up and down.
+     */
+    if (cursors.left.isDown) {
+      snake.faceLeft();
+    }
+    else if (cursors.right.isDown) {
+      snake.faceRight();
+    }
+    else if (cursors.up.isDown) {
+      snake.faceUp();
+    }
+    else if (cursors.down.isDown) {
+      snake.faceDown();
+    }
+
+    if (snake.update(time)) {
+      snake.eatFood(food);
+    }
+  }
+</script>

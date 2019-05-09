@@ -3,5 +3,10 @@
     "id": "201905-threejs",
     "title": "Hello, 3d world",
     "description": "Simple experimentation with Three.js"
+  },
+  {
+    "id": "201905-snake",
+    "title": "Phaser snake",
+    "description": "Simple snake game with Phaser js"
   }
 ]
