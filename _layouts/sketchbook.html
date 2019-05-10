@@ -4,42 +4,46 @@
 <!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
 <!-- [if (gte IE 9)|!(IE)]><! -->
 <html lang="en">
-  <!-- <![endif] -->
+<!-- <![endif] -->
 
-  <head>
-    {% include meta.html %}
-  </head>
+<head>
+  {% include meta.html %}
+</head>
 
-  <body class="blank {{ page.class }}">
-    <main>
-      {{ content }}
-    </main>
+<body class="blank {{ page.class }}">
+  <main>
+    {{ content }}
+  </main>
 
-    <footer>
-      <div class="footer-title">
-        {% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}
-        <a href="/pages/sketchbook">Sketchbook</a>
-        {% include web-links.html %}
-      </div>
-    </footer>
+  <footer>
+    <div class="footer-title">
+      {% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}
+      <a href="/pages/sketchbook">Sketchbook</a>
+      {% include web-links.html %}
+    </div>
+  </footer>
 
-    <!-- GA -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-94405-11"]);
-      _gaq.push(["_trackPageview"]);
+  <!-- JS -->
+  {% include scripts.html %}
 
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+  <!-- GA -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(["_setAccount", "UA-94405-11"]);
+    _gaq.push(["_trackPageview"]);
+
+    (function () {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src =
+        ("https:" == document.location.protocol
+          ? "https://ssl"
+          : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+
 </html>

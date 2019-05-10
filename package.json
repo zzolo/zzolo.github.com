@@ -1,0 +1,34 @@
+{
+  "name": "zzolo",
+  "version": "1.0.0",
+  "description": "zzolo.org npm packages",
+  "main": "_src/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:site\" \"npm run dev:js\"",
+    "dev:site": "bundle exec jekyll serve --baseurl=\"\" -w --limit_posts 5",
+    "dev:js": "webpack --watch",
+    "build:site": "bundle exec jekyll serve --baseurl=\"\"",
+    "build:js": "webpack",
+    "clean": "rm -r _site && rm -r js",
+    "build": "npm run clean && npm run build:js && npm run build:site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzolo/zzolo.github.com.git"
+  },
+  "author": "Alan Palazzolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzolo/zzolo.github.com/issues"
+  },
+  "homepage": "https://github.com/zzolo/zzolo.github.com#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "concurrently": "^4.1.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

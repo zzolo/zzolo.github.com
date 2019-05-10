@@ -4,80 +4,61 @@
 <!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
 <!-- [if (gte IE 9)|!(IE)]><! -->
 <html lang="en">
-  <!-- <![endif] -->
+<!-- <![endif] -->
 
-  <head>
-    {% include meta.html %}
-  </head>
+<head>
+  {% include meta.html %}
+</head>
 
-  <body class="{{ page.class }}">
-    <div class="site">
-      <div class="header">
-        <div class="contact-info"></div>
+<body class="{{ page.class }}">
+  <div class="site">
+    <header class="header">
+      <div class="contact-info"></div>
 
-        <div class="header-image">{% include logo-tree-04.svg %}</div>
+      <div class="header-image">{% include logo-tree-04.svg %}</div>
 
-        <h1 class="title"><a href="/">zzolo</a></h1>
+      <h1 class="title"><a href="/">zzolo</a></h1>
 
-        <ul class="menu">
-          <li><a href="/pages/contact">contact</a></li>
-          <li><a href="/pages/projects">projects</a></li>
-          <li><a href="/pages/sketchbook">sketchbook</a></li>
-          <li><a href="/pages/cv">cv</a></li>
-        </ul>
-      </div>
+      <ul class="menu">
+        <li><a href="/pages/contact">contact</a></li>
+        <li><a href="/pages/projects">projects</a></li>
+        <li><a href="/pages/sketchbook">sketchbook</a></li>
+        <li><a href="/pages/cv">cv</a></li>
+      </ul>
+    </header>
 
-      <div class="content">{{ content }}</div>
+    <main class="content">{{ content }}</main>
 
-      <div class="footer">
-        {% include web-links.html %}
-      </div>
+    <footer class="footer">
+      {% include web-links.html %}
+    </footer>
 
-      <div class="footer print-only-block">
-        zzolo.org | alan.palazzolo@gmail.com
-      </div>
-    </div>
+    <footer class="footer print-only-block">
+      zzolo.org | alan.palazzolo@gmail.com
+    </footer>
+  </div>
 
-    <!-- JS -->
-    <script
-      type="text/javascript"
-      src="/bower_components/underscore/underscore-min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="/bower_components/jquery/jquery.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="/bower_components/moment/min/moment.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="/bower_components/chroma-js/chroma.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="/bower_components/ractive/build/Ractive.min.js"
-    ></script>
-    <script type="text/javascript" src="/js/app.js"></script>
+  <!-- JS -->
+  {% include scripts.html %}
 
-    <!-- GA -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-94405-11"]);
-      _gaq.push(["_trackPageview"]);
+  <!-- GA -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(["_setAccount", "UA-94405-11"]);
+    _gaq.push(["_trackPageview"]);
 
-      (function() {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+    (function () {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src =
+        ("https:" == document.location.protocol
+          ? "https://ssl"
+          : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+
 </html>

@@ -1,4 +1,3 @@
-
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width" />
@@ -9,56 +8,31 @@
   }}
 </title>
 
-<link
-  rel="alternate"
-  type="application/atom+xml"
-  href="/atom.xml"
-  title="Atom feed"
-/>
+<link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed" />
 
 <!-- CSS -->
-<link
-  href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i"
-  rel="stylesheet"
-/>
-<link
-  href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i"
-  rel="stylesheet"
-/>
-<link
-  rel="stylesheet"
-  href="/bower_components/Ionicons/css/ionicons.min.css"
-/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css" />
 <link rel="stylesheet" href="/css/syntax-github.css" />
 <link rel="stylesheet" href="/css/style.css" />
 
 <!-- Social Media Tags -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta
-  property="og:title"
-  content="{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}"
-/>
-<meta
-  property="og:description"
-  content="{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}"
-/>
+<meta property="og:title"
+  content="{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}" />
+<meta property="og:description"
+  content="{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}" />
 <meta property="og:image" content="{{ site.url }}/images/logo-tree-1.png" />
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@zzolo" />
-<meta
-  name="twitter:title"
-  content="{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}"
-/>
-<meta
-  name="twitter:description"
-  content="{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}"
-/>
-<meta
-  name="twitter:image"
-  content="{{ site.url }}/images/logo-tree-1.png"
-/>
+<meta name="twitter:title"
+  content="{% if page.title %}{{ page.title | strip_html | trim }} | {% endif %}{{ site.name }}" />
+<meta name="twitter:description"
+  content="{% if page.description %}{{ page.description | markdownify | strip_html | trim }}{% else %}Alan Palazzolo is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.{% endif %}" />
+<meta name="twitter:image" content="{{ site.url }}/images/logo-tree-1.png" />
 
 <!-- Google structured data -->
 <script type="application/ld+json">
