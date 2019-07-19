@@ -199,7 +199,7 @@
   {
     "title": "tables",
     "projectUrl": "https://www.npmjs.com/package/tables",
-    "codeUrl": "https://github.com/datanews/tables",
+    "codeUrl": "https://github.com/zzolo/tables",
     "image": "tables.png",
     "description": "<strong>tables</strong> is a command-line utility aimed at making it easy to get tabular data, large or small, in multiple file formats into a database quickly, while still supporing edge cases and flexibility.",
     "tags": ["wnyc", "command-line", "database"]
@@ -281,7 +281,7 @@
     "projectUrl": "http://www.wnyc.org/story/citi-bike-deserts/",
     "codeUrl": "",
     "image": "citibike-deserts.png",
-    "description": "After tracking data from the hundreds of Citi Bike stations across the city, we were able to do determine when and where there was consistent empty or full areas around the city.",
+    "description": "After tracking data from the hundreds of Citi Bike stations, we were able to determine when and where there was consistent empty or full areas around the city.",
     "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
   },
   {
@@ -329,7 +329,7 @@
     "projectUrl": "http://www.wnyc.org/story/parks-access/",
     "codeUrl": "",
     "image": "parks-access.png",
-    "description": "We analyzed parks and parks access across NYC and found that though the numbers in aggregate are good, but access could varying greatly across the city.",
+    "description": "We analyzed parks and park access across NYC and found that though the numbers in aggregate are good, access could vary greatly across the city.",
     "tags": ["wnyc", "front-end", "data-analysis", "mapping"]
   },
   {

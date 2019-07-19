@@ -3,7 +3,8 @@ body {
   font: 18px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   color: $color-text;
-  line-height: 1.35em;
+  line-height: 1.35;
+  letter-spacing: 0.25px;
 }
 
 h1,
@@ -14,18 +15,22 @@ h5,
 h6 {
   font-size: 100%;
   font-family: "Ubuntu", sans-serif;
-  line-height: 1.5em;
+  line-height: 1.5;
   margin-bottom: 0.5em;
 }
+
 h1 {
   font-size: 3em;
 }
+
 h2 {
   font-size: 2em;
 }
+
 h3 {
   font-size: 1.5em;
 }
+
 h4 {
   font-weight: bold;
 }
@@ -123,7 +128,7 @@ table {
   font-size: 115%;
   width: 960px;
   margin: 0.5em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 960px) {

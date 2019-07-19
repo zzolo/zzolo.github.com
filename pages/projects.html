@@ -5,8 +5,10 @@ class: projects
 description: Published articles, code, tools, and other projects by Alan Palazzolo.
 ---
 
-<p>Below are links to projects I have worked on over the years. Given the
-  ephemeral nature of the Internet, it is possible that links may break.</p>
+<p>
+  Below are links to projects I have worked on over the years. Given the
+  ephemeral nature of the Internet, it is possible that links may break.
+</p>
 
 <div class="projects-layout">
   {% for project in site.data.projects %}
@@ -16,24 +18,38 @@ description: Published articles, code, tools, and other projects by Alan Palazzo
     <div class="project-image">
       {% if project.projectUrl and project.projectUrl != '' %}
       <a target="_blank" href="{{ project.projectUrl }}">
-        <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}">
+        <img
+          src="/images/projects/{{ project.image }}"
+          alt="Screenshot of {{ project.title }}"
+        />
       </a>
       {% else %}
-      <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}">
+      <img
+        src="/images/projects/{{ project.image }}"
+        alt="Screenshot of {{ project.title }}"
+      />
       {% endif %}
     </div>
 
     <div class="project-description">
       <div class="links">
         {% if project.projectUrl and project.projectUrl != '' %}
-        <a target="_blank" href="{{ project.projectUrl }}" class="project-link" title="Go to project">Project
-          <i class="ion-android-open"></i>
+        <a
+          target="_blank"
+          href="{{ project.projectUrl }}"
+          class="project-link"
+          title="Go to project"
+          >Project
+          <i class="icon ion-md-open"></i>
         </a>
-        {% endif %}
-
-        {% if project.codeUrl and project.codeUrl != '' %}
-        <a target="_blank" href="{{ project.codeUrl }}" class="code-link" title="See code">Code
-          <i class="ion-code-working"></i>
+        {% endif %} {% if project.codeUrl and project.codeUrl != '' %}
+        <a
+          target="_blank"
+          href="{{ project.codeUrl }}"
+          class="code-link"
+          title="See code"
+          >Code
+          <i class="icon ion-md-code-working"></i>
         </a>
         {% endif %}
       </div>
