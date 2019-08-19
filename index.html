@@ -4,31 +4,47 @@ class: home
 ---
 
 <div id="home">
-  <p class="about">Alan Pala<strong>zzolo</strong> is an open-source coder trying to make the world a little better using technology to tell compelling, visual, and data-driven stories.</p>
+  <p class="about">
+    Alan Pala<strong>zzolo</strong> is an open-source coder trying to make the
+    world a little better using technology to tell compelling, visual, and
+    data-driven stories.
+  </p>
 
   <div class="web-links cf">
-    <a href="https://twitter.com/zzolo" class="twitter" title="Twitter" target="_blank">
-      <i class="ion-social-twitter"></i>
+    <a
+      href="https://twitter.com/zzolo"
+      class="twitter"
+      title="Twitter"
+      target="_blank"
+    >
+      <i class="ion-logo-twitter"></i>
     </a>
-    <a href="https://github.com/zzolo" class="github" title="Github" target="_blank">
-      <i class="ion-social-github"></i>
+    <a
+      href="https://github.com/zzolo"
+      class="github"
+      title="Github"
+      target="_blank"
+    >
+      <i class="ion-logo-github"></i>
     </a>
-    <a href="https://linkedin.com/in/alanpalazzolo" class="linked-in" title="LinkedIn" target="_blank">
-      <i class="ion-social-linkedin"></i>
-    </a>
-    <a href="https://keybase.io/zzolo" class="keybase" title="Keybase" target="_blank">
-      <i class="ion-key"></i>
+    <a
+      href="https://keybase.io/zzolo"
+      class="keybase"
+      title="Keybase"
+      target="_blank"
+    >
+      <i class="ion-md-key"></i>
     </a>
   </div>
 
   <h2 class="post-list-title"></h2>
   <ul class="posts">
     {% for post in site.posts %}
-      <li data-id="{{ post.id }}">
-        <span class="visual-date"></span>
-        <span class="display-date">{{ post.date | date_to_string }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+    <li data-id="{{ post.id }}">
+      <span class="visual-date"></span>
+      <span class="display-date">{{ post.date | date_to_string }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endfor %}
   </ul>
 </div>
