@@ -1,0 +1,8 @@
+// Font-face definition
+@font-face {
+  font-family: 'zzolo';
+  src: url('../fonts/zzolo/zzolo-regular.otf') format('opentype'),
+       url('../fonts/zzolo/zzolo-regular.woff2') format('woff2'),
+       url('../fonts/zzolo/zzolo-regular.woff') format('woff'),
+       url('../fonts/zzolo/zzolo-regular.ttf')  format('truetype')
+}

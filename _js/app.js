@@ -9,6 +9,9 @@
     if ($('body').hasClass('haikus')) {
       processHaikus();
     }
+
+    // Zzolo font
+    zzoloFont();
   });
 
   // Process haikus
@@ -33,6 +36,32 @@
       });
       ractive.set('haikus', haikus);
     });
+  }
+
+  // zzolo font
+  function zzoloFont() {
+    var pattern = ['z', 'z', 'o', 'l', 'o'];
+    var current = 0;
+
+    var zzoloFontKeyHandler = function (event) {
+      // If the key isn't in the pattern, or isn't the current key in the pattern, reset
+      if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+        current = 0;
+        return;
+      }
+
+      // Update how much of the pattern is complete
+      current++;
+
+      // If complete, alert and reset
+      if (pattern.length === current) {
+        current = 0;
+        $('body').addClass('zzolo-font');
+      }
+    };
+
+    // Listen for keydown events
+    document.addEventListener('keydown', zzoloFontKeyHandler, false);
   }
 
   // Print contact info
