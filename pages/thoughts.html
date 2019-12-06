@@ -1,0 +1,16 @@
+---
+layout: default
+title: Thoughts
+class: thoughts
+description: Writings by Alan Palazzolo
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+  <li data-id="{{ post.id }}">
+    <span class="visual-date"></span>
+    <span class="display-date">{{ post.date | date_to_string }}</span>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

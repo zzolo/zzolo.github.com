@@ -3,23 +3,24 @@
 ---
 
 /* Variables */
-$color-background: lighten(#ffab2a, 75);
+$color-background: #F8F8F8;
 $color-text: #212121;
 $color-text-print: #212121;
-$color-site-title: #430a59;
+$color-site-title: #2377A4;
 $color-site-title-hover: darken($color-site-title, 15);
-$color-header-line: #ffab2a;
-$color-link: #430a59;
+$color-header-line: #FF71BE;
+$color-link: #50A3C6;
 $color-link-hover: darken($color-link, 15);
 $color-menu: $color-link;
 $color-menu-hover: $color-link-hover;
-$color-web-links: #5c0a6a;
+$color-web-links: $color-link;
 $color-web-links-hover: darken($color-web-links, 15);
 $color-gray-darker: #232323;
 $color-gray-dark: #454545;
 $color-gray-medium: #898989;
 $color-gray-light: #b2b2b2;
 $color-gray-lighter: #efefef;
+
 @import "zzolo-font";
 @import "reset";
 @import "site";
@@ -30,8 +31,8 @@ $color-gray-lighter: #efefef;
 @import "page-home";
 @import "page-404";
 @import "page-contact";
-@import "page-projects";
 @import "page-cv";
+@import "projects";
 @import "project-haiku";
 @import "sketchbook";
 @import "print";

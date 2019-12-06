@@ -11,56 +11,56 @@ class: home
   </p>
 
   <div class="web-links cf">
-    <a
-      href="https://twitter.com/zzolo"
-      class="twitter"
-      title="Twitter"
-      target="_blank"
-    >
+    <a href="https://twitter.com/zzolo" class="twitter" title="Twitter" target="_blank">
       <i class="ion-logo-twitter"></i>
     </a>
-    <a
-      href="https://github.com/zzolo"
-      class="github"
-      title="Github"
-      target="_blank"
-    >
+    <a href="https://github.com/zzolo" class="github" title="Github" target="_blank">
       <i class="ion-logo-github"></i>
     </a>
-    <a
-      href="https://keybase.io/zzolo"
-      class="keybase"
-      title="Keybase"
-      target="_blank"
-    >
+    <a href="https://keybase.io/zzolo" class="keybase" title="Keybase" target="_blank">
       <i class="ion-md-key"></i>
     </a>
   </div>
-
-  <h2 class="post-list-title"></h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li data-id="{{ post.id }}">
-      <span class="visual-date"></span>
-      <span class="display-date">{{ post.date | date_to_string }}</span>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
 </div>
 
-<script type="text/javascript">
-  (function() {
-    window.zzolo = window.zzolo || {};
-    zzolo.posts = [];
+<div class="projects">
+  {% for project in site.data.projects %}
+  <div class="project cf">
+    <h3>{{ project.title }}</h3>
 
-    {% for post in site.posts %}
-      zzolo.posts.push({
-        id: "{{ post.id }}",
-        date: "{{ post.date }}",
-        url: "{{ post.url }}",
-        title: "{{ post.title | replace:'"',"'" }}"
-      });
-    {% endfor %}
-  })();
-</script>
+    <div class="project-image">
+      {% if project.projectUrl and project.projectUrl != '' %}
+      <a target="_blank" href="{{ project.projectUrl }}">
+        <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}" />
+      </a>
+      {% else %}
+      <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}" />
+      {% endif %}
+    </div>
+
+    <div class="project-description">
+      <div class="links">
+        {% if project.projectUrl and project.projectUrl != '' %}
+        <a target="_blank" href="{{ project.projectUrl }}" class="project-link" title="Go to project">Project
+          <i class="icon ion-md-open"></i>
+        </a>
+        {% endif %} {% if project.codeUrl and project.codeUrl != '' %}
+        <a target="_blank" href="{{ project.codeUrl }}" class="code-link" title="See code">Code
+          <i class="icon ion-md-code-working"></i>
+        </a>
+        {% endif %}
+      </div>
+
+      <p>{{ project.description }}</p>
+
+      {% if project.tags %}
+      <div class="tags">
+        {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
