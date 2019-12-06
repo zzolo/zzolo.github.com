@@ -21,7 +21,7 @@ I ...
 
 During ...
 
-There are many more examples of my work and projects I have been a part of at my website, including plenty of source code to review: [https://zzolo.org/pages/projects](https://zzolo.org/pages/projects)
+There are many more examples of my work and projects I have been a part of at my website, including plenty of source code to review: [zzolo.org](https://zzolo.org/)
 
 I look forward to hearing from you. Please contact me anytime at the included email address or phone number.
 

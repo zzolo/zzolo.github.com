@@ -12,6 +12,7 @@ I am driven to make the world a better place through collaboration, open source,
 
 ## Summary
 
+- Rebuilding the user experience of [VoteShield](https://voteshield.us), a platform that monitors voter registration databases for anomalous and malicious activity.
 - Developed tools, analyzed data, and built visual and interactive content as the Newsroom Developer at the [Star Tribune](http://startribune.com/).
 - Enhanced both audio and digital as a Front-end Developer on the [WNYC DataNews](http://www.wnyc.org/people/data-news-team/) team as well as building tools to improve productivity for multiple teams.
 - Created data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) and developing news applications and data visualizations.
@@ -22,6 +23,19 @@ I am driven to make the world a better place through collaboration, open source,
 - Managed a small web team as well as sustainably upgraded and fully restructured the resource library as the Web Manager at [Shelter Centre](http://sheltercentre.org/), a small NGO in Geneva, Switzerland.
 
 ## Professional experience
+
+### Front-end Developer at VoteShield
+
+<div class="sub-heading">
+  2019 - present, remote for New York City, USA
+</div>
+
+On a small team, working to create an impactful, informative, responsive, and pleasant user interface that helps identify anomalous activity in voter registration data.
+
+- Rebuilding React front-end interface to improve user experience, performance, and information understanding.
+- Implementing and refining minimalistic, intuitive design.
+- Ensuring secure access to voter registration data and anlaysis.
+- Improving Python API for efficiency, performance, and security.
 
 ### Newsroom Developer at Star Tribune
 
@@ -181,27 +195,18 @@ I am active in fostering and creating in-person and online communities.
 The following are some of the more significant events I have attended over the years that have not been mentioned previously.
 
 - Participated in 2-day Shorenstein Center election coverage workshop.
-- Attended [NICAR 2017](https://ire.org/conferences/nicar2017/).
+- Attended [NICAR 2017](https://ire.org/conferences/nicar2017/), [2015](https://ire.org/conferences/nicar2015/), [2014](http://ire.org/conferences/nicar-2014/), [2013](http://ire.org/conferences/nicar-2013/), and [2012](http://ire.org/conferences/nicar-2012/).
 - Participated in 2-day [human-centered design workshop](http://www.cura-tech.org/participate.php) via CURA:Tech.
-- Attended [NICAR 2015](https://ire.org/conferences/nicar2015/).
-- Attended [NICAR 2014](http://ire.org/conferences/nicar-2014/).
 - Attended [FOSS4G North America](http://foss4g-na.org/) 2013.
 - Attended [CityCampMN 2013](http://citycampmn.govfresh.com/).
-- Attended [Eyeo](http://eyeofestival.com/) 2013.
-- Attended [NICAR 2013](http://ire.org/conferences/nicar-2013/).
-- Attended [NICAR 2012](http://ire.org/conferences/nicar-2012/).
+- Attended [Eyeo 2013](http://eyeofestival.com/2013/) and [2018](http://eyeofestival.com/2018/).
 - Attended the [Code for America Summit](http://cfasummit.org/) 2012.
 - Attended [Open Gov West 2011 Portland](http://www.opengovwest.org/events/conference/opengovwest-11).
 - Participated in [Hack for Change](http://hackforchange.com/) and created [Safehood](https://github.com/hackforchange/Safehood).
 - Participated in [Code for Oakland](http://codeforoakland.org/) and created [ComTXT](https://github.com/zzolo/comtxt).
 - Attended [WhereCamp San Francisco 2011](http://blog.wherecamp.org/?p=52).
 - Attended [Where Conf 2011](http://where2conf.com/where2011/).
-- Attended [DrupalCon London](http://london2011.drupal.org/) with a Drupal Association Scholarship.
-- Attended [DrupalCon Chicago](http://chicago2011.drupalcon.org/).
-- Attended [DrupalCon Copenhagen](http://cph2010.drupal.org/) with a Drupal Association Scholarship.
-- Should have attend [DrupalCon San Francisco](http://sf2010.drupal.org/) but a [volcano got in the way](http://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull).
-- Attended [DrupalCon Paris](http://paris2009.drupalcon.org/).
-- Attended [DrupalCon DC](http://dc2009.drupalcon.org/).
+- Attended [DrupalCon London](http://london2011.drupal.org/), [Chicago](http://chicago2011.drupalcon.org/), [Copenhagen](http://cph2010.drupal.org/), [Paris](http://paris2009.drupalcon.org/), and [DC](http://dc2009.drupalcon.org/).
 - Participated in [F1 Overnight Website Challenge](http://overnightwebsitechallenge.com/) in 2009.
 - Attended the Twin Cities event [Drupal Day](http://tcopencircuit.org/node/6).
 
