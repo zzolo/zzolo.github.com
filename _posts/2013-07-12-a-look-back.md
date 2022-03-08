@@ -29,7 +29,7 @@ Some of my other headers and materials from this era.
 
 ![](/images/posts/zzold/header_long_v2.jpg)
 
-<div class="thumbnails cf">
+<div class="thumbnails">
   <a target="_blank" href="/images/posts/zzold/header_long_v2.jpg"><img src="/images/posts/zzold/header_long_v2.jpg" /></a>
   <a target="_blank" href="/images/posts/zzold/header_long.jpg"><img src="/images/posts/zzold/header_long.jpg" /></a>
   <a target="_blank" href="/images/posts/zzold/header_sky_v2.jpg"><img src="/images/posts/zzold/header_sky_v2.jpg" /></a>
@@ -45,7 +45,7 @@ I was still figuring out Drupal and I am sure I made a lot of bad decisions on t
 
 ![](/images/posts/zzold/zzolo-org-2007-home.png)
 
-<div class="thumbnails cf">
+<div class="thumbnails">
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2007-map.png"><img src="/images/posts/zzold/zzolo-org-2007-map.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2007-about.png"><img src="/images/posts/zzold/zzolo-org-2007-about.png" /></a>
 </div>
@@ -56,7 +56,7 @@ I believe this theme was started from someone else's design.  Still simple and g
 
 ![](/images/posts/zzold/zzolo-org-2008-old.png)
 
-<div class="thumbnails cf">
+<div class="thumbnails">
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2008-map.png"><img src="/images/posts/zzold/zzolo-org-2008-map.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2008-place.png"><img src="/images/posts/zzold/zzolo-org-2008-place.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2008-post.png"><img src="/images/posts/zzold/zzolo-org-2008-post.png" /></a>
@@ -69,7 +69,7 @@ Purple was the way to go.  I did not transfer over the map/location parts.
 
 ![](/images/posts/zzold/zzolo-org-2011-home.png)
 
-<div class="thumbnails cf">
+<div class="thumbnails">
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2011-book.png"><img src="/images/posts/zzold/zzolo-org-2011-book.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2011-haiku-just-portraits.png"><img src="/images/posts/zzold/zzolo-org-2011-haiku-just-portraits.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-2011-haiku-portraits.png"><img src="/images/posts/zzold/zzolo-org-2011-haiku-portraits.png" /></a>
@@ -82,7 +82,7 @@ The most recent version right before this current version.  The site had a homep
 
 ![](/images/posts/zzold/zzolo-org-v7-map.png)
 
-<div class="thumbnails cf">
+<div class="thumbnails">
   <a target="_blank" href="/images/posts/zzold/zzolo-org-v7-map-image.png"><img src="/images/posts/zzold/zzolo-org-v7-map-image.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-v7-image-geo.png"><img src="/images/posts/zzold/zzolo-org-v7-image-geo.png" /></a>
   <a target="_blank" href="/images/posts/zzold/zzolo-org-v7-books.png"><img src="/images/posts/zzold/zzolo-org-v7-books.png" /></a>

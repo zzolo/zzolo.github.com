@@ -45,12 +45,14 @@
 .post {
   margin-bottom: 4rem;
 
-  .thumbnails a img {
-    float: left;
-    width: 10%;
-    max-height: 150px;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
+  .thumbnails {
+    display: flex;
+
+    img {
+      height: 150px;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+    }
   }
 
   .geojson {
@@ -73,6 +75,7 @@
   font-size: 0.85em;
   margin-top: 2em;
   margin-bottom: 0;
+  display: flex;
 
   .post-nav-next,
   .post-nav-prev {
@@ -81,12 +84,7 @@
   }
 
   .post-nav-next {
-    float: right;
     text-align: right;
-  }
-
-  .post-nav-prev {
-    float: left;
   }
 
   .site .footer {

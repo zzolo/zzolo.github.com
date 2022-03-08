@@ -15,7 +15,7 @@ We also wanted people to be able to play it at the festival arcade-ish-style.  W
 
 ![Determined Dill out in the world](/images/posts/pickle-03.JPG)
 
-<div class="thumbnails cf">
+<div class="thumbnails">
   <a target="_blank" href="/images/posts/pickle-01.JPG"><img src="/images/posts/pickle-01.JPG" /></a>
   <a target="_blank" href="/images/posts/pickle-02.JPG"><img src="/images/posts/pickle-02.JPG" /></a>
   <a target="_blank" href="/images/posts/pickle-me.JPG"><img src="/images/posts/pickle-me.JPG" /></a>
