@@ -3,23 +3,36 @@ layout: default
 class: post
 ---
 
-<h2 class="post-title">{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
-</div>
+  <div class="post">
+    {{ content }}
+  </div>
 
-<div class="post-nav cf">
-  {% if page.previous %}
-    <div class="post-nav-prev">
-      <a href="{{ page.previous.url }}"><i class="ion-arrow-left-b"></i>&nbsp; {{ page.previous.title }}</a>
-    </div>
-  {% endif %}
+  <aside class="post-nav cf">
+    {% if page.previous %}
+      <article class="post-nav-prev">
+        <h1 class="sr-only">{{ page.previous.title }}</h1>
 
-  {% if page.next %}
-    <div class="post-nav-next">
-      <a href="{{ page.next.url }}">{{ page.next.title }} &nbsp;<i class="ion-arrow-right-b"></i></a>
-    </div>
-  {% endif %}
-</div>
+        <a href="{{ page.previous.url }}">
+          <span class="sr-only">Go to previous post: </span>
+          <i class="ion-md-arrow-back"></i> &nbsp;
+          {{ page.previous.title }}
+        </a>
+      </article>
+    {% endif %}
+
+    {% if page.next %}
+      <article class="post-nav-next">
+        <h1 class="sr-only">{{ page.next.title }}</h1>
+
+        <a href="{{ page.next.url }}">
+          <span class="sr-only">Go to next post: </span>
+          {{ page.next.title }} &nbsp;
+          <i class="ion-md-arrow-forward"></i></a>
+      </article>
+    {% endif %}
+  </aside>
+</article>
