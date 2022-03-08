@@ -1,56 +1,86 @@
+@media (prefers-reduced-motion) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 body {
   background-color: $color-background;
-  font: 18px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 17px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   color: $color-text;
   line-height: 1.35;
   letter-spacing: 0.25px;
 }
 
+@media screen and (min-width: 850px) {
+  body {
+    font-size: 19px;
+  }
+}
+
 .zzolo-font {
   font-family: "zzolo", Helvetica, Arial, sans-serif;
 
   h1,
+  .h1,
   h2,
+  .h2,
   h3,
+  .h3,
   h4,
+  .h4,
   h5,
-  h6 {
+  .h5,
+  h6,
+  .h6 {
     font-family: "zzolo", Helvetica, Arial, sans-serif;
   }
 }
 
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
+.h4,
 h5,
-h6 {
+.h5,
+h6,
+.h6 {
   font-size: 100%;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.5;
   margin-bottom: 0.5em;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 3em;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 2em;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 1.5em;
 }
 
-h4 {
+h4,
+.h4 {
   font-weight: bold;
 }
 
 /* General */
 p {
   margin-bottom: 1em;
+  line-height: 1.35;
 }
 
 table {

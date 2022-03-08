@@ -5,29 +5,22 @@ class: haikus
 description: In 2009, I started the year with the thought that I would a take a self-portrait and write a haiku everyday.
 ---
 
-<div>
-  <p>In 2009, I started the year with the thought that I would a take a self-portrait and write a haiku everyday.  I did not make it more than a month, but the short time was enjoyable and I produced some decent work.</p>
+<p>In 2009, I started the year with the thought that I would a take a self-portrait and write a haiku everyday.  I did not make it more than a month, but the short time was enjoyable and I produced some decent work.</p>
 
-  <div id="haikus-container"></div>
+<div class="haiku-container">
+  {% for haiku in site.data.haikus %}
+  <article class="haiku">
+    <time datetime="{{ haiku.date }}" class="haiku-date">{{ haiku.date  | date: "%A, %B %e, %Y" }}</time>
+
+    <h1 class="h3">{{ haiku.title }}</h1>
+
+    <p>{{ haiku.haiku | newline_to_br }}</p>
+
+    <a href="/projects/portrait_and_haiku/images/{{ haiku.portrait }}">
+      <img src="/projects/portrait_and_haiku/images/{{ haiku.portrait }}" />
+    </a>
+
+    <p><small>{{ haiku.description }}</small></p>
+  </article>
+  {% endfor %}
 </div>
-
-{% raw %}
-<script type="text/template" id="template-haikus">
-  {{#(haikus === undefined)}}
-    <div class="loading">
-      <i class="fa fa-spinner fa-spin"></i>
-    </div>
-  {{/()}}
-
-  {{#haikus:i}}
-    <div class="haiku">
-      <div class="haiku-date">{{ date.format('dddd, MMMM Do YYYY') }}</div>
-      <h3>{{ title }}</h3>
-      <p>{{{ haiku }}}</p>
-      <img src="{{ portrait }}">
-      <p>{{ description }}<p>
-    </div>
-  {{/haikus}}
-
-</script>
-{% endraw %}
