@@ -12,10 +12,14 @@ documentReady(() => {
   zzoloFont();
 
   // Print contact info (includes phone) at the top for printing CV
-  if (window.atob) {
-    document.querySelector('.contact-info').innerHTML = window.atob(
-      'QWxhbiBQYWxhenpvbG88YnIgLz5hbGFuLnBhbGF6em9sb0BnbWFpbC5jb208YnIgLz4oNzcwKSA1OTYtMTk1MQ=='
-    );
+  let windowDecrypt = window.atob;
+  if (windowDecrypt) {
+    let contactEl = document.querySelector('.contact-info');
+    if (contactEl) {
+      contactEl.innerHTML = windowDecrypt(
+        'QWxhbiBQYWxhenpvbG88YnIgLz5hbGFuLnBhbGF6em9sb0BnbWFpbC5jb208YnIgLz4oNzcwKSA1OTYtMTk1MQ=='
+      );
+      }
   }
 });
 
