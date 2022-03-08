@@ -16,12 +16,14 @@ body > footer {
 }
 
 .sketches {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
   .sketch {
-    width: 10em;
-    height: 10em;
-    margin: 0 0.5em 0.5em 0;
+    width: 15rem;
+    height: 15rem;
     position: relative;
-    float: left;
   }
 
   img,
@@ -33,7 +35,7 @@ body > footer {
     object-fit: cover;
   }
 
-  h3 {
+  .sketch-title {
     position: absolute;
     bottom: 0;
     font-size: 1em;
@@ -48,7 +50,7 @@ body > footer {
   }
 
   .sketch:hover {
-    h3 {
+    .sketch-title {
       opacity: 0.9;
     }
   }

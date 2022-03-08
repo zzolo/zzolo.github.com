@@ -7,14 +7,14 @@ description: Web sketches by Alan Palazzolo
 
 <p>Collection of some quick web experiments; these are not cross-browser tested or optimize for multiple devices types.</p>
 
-<div class="sketches cf">
+<div class="sketches">
   {% for sketch in site.data.sketchbook %}
-  <div class="sketch cf">
-    <h3>{{ sketch.title }}</h3>
+  <article class="sketch">
+    <h1 class="h3 sketch-title">{{ sketch.title }}</h1>
     <a href="{% if sketch.url and sketch.url != '' %}{{ sketch.url }}{% else %}/sketchbook/{{ sketch.id }}{% endif %}">
       <img src="/sketchbook/{{ sketch.id }}.png" alt="Screenshot of {{ sketch.title }}">
     </a>
-  </div>
+  </article>
   {% endfor %}
 </div>
 
