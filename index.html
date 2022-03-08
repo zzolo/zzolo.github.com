@@ -3,14 +3,16 @@ layout: default
 class: home
 ---
 
-<div id="home">
+<section id="home">
+  <h1 class="sr-only">About Alan Palazzolo</h1>
+
   <p class="about">
     Alan Pala<strong>zzolo</strong> is an open-source coder trying to make the
     world a little better using technology to tell compelling, visual, and
     data-driven stories.
   </p>
 
-  <div class="web-links cf">
+  <div class="web-links">
     <a href="https://twitter.com/zzolo" class="twitter" title="Twitter" target="_blank">
       <i class="ion-logo-twitter"></i>
     </a>
@@ -21,46 +23,52 @@ class: home
       <i class="ion-md-key"></i>
     </a>
   </div>
-</div>
+</section>
 
-<div class="projects">
-  {% for project in site.data.projects %}
-  <div class="project cf">
-    <h3>{{ project.title }}</h3>
+<section class="projects">
+  <h1 class="sr-only">Projects by Alan Palazzolo</h1>
 
-    <div class="project-image">
-      {% if project.projectUrl and project.projectUrl != '' %}
-      <a target="_blank" href="{{ project.projectUrl }}">
-        <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}" />
-      </a>
-      {% else %}
-      <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}" />
-      {% endif %}
-    </div>
+  <div class="projects-container">
+    {% for project in site.data.projects %}
+    <article class="project">
+      <h1 class="h2">{{ project.title }}</h1>
 
-    <div class="project-description">
-      <div class="links">
-        {% if project.projectUrl and project.projectUrl != '' %}
-        <a target="_blank" href="{{ project.projectUrl }}" class="project-link" title="Go to project">Project
-          <i class="icon ion-md-open"></i>
-        </a>
-        {% endif %} {% if project.codeUrl and project.codeUrl != '' %}
-        <a target="_blank" href="{{ project.codeUrl }}" class="code-link" title="See code">Code
-          <i class="icon ion-md-code-working"></i>
-        </a>
-        {% endif %}
+      <div class="project-layout">
+        <div class="project-image">
+          {% if project.projectUrl and project.projectUrl != '' %}
+          <a target="_blank" href="{{ project.projectUrl }}">
+            <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}" />
+          </a>
+          {% else %}
+          <img src="/images/projects/{{ project.image }}" alt="Screenshot of {{ project.title }}" />
+          {% endif %}
+        </div>
+
+        <div class="project-description">
+          <div class="links">
+            {% if project.projectUrl and project.projectUrl != '' %}
+            <a target="_blank" href="{{ project.projectUrl }}" class="project-link" title="Go to project">Project
+              <i class="icon ion-md-open"></i>
+            </a>
+            {% endif %} {% if project.codeUrl and project.codeUrl != '' %}
+            <a target="_blank" href="{{ project.codeUrl }}" class="code-link" title="See code">Code
+              <i class="icon ion-md-code-working"></i>
+            </a>
+            {% endif %}
+          </div>
+
+          <p>{{ project.description }}</p>
+
+          {% if project.tags %}
+          <div class="tags">
+            {% for tag in project.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
       </div>
-
-      <p>{{ project.description }}</p>
-
-      {% if project.tags %}
-      <div class="tags">
-        {% for tag in project.tags %}
-        <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
+    </article>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+</section>

@@ -1,23 +1,19 @@
 .project {
-  margin-bottom: 2em;
+  width: 100%;
+  margin-bottom: 5rem;
 
-  .project-image {
-    width: 60%;
-    float: left;
-  }
+  @media only screen and (min-width: 750px) {
+    .project-layout {
+      display: flex;
+    }
 
-  .project-description {
-    width: 40%;
-    float: left;
-    padding-left: 1em;
-  }
+    .project-image {
+      width: 60%;
+    }
 
-  @media only screen and (max-width: 750px) {
-    .project-image,
     .project-description {
-      width: 100%;
-      float: none;
-      padding: 0;
+      width: 40%;
+      padding-left: 1em;
     }
   }
 
@@ -31,7 +27,7 @@
   }
 
   p {
-    font-size: 0.85em;
+    //font-size: 0.85em;
     line-height: 1.35em;
     margin-bottom: 1em;
   }
@@ -51,14 +47,18 @@
     }
   }
 
+  .tags {
+    line-height: 1em;
+  }
+
   .tag {
-    font-size: 0.85em;
+    font-size: 0.65em;
     display: inline-block;
     padding: 0.25em 0.45em;
     line-height: 1em;
     margin-right: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
     background-color: darken($color-background, 10%);
-    border-radius: 0.1em;
+    border-radius: 0.2em;
   }
 }
