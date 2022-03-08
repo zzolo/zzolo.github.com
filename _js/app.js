@@ -37,7 +37,7 @@ function zzoloFont() {
     // If complete, alert and reset
     if (pattern.length === current) {
       current = 0;
-      $('body').addClass('zzolo-font');
+      document.querySelector('body').classList.add('zzolo-font');
     }
   };
 
