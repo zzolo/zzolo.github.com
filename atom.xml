@@ -11,7 +11,6 @@ permalink: atom.xml
   <id>{{ site.baseurl }}</id>
   <author>
     <name>Alan Palazzolo</name>
-    <email>contact@zzolo.org</email>
   </author>
 
   {% for post in site.posts %}

@@ -4,19 +4,23 @@
 
 import { documentReady } from './utils.js';
 
-// Global space
-window.zzolo = window.zzolo || {};
-
 documentReady(() => {
   // Zzolo font
   zzoloFont();
 
-  // Print contact info (includes phone) at the top for printing CV
+  // Encrypt with window.btoa
   let windowDecrypt = window.atob;
   if (windowDecrypt) {
-    let contactEl = document.querySelector('.contact-info');
+    // General email
+    let contactEl = document.querySelector('.web-links .gmail');
     if (contactEl) {
-      contactEl.innerHTML = windowDecrypt(
+      contactEl.setAttribute('href', `mailto:${windowDecrypt('Y29udGFjdEB6em9sby5vcmc=')}`);
+    }
+
+    // Print contact info (includes phone) at the top for printing CV.
+    let fullContactEl = document.querySelector('.contact-info');
+    if (fullContactEl) {
+      fullContactEl.innerHTML = windowDecrypt(
         'QWxhbiBQYWxhenpvbG88YnIgLz5hbGFuLnBhbGF6em9sb0BnbWFpbC5jb208YnIgLz4oNzcwKSA1OTYtMTk1MQ=='
       );
       }
