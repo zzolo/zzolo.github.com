@@ -17,6 +17,12 @@ documentReady(() => {
       contactEl.setAttribute('href', `mailto:${windowDecrypt('Y29udGFjdEB6em9sby5vcmc=')}`);
     }
 
+    // Print email
+    let printContactEl = document.querySelector('.print-email');
+    if (printContactEl) {
+      printContactEl.textContent = windowDecrypt('YWxhbi5wYWxhenpvbG9AZ21haWwuY29t');
+    }
+
     // Print contact info (includes phone) at the top for printing CV.
     let fullContactEl = document.querySelector('.contact-info');
     if (fullContactEl) {
