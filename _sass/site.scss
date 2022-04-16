@@ -166,6 +166,62 @@ table {
   }
 }
 
+// Form
+label {
+  font-size: 0.85em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: $color-text;
+  background-clip: padding-box;
+  border: 1px solid $color-link;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:focus {
+    border-color: $color-link-hover;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba($color-link-hover, 25%);
+  }
+}
+
+button {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  background-color: $color-link;
+  border: none;
+  color: $color-background;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-link-hover;
+  }
+
+  &:focus {
+    color: #212529;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba($color-link-hover, 25%);
+  }
+}
+
 // Layout and font
 .site {
   font-size: 115%;

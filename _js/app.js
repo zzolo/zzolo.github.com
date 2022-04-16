@@ -2,7 +2,7 @@
  * General JS for all pages
  */
 
-import { documentReady } from './utils.js';
+import { documentReady } from './_utils.js';
 
 documentReady(() => {
   // Zzolo font

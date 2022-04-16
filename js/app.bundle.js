@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./_js/_utils.js":
+/*!***********************!*\
+  !*** ./_js/_utils.js ***!
+  \***********************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"documentReady\": function() { return /* binding */ documentReady; }\n/* harmony export */ });\n/**\n * General utils\n */\nfunction documentReady(callback) {\n  if (document.readyState != \"loading\") {\n    callback();\n  } else {\n    document.addEventListener(\"DOMContentLoaded\", callback);\n  }\n} // Exports\n\n\n\n\n//# sourceURL=webpack://zzolo/./_js/_utils.js?");
+
+/***/ }),
+
 /***/ "./_js/app.js":
 /*!********************!*\
   !*** ./_js/app.js ***!
   \********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils.js */ \"./_js/utils.js\");\n/**\n * General JS for all pages\n */\n\n(0,_utils_js__WEBPACK_IMPORTED_MODULE_0__.documentReady)(function () {\n  // Zzolo font\n  zzoloFont(); // Encrypt with window.btoa\n\n  var windowDecrypt = window.atob;\n\n  if (windowDecrypt) {\n    // General email\n    var contactEl = document.querySelector('.web-links .gmail');\n\n    if (contactEl) {\n      contactEl.setAttribute('href', \"mailto:\".concat(windowDecrypt('Y29udGFjdEB6em9sby5vcmc=')));\n    } // Print email\n\n\n    var printContactEl = document.querySelector('.print-email');\n\n    if (printContactEl) {\n      printContactEl.textContent = windowDecrypt('YWxhbi5wYWxhenpvbG9AZ21haWwuY29t');\n    } // Print contact info (includes phone) at the top for printing CV.\n\n\n    var fullContactEl = document.querySelector('.contact-info');\n\n    if (fullContactEl) {\n      fullContactEl.innerHTML = windowDecrypt('QWxhbiBQYWxhenpvbG88YnIgLz5hbGFuLnBhbGF6em9sb0BnbWFpbC5jb208YnIgLz4oNzcwKSA1OTYtMTk1MQ==');\n    }\n  }\n}); // zzolo font\n\nfunction zzoloFont() {\n  var pattern = ['z', 'z', 'o', 'l', 'o'];\n  var current = 0;\n\n  var zzoloFontKeyHandler = function zzoloFontKeyHandler(event) {\n    // If the key isn't in the pattern, or isn't the current key in the pattern, reset\n    if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {\n      current = 0;\n      return;\n    } // Update how much of the pattern is complete\n\n\n    current++; // If complete, alert and reset\n\n    if (pattern.length === current) {\n      current = 0;\n      document.querySelector('body').classList.add('zzolo-font');\n    }\n  }; // Listen for keydown events\n\n\n  document.addEventListener('keydown', zzoloFontKeyHandler, false);\n}\n\n//# sourceURL=webpack://zzolo/./_js/app.js?");
-
-/***/ }),
-
-/***/ "./_js/utils.js":
-/*!**********************!*\
-  !*** ./_js/utils.js ***!
-  \**********************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"documentReady\": function() { return /* binding */ documentReady; }\n/* harmony export */ });\n/**\n * General utils\n */\nfunction documentReady(callback) {\n  if (document.readyState != \"loading\") {\n    callback();\n  } else {\n    document.addEventListener(\"DOMContentLoaded\", callback);\n  }\n} // Exports\n\n\n\n\n//# sourceURL=webpack://zzolo/./_js/utils.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_utils.js */ \"./_js/_utils.js\");\n/**\n * General JS for all pages\n */\n\n(0,_utils_js__WEBPACK_IMPORTED_MODULE_0__.documentReady)(function () {\n  // Zzolo font\n  zzoloFont(); // Encrypt with window.btoa\n\n  var windowDecrypt = window.atob;\n\n  if (windowDecrypt) {\n    // General email\n    var contactEl = document.querySelector('.web-links .gmail');\n\n    if (contactEl) {\n      contactEl.setAttribute('href', \"mailto:\".concat(windowDecrypt('Y29udGFjdEB6em9sby5vcmc=')));\n    } // Print email\n\n\n    var printContactEl = document.querySelector('.print-email');\n\n    if (printContactEl) {\n      printContactEl.textContent = windowDecrypt('YWxhbi5wYWxhenpvbG9AZ21haWwuY29t');\n    } // Print contact info (includes phone) at the top for printing CV.\n\n\n    var fullContactEl = document.querySelector('.contact-info');\n\n    if (fullContactEl) {\n      fullContactEl.innerHTML = windowDecrypt('QWxhbiBQYWxhenpvbG88YnIgLz5hbGFuLnBhbGF6em9sb0BnbWFpbC5jb208YnIgLz4oNzcwKSA1OTYtMTk1MQ==');\n    }\n  }\n}); // zzolo font\n\nfunction zzoloFont() {\n  var pattern = ['z', 'z', 'o', 'l', 'o'];\n  var current = 0;\n\n  var zzoloFontKeyHandler = function zzoloFontKeyHandler(event) {\n    // If the key isn't in the pattern, or isn't the current key in the pattern, reset\n    if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {\n      current = 0;\n      return;\n    } // Update how much of the pattern is complete\n\n\n    current++; // If complete, alert and reset\n\n    if (pattern.length === current) {\n      current = 0;\n      document.querySelector('body').classList.add('zzolo-font');\n    }\n  }; // Listen for keydown events\n\n\n  document.addEventListener('keydown', zzoloFontKeyHandler, false);\n}\n\n//# sourceURL=webpack://zzolo/./_js/app.js?");
 
 /***/ })
 

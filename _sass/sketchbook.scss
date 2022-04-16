@@ -4,10 +4,13 @@ body > footer {
   bottom: 0;
   right: 0;
   z-index: 10000;
-  background-color: darken($color-background, 25);
+  background-color: $color-background;
   padding: 0.25em;
   margin: 0;
   text-align: center;
+  border-left: 2px solid $color-header-line;
+  border-top: 2px solid $color-header-line;
+  border-top-left-radius: 5px;
 
   .web-links {
     font-size: 1em;
