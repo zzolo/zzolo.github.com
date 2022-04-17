@@ -12,7 +12,7 @@ I am driven to make the world a better place through collaboration, open source,
 
 ## Summary
 
-- Rebuilding the user experience of [VoteShield](https://voteshield.us), a platform that monitors voter registration databases for anomalous and malicious activity.
+- Managing the user experience of [VoteShield](https://voteshield.us), a platform that monitors and analyzes voter registration databases for anomalous and malicious activity.
 - Developed tools, analyzed data, and built visual and interactive content as the Newsroom Developer at the [Star Tribune](http://startribune.com/).
 - Enhanced both audio and digital as a Front-end Developer on the [WNYC DataNews](http://www.wnyc.org/people/data-news-team/) team as well as building tools to improve productivity for multiple teams.
 - Created data-driven stories as the Interactive News Developer at [MinnPost](http://www.minnpost.com/) and developing news applications and data visualizations.
@@ -24,18 +24,21 @@ I am driven to make the world a better place through collaboration, open source,
 
 ## Professional experience
 
-### Front-end Developer at VoteShield
+### Front-end Engineer at VoteShield
 
 <div class="sub-heading">
   2019 - present, remote for New York City, USA
 </div>
 
-On a small team, working to create an impactful, informative, responsive, and pleasant user interface that helps identify anomalous activity in voter registration data.
+Working to create an impactful, informative, and enjoyable user experience that helps election administrators and internal analysts monitor anomalous activity in voter registration data.
 
-- Rebuilding React front-end interface to improve user experience, performance, and information understanding.
+- Leading large, architectural shifts in the application to improve stability, performance, and developer and analyst experience.
+- Collaborating with election administrators and internal analysts to design impactful interfaces for monitoring data.
 - Implementing and refining minimalistic, intuitive design.
-- Ensuring secure access to voter registration data and anlaysis.
+- Ensuring secure access to voter registration data and analysis throughout the application.
 - Improving Python API for efficiency, performance, and security.
+- Engaging across Protect Democracy to collaborate on technology projects such as small, one-off sites.
+- Rebuilt the React-based user-interface from the ground-up to improve user experience and performance.
 
 ### Newsroom Developer at Star Tribune
 
@@ -139,8 +142,8 @@ Administered multiple MS SQL Server instances. Focused on cleaning, enhancing, a
 ## Publishing
 
 - Contributed to and enhanced [content at Star Tribune](http://startribune.com/alan-palazzolo/440928273/).
-- Analysis, coding, or reporting at [WNYC](http://www.wnyc.org/people/alan-palazzolo/).
-- Designed, coded, or wrote [articles on MinnPost](http://minnpost.com/author/alan-palazzolo).
+- Analysis, coding, and reporting at [WNYC](http://www.wnyc.org/people/alan-palazzolo/).
+- Designed, coded, and wrote [articles on MinnPost](http://minnpost.com/author/alan-palazzolo).
 - Articles written for Source (Open News) on [keeping costs down on news apps](https://source.opennews.org/en-US/learning/building-news-apps-shoestring/), the [Legislature Tracker](https://source.opennews.org/en-US/articles/launching-minnesota-legislative-bill-tracker/), as well as [Simple Map and Tulip](https://source.opennews.org/en-US/articles/mapping-made-simple-tulip/).
 - Co-authored book entitled [Mapping with Drupal](http://shop.oreilly.com/product/0636920021230.do) published by O'Reilly Media, focused on providing a solid base for Drupal site builders and architects to get up to speed with web mapping and specifically mapping in Drupal.
 

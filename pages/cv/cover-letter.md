@@ -15,7 +15,7 @@ CITY, ST 12345<br><br><br>
 
 To whom it may concern,
 
-I am writing to be considered for the POSITION position at COMPENT. I believe I would be an excellent fit, and it would be an honor to work alongside such an amazing, industry-leading team.
+I am writing to be considered for the POSITION position at COMPANY. I believe I would be an excellent fit, and it would be an honor to work alongside such an amazing, industry-leading team.
 
 I ...
 
