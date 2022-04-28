@@ -20,3 +20,16 @@ To build before publishing:
 For development:
 
     npm run dev
+
+### Content
+
+- **Posts**: HTML, Markdown in `_posts/`
+- **Pages**: Directory structured HTML, Markdown in `pages/`
+- **Projects**: List of projects on homepage `/` are managed in `_data/projects.json`
+- **Sketchbook**: Notebook entries are managed in `_data/sketchbook.json`
+
+### JS
+
+- JS that is available on every page is managed in `_js/app.js`
+- All files in `_js/*.js` will be bundled together in similar name file in `js/*.bundle.js`
+  - These are bundled with Webpack.  Can use Svelte.
