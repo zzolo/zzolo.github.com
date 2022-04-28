@@ -18,5 +18,10 @@
     "id": "202202-matching-game",
     "title": "Matching game",
     "description": "Simple matching game in Svelte"
+  },
+  {
+    "id": "202204-svelte-3d",
+    "title": "Svelte 3D",
+    "description": "Playing with Svelte Cubed"
   }
 ]

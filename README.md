@@ -26,7 +26,7 @@ For development:
 - **Posts**: HTML, Markdown in `_posts/`
 - **Pages**: Directory structured HTML, Markdown in `pages/`
 - **Projects**: List of projects on homepage `/` are managed in `_data/projects.json`
-- **Sketchbook**: Notebook entries are managed in `_data/sketchbook.json`
+- **Sketchbook**: Notebook entries are managed in `_data/sketchbook.json` and in `sketchbook/`.
 
 ### JS
 
