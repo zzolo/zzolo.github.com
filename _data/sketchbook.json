@@ -1,18 +1,13 @@
 [
   {
-    "id": "201905-threejs",
-    "title": "Hello, 3d world",
-    "description": "Simple experimentation with Three.js"
+    "id": "202204-woozzle",
+    "title": "Woozzle",
+    "description": "Wordle clone exercise"
   },
   {
-    "id": "201905-snake",
-    "title": "Phaser snake",
-    "description": "Simple snake game with Phaser js"
-  },
-  {
-    "id": "201905-grid",
-    "title": "Grid",
-    "description": "Playing with a grid in D3"
+    "id": "202204-svelte-3d",
+    "title": "Svelte 3D",
+    "description": "Playing with Svelte Cubed"
   },
   {
     "id": "202202-matching-game",
@@ -20,8 +15,18 @@
     "description": "Simple matching game in Svelte"
   },
   {
-    "id": "202204-svelte-3d",
-    "title": "Svelte 3D",
-    "description": "Playing with Svelte Cubed"
+    "id": "201905-grid",
+    "title": "Grid",
+    "description": "Playing with a grid in D3"
+  },
+  {
+    "id": "201905-snake",
+    "title": "Phaser snake",
+    "description": "Simple snake game with Phaser js"
+  },
+  {
+    "id": "201905-threejs",
+    "title": "Hello, 3d world",
+    "description": "Simple experimentation with Three.js"
   }
 ]
