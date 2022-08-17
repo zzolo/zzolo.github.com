@@ -3,6 +3,7 @@
     main {
       max-width: 48em;
     }
+
   }
 
   h3 {
@@ -55,25 +56,9 @@
   }
 
   @media print {
-    .contact-info {
-      display: block;
-    }
 
     .header {
-      border-bottom-color: $color-text-print;
-
-      .header-image svg {
-        color: $color-text-print;
-        fill: $color-text-print;
-      }
-
-      h1 {
-        height: 2em;
-
-        a {
-          display: none;
-        }
-      }
+      display: none;
     }
 
     ul.menu a {
